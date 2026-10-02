@@ -70,6 +70,10 @@ export default defineConfig({
         target: 'http://127.0.0.1:5005',
         changeOrigin: true,
       },
+      '/api/stt': {
+        target: 'http://127.0.0.1:5005',
+        changeOrigin: true,
+      },
     },
   },
 })

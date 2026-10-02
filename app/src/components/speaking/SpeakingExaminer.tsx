@@ -66,7 +66,9 @@ export const SpeakingExaminer: React.FC = () => {
   ];
 
   const messagesEndRef = useRef<HTMLDivElement>(null);
-  const recognitionRef = useRef<any>(null);
+  const mediaRecorderRef = useRef<MediaRecorder | null>(null);
+  const audioChunksRef = useRef<Blob[]>([]);
+  const [isTranscribing, setIsTranscribing] = useState(false);
 
   // Model lists
   const seriousModels = ['qwen2.5:7b', 'llama3.1:8b', 'gemma2:9b'];
@@ -128,44 +130,58 @@ export const SpeakingExaminer: React.FC = () => {
     setEvaluation(null);
   }, [mode]);
 
-  // Web Speech Recognition setup
-  useEffect(() => {
-    const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
-    if (SpeechRecognition) {
-      const recognition = new SpeechRecognition();
-      recognition.continuous = false;
-      recognition.interimResults = false;
-      recognition.lang = 'en-US';
-
-      recognition.onresult = (event: any) => {
-        const transcript = event.results[0][0].transcript;
-        setInput(prev => (prev ? prev + ' ' : '') + transcript);
-        setIsRecording(false);
-      };
-
-      recognition.onerror = () => {
-        setIsRecording(false);
-      };
-
-      recognition.onend = () => {
-        setIsRecording(false);
-      };
-
-      recognitionRef.current = recognition;
-    }
-  }, []);
-
-  const toggleRecording = () => {
-    if (!recognitionRef.current) {
-      alert("Speech recognition isn't supported in this browser. Please type your message.");
-      return;
-    }
+  // Universal Microphone Recording (Works in Mozilla Firefox, Chrome, Edge, Safari)
+  const toggleRecording = async () => {
     if (isRecording) {
-      recognitionRef.current.stop();
+      if (mediaRecorderRef.current && mediaRecorderRef.current.state !== 'inactive') {
+        mediaRecorderRef.current.stop();
+      }
       setIsRecording(false);
     } else {
-      recognitionRef.current.start();
-      setIsRecording(true);
+      try {
+        const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        audioChunksRef.current = [];
+        const mediaRecorder = new MediaRecorder(stream);
+        mediaRecorderRef.current = mediaRecorder;
+
+        mediaRecorder.ondataavailable = (event) => {
+          if (event.data.size > 0) {
+            audioChunksRef.current.push(event.data);
+          }
+        };
+
+        mediaRecorder.onstop = async () => {
+          // Stop microphone tracks
+          stream.getTracks().forEach((track) => track.stop());
+
+          const audioBlob = new Blob(audioChunksRef.current, { type: 'audio/webm' });
+          if (audioBlob.size === 0) return;
+
+          setIsTranscribing(true);
+          try {
+            const res = await fetch('/api/stt', {
+              method: 'POST',
+              body: audioBlob,
+            });
+            if (res.ok) {
+              const data = await res.json();
+              if (data.text) {
+                setInput((prev) => (prev ? prev + ' ' : '') + data.text);
+              }
+            }
+          } catch (err) {
+            console.error('STT transcription error:', err);
+          } finally {
+            setIsTranscribing(false);
+          }
+        };
+
+        mediaRecorder.start();
+        setIsRecording(true);
+      } catch (err) {
+        console.error('Microphone permission error:', err);
+        alert('Please allow microphone permissions in Firefox to speak with the AI.');
+      }
     }
   };
 
@@ -594,12 +610,21 @@ Provide an official IELTS Speaking Band Assessment with:
               <button
                 type="button"
                 onClick={toggleRecording}
+                disabled={isTranscribing}
                 className={`p-3 rounded-xl border transition-all ${
                   isRecording
                     ? 'bg-red-500 border-red-600 text-white animate-pulse shadow-md shadow-red-500/20'
+                    : isTranscribing
+                    ? 'bg-amber-100 border-amber-300 text-amber-700 animate-pulse'
                     : 'bg-slate-100 hover:bg-slate-200 border-slate-200 text-slate-600'
                 }`}
-                title={isRecording ? 'Listening to your microphone... Click to stop' : 'Click to speak (Speech-to-Text)'}
+                title={
+                  isRecording
+                    ? 'Recording your voice... Click to finish speaking'
+                    : isTranscribing
+                    ? 'Transcribing audio via local Whisper...'
+                    : 'Click to speak (Works in Mozilla Firefox, Chrome, Edge)'
+                }
               >
                 {isRecording ? <MicOff className="w-5 h-5" /> : <Mic className="w-5 h-5" />}
               </button>
@@ -609,8 +634,14 @@ Provide an official IELTS Speaking Band Assessment with:
                 type="text"
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
-                placeholder={isRecording ? "Listening to your voice..." : "Type your response or click the microphone to speak..."}
-                disabled={isLoading}
+                placeholder={
+                  isRecording
+                    ? '🔴 Recording... Speak into your microphone, then click Stop.'
+                    : isTranscribing
+                    ? '⚡ Transcribing your voice with local Whisper...'
+                    : 'Type your response or click the microphone to speak...'
+                }
+                disabled={isLoading || isTranscribing}
                 className="flex-1 bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 transition-all"
               />
 

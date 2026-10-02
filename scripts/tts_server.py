@@ -148,6 +148,65 @@ class TTSHandler(BaseHTTPRequestHandler):
         self.send_response(404)
         self.end_headers()
 
+    def do_POST(self):
+        parsed = urllib.parse.urlparse(self.path)
+        path = parsed.path
+
+        if path == "/api/stt":
+            try:
+                content_length = int(self.headers.get('Content-Length', 0))
+                audio_bytes = self.rfile.read(content_length)
+
+                if not audio_bytes:
+                    self.send_response(400)
+                    self.end_headers()
+                    self.wfile.write(b"No audio data received")
+                    return
+
+                # Ensure imageio-ffmpeg is on PATH for whisper
+                try:
+                    import imageio_ffmpeg
+                    ffmpeg_dir = os.path.dirname(imageio_ffmpeg.get_ffmpeg_exe())
+                    if ffmpeg_dir not in os.environ.get("PATH", ""):
+                        os.environ["PATH"] = ffmpeg_dir + os.pathsep + os.environ["PATH"]
+                except ImportError:
+                    pass
+
+                import tempfile
+                import whisper
+
+                with tempfile.NamedTemporaryFile(suffix=".webm", delete=False) as tmp:
+                    tmp.write(audio_bytes)
+                    tmp_path = tmp.name
+
+                try:
+                    global WHISPER_MODEL
+                    if 'WHISPER_MODEL' not in globals() or WHISPER_MODEL is None:
+                        print("[*] Loading Whisper base.en model...")
+                        WHISPER_MODEL = whisper.load_model("base.en")
+
+                    result = WHISPER_MODEL.transcribe(tmp_path, fp16=False, language="en")
+                    transcribed_text = result.get("text", "").strip()
+                finally:
+                    if os.path.exists(tmp_path):
+                        os.remove(tmp_path)
+
+                self.send_response(200)
+                self.send_header('Content-Type', 'application/json')
+                self.end_headers()
+                self.wfile.write(json.dumps({"text": transcribed_text}).encode("utf-8"))
+                return
+            except Exception as e:
+                traceback.print_exc()
+                self.send_response(500)
+                self.send_header('Content-Type', 'application/json')
+                self.end_headers()
+                self.wfile.write(json.dumps({"error": str(e)}).encode("utf-8"))
+                return
+
+        self.send_response(404)
+        self.end_headers()
+
     async def _collect_edge_audio(self, communicate):
         chunks = []
         async for chunk in communicate.stream():
@@ -157,8 +216,9 @@ class TTSHandler(BaseHTTPRequestHandler):
 
 def run_server(port=5005):
     server = HTTPServer(('127.0.0.1', port), TTSHandler)
-    print(f"[*] IELTS Neural Voice Server running on http://127.0.0.1:{port}")
+    print(f"[*] IELTS Neural Voice & STT Server running on http://127.0.0.1:{port}")
     server.serve_forever()
 
 if __name__ == "__main__":
     run_server()
+
