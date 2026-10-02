@@ -163,6 +163,9 @@ class TTSHandler(BaseHTTPRequestHandler):
                     self.wfile.write(b"No audio data received")
                     return
 
+                content_type = self.headers.get('Content-Type', 'audio/webm')
+                suffix = ".ogg" if "ogg" in content_type else ".wav" if "wav" in content_type else ".webm"
+                
                 # Ensure imageio-ffmpeg is on PATH for whisper
                 try:
                     import imageio_ffmpeg
@@ -175,18 +178,30 @@ class TTSHandler(BaseHTTPRequestHandler):
                 import tempfile
                 import whisper
 
-                with tempfile.NamedTemporaryFile(suffix=".webm", delete=False) as tmp:
+                with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as tmp:
                     tmp.write(audio_bytes)
                     tmp_path = tmp.name
 
                 try:
                     global WHISPER_MODEL
                     if 'WHISPER_MODEL' not in globals() or WHISPER_MODEL is None:
-                        print("[*] Loading Whisper base.en model...")
-                        WHISPER_MODEL = whisper.load_model("base.en")
+                        print("[*] Loading Whisper small.en model into memory...")
+                        WHISPER_MODEL = whisper.load_model("small.en")
 
-                    result = WHISPER_MODEL.transcribe(tmp_path, fp16=False, language="en")
+                    # Use initial_prompt to prime Whisper for ESL/IELTS conversational English vocabulary
+                    initial_prompt = (
+                        "IELTS Speaking test conversation. The speaker is talking in English about "
+                        "daily life, technology, society, education, work, and personal experiences."
+                    )
+                    result = WHISPER_MODEL.transcribe(
+                        tmp_path, 
+                        fp16=False, 
+                        language="en",
+                        initial_prompt=initial_prompt,
+                        temperature=0.0
+                    )
                     transcribed_text = result.get("text", "").strip()
+                    print(f"[*] [Whisper small.en STT]: '{transcribed_text}' ({len(audio_bytes)} bytes, format {suffix})")
                 finally:
                     if os.path.exists(tmp_path):
                         os.remove(tmp_path)

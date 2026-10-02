@@ -40,6 +40,11 @@ export const SpeakingExaminer: React.FC = () => {
   const silenceTimerRef = useRef<any>(null);
   const hasSpokenRef = useRef(false);
   const animFrameRef = useRef<number | null>(null);
+  const [audioLevel, setAudioLevel] = useState(0);
+
+  // STT Engine selection: 'browser' (Brave/Chrome Native Google Speech) | 'whisper' (Local small.en)
+  const [sttEngine, setSttEngine] = useState<'browser' | 'whisper'>('browser');
+  const speechRecognitionRef = useRef<any>(null);
 
   // TTS Engine selection: 'edge' | 'kokoro' | 'browser'
   const [ttsEngine, setTtsEngine] = useState<'edge' | 'kokoro' | 'browser'>('edge');
@@ -295,10 +300,90 @@ Guidelines:
     }
   };
 
-  // Start recording with Voice Activity Detection (VAD)
+  // Start recording session with either Brave/Chrome SpeechRecognition or Local Whisper VAD
   const startRecordingSession = async () => {
+    // 1. If Browser Speech Engine is selected and available (Brave, Chrome, Edge)
+    const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
+    if (sttEngine === 'browser' && SpeechRecognition) {
+      try {
+        if (speechRecognitionRef.current) {
+          try { speechRecognitionRef.current.abort(); } catch {}
+          speechRecognitionRef.current = null;
+        }
+
+        const recognition = new SpeechRecognition();
+        speechRecognitionRef.current = recognition;
+        recognition.continuous = true;
+        recognition.interimResults = true;
+        recognition.lang = 'en-US';
+
+        let accumulatedTranscript = '';
+
+        recognition.onstart = () => {
+          setIsRecording(true);
+        };
+
+        recognition.onresult = (event: any) => {
+          let interim = '';
+          for (let i = event.resultIndex; i < event.results.length; ++i) {
+            if (event.results[i].isFinal) {
+              accumulatedTranscript += event.results[i][0].transcript + ' ';
+            } else {
+              interim += event.results[i][0].transcript;
+            }
+          }
+
+          const currentText = (accumulatedTranscript + interim).trim();
+          if (currentText) {
+            setInput(currentText);
+            // In Live Call mode, when user pauses speaking after making a sentence, auto-submit!
+            if (isCallModeRef.current) {
+              if (silenceTimerRef.current) clearTimeout(silenceTimerRef.current);
+              silenceTimerRef.current = setTimeout(() => {
+                const finalToSend = currentText;
+                if (finalToSend && isCallModeRef.current) {
+                  stopRecordingSession();
+                  submitUserMessage(finalToSend);
+                }
+              }, 1200);
+            }
+          }
+        };
+
+        recognition.onerror = (event: any) => {
+          console.warn('[WebSpeech Error]:', event.error);
+          if (event.error === 'not-allowed') {
+            alert('Please allow microphone permissions in your browser.');
+            setIsCallMode(false);
+            setIsRecording(false);
+          } else if (event.error === 'network' || event.error === 'no-speech') {
+            // Re-open if call mode is still active
+            if (isCallModeRef.current && !isAudioPlaying) {
+              setTimeout(startRecordingSession, 300);
+            }
+          }
+        };
+
+        recognition.onend = () => {
+          setIsRecording(false);
+        };
+
+        recognition.start();
+        return;
+      } catch (err) {
+        console.warn('Failed to start browser recognition, falling back to Whisper:', err);
+      }
+    }
+
+    // 2. Whisper small.en recording session with Voice Activity Detection (VAD)
     try {
-      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      const stream = await navigator.mediaDevices.getUserMedia({
+        audio: {
+          echoCancellation: true,
+          noiseSuppression: true,
+          autoGainControl: true,
+        }
+      });
       audioChunksRef.current = [];
       hasSpokenRef.current = false;
 
@@ -326,22 +411,23 @@ Guidelines:
           sum += buffer[i];
         }
         const average = sum / buffer.length;
+        setAudioLevel(Math.min(100, Math.round(average * 3.5)));
 
-        // Threshold for human voice
-        if (average > 14) {
+        // Sensitive threshold for human speech
+        if (average > 3.5) {
           hasSpokenRef.current = true;
           if (silenceTimerRef.current) {
             clearTimeout(silenceTimerRef.current);
             silenceTimerRef.current = null;
           }
         } else if (hasSpokenRef.current && !silenceTimerRef.current) {
-          // 1.2 seconds of silence after speaking -> auto-send!
+          // 1.1 seconds of silence after speaking -> auto-send!
           silenceTimerRef.current = setTimeout(() => {
             if (mediaRecorderRef.current && mediaRecorderRef.current.state === 'recording') {
               mediaRecorderRef.current.stop();
               setIsRecording(false);
             }
-          }, 1200);
+          }, 1100);
         }
 
         animFrameRef.current = requestAnimationFrame(checkAudioLevel);
@@ -356,6 +442,7 @@ Guidelines:
       };
 
       mediaRecorder.onstop = async () => {
+        setAudioLevel(0);
         if (animFrameRef.current) cancelAnimationFrame(animFrameRef.current);
         if (silenceTimerRef.current) clearTimeout(silenceTimerRef.current);
         if (audioContextRef.current) {
@@ -366,13 +453,15 @@ Guidelines:
         // Stop microphone tracks
         stream.getTracks().forEach((track) => track.stop());
 
-        const audioBlob = new Blob(audioChunksRef.current, { type: 'audio/webm' });
+        const recordedMime = mediaRecorder.mimeType || 'audio/webm';
+        const audioBlob = new Blob(audioChunksRef.current, { type: recordedMime });
         if (audioBlob.size === 0) return;
 
         setIsTranscribing(true);
         try {
           const res = await fetch('/api/stt', {
             method: 'POST',
+            headers: { 'Content-Type': recordedMime },
             body: audioBlob,
           });
           if (res.ok) {
@@ -391,7 +480,7 @@ Guidelines:
         }
       };
 
-      mediaRecorder.start();
+      mediaRecorder.start(250);
       setIsRecording(true);
     } catch (err) {
       console.error('Microphone permission error:', err);
@@ -401,8 +490,16 @@ Guidelines:
   };
 
   const stopRecordingSession = () => {
+    if (speechRecognitionRef.current) {
+      try { speechRecognitionRef.current.stop(); } catch {}
+      speechRecognitionRef.current = null;
+    }
     if (mediaRecorderRef.current && mediaRecorderRef.current.state !== 'inactive') {
       mediaRecorderRef.current.stop();
+    }
+    if (silenceTimerRef.current) {
+      clearTimeout(silenceTimerRef.current);
+      silenceTimerRef.current = null;
     }
     setIsRecording(false);
   };
@@ -410,6 +507,10 @@ Guidelines:
   const toggleRecording = () => {
     if (isRecording) {
       stopRecordingSession();
+      // If user stopped manual recording in browser engine, submit if text was typed
+      if (input.trim()) {
+        submitUserMessage(input);
+      }
     } else {
       startRecordingSession();
     }
@@ -641,6 +742,28 @@ Provide an official IELTS Speaking Band Assessment with:
             </select>
           </div>
 
+          {/* STT Engine Selector (Browser Google Speech vs Local Whisper small.en) */}
+          <div className="flex bg-slate-100 p-0.5 rounded-xl border border-slate-200 text-xs">
+            <button
+              onClick={() => setSttEngine('browser')}
+              className={`px-2.5 py-1 rounded-lg font-medium transition-all ${
+                sttEngine === 'browser' ? 'bg-white text-emerald-700 font-semibold shadow-xs' : 'text-slate-500 hover:text-slate-800'
+              }`}
+              title="Brave/Chrome Native Google Neural STT (Zero lag, handles accents accurately)"
+            >
+              Browser STT ⚡
+            </button>
+            <button
+              onClick={() => setSttEngine('whisper')}
+              className={`px-2.5 py-1 rounded-lg font-medium transition-all ${
+                sttEngine === 'whisper' ? 'bg-white text-indigo-700 font-semibold shadow-xs' : 'text-slate-500 hover:text-slate-800'
+              }`}
+              title="100% Local OpenAI Whisper small.en Model"
+            >
+              Whisper small.en
+            </button>
+          </div>
+
           {/* Hands-Free Live Call Button */}
           <button
             onClick={toggleCallMode}
@@ -768,6 +891,16 @@ Provide an official IELTS Speaking Band Assessment with:
                 {isRecording ? <MicOff className="w-5 h-5" /> : <Mic className="w-5 h-5" />}
               </button>
 
+              {/* Live Voice Activity Meter */}
+              {isRecording && (
+                <div className="flex items-center gap-0.5 px-2 py-1.5 bg-emerald-50 border border-emerald-200 rounded-xl" title="Microphone volume level">
+                  <div className="w-1.5 bg-emerald-500 rounded-full transition-all duration-75" style={{ height: `${Math.max(6, Math.min(24, audioLevel * 0.8))}px` }} />
+                  <div className="w-1.5 bg-emerald-500 rounded-full transition-all duration-75" style={{ height: `${Math.max(8, Math.min(28, audioLevel * 1.2))}px` }} />
+                  <div className="w-1.5 bg-emerald-500 rounded-full transition-all duration-75" style={{ height: `${Math.max(6, Math.min(24, audioLevel * 0.9))}px` }} />
+                  <div className="w-1.5 bg-emerald-500 rounded-full transition-all duration-75" style={{ height: `${Math.max(4, Math.min(18, audioLevel * 0.6))}px` }} />
+                </div>
+              )}
+
               {/* Text Input Field */}
               <input
                 type="text"
@@ -778,12 +911,16 @@ Provide an official IELTS Speaking Band Assessment with:
                     ? isAudioPlaying
                       ? '🔊 AI is answering... Listen, then reply when finished.'
                       : isRecording
-                      ? '🟢 In Live Call... Speak freely! (Auto-sends when you pause)'
-                      : '⚡ Transcribing your voice with Whisper...'
+                      ? sttEngine === 'browser'
+                        ? '🟢 In Live Call... Speak freely! (Streaming real-time words)'
+                        : '🟢 In Live Call... Speak freely! (Whisper small.en transcribes on pause)'
+                      : '⚡ Transcribing your voice...'
                     : isRecording
-                    ? '🔴 Listening... Speak now (auto-sends when you pause, or click to stop)'
+                    ? sttEngine === 'browser'
+                      ? '🔴 Listening in real-time... Speak now'
+                      : '🔴 Listening with Whisper... Speak now (auto-sends when you pause)'
                     : isTranscribing
-                    ? '⚡ Transcribing your voice with local Whisper...'
+                    ? '⚡ Transcribing with local Whisper small.en...'
                     : 'Type a message or click Live Call to talk hands-free...'
                 }
                 disabled={isLoading || isTranscribing}
