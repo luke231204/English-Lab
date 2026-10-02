@@ -1,0 +1,123 @@
+{
+  "section": "reading_passage_2",
+  "test_number": 1,
+  "questions": [
+    {
+      "id": 14,
+      "type": "matching",
+      "prompt": "reference to the amount of time when a car is not in use",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "answers": [],
+      "notes": "Which section contains the following information? Write the correct letter, A-G, in boxes 14-18 on your answer sheet."
+    },
+    {
+      "id": 15,
+      "type": "matching",
+      "prompt": "mention of several advantages of driverless vehicles for individual road-users",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "answers": [],
+      "notes": "Which section contains the following information? Write the correct letter, A-G, in boxes 14-18 on your answer sheet."
+    },
+    {
+      "id": 16,
+      "type": "matching",
+      "prompt": "reference to the opportunity of choosing the most appropriate vehicle for each trip",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "answers": [],
+      "notes": "Which section contains the following information? Write the correct letter, A-G, in boxes 14-18 on your answer sheet."
+    },
+    {
+      "id": 17,
+      "type": "matching",
+      "prompt": "an estimate of how long it will take to overcome a number of problems",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "answers": [],
+      "notes": "Which section contains the following information? Write the correct letter, A-G, in boxes 14-18 on your answer sheet."
+    },
+    {
+      "id": 18,
+      "type": "matching",
+      "prompt": "a suggestion that the use of driverless cars may have no effect on the number of vehicles manufactured",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "answers": [],
+      "notes": "Which section contains the following information? Write the correct letter, A-G, in boxes 14-18 on your answer sheet."
+    },
+    {
+      "id": 19,
+      "type": "summary_completion",
+      "prompt": "The impact of driverless cars\n\nFigures from the Transport Research Laboratory indicate that most motor accidents are partly due to 19 ..........................................................., so the introduction of driverless vehicles will result in greater safety.",
+      "options": [],
+      "answers": [],
+      "notes": "Complete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer. Write your answers in boxes 19-22 on your answer sheet."
+    },
+    {
+      "id": 20,
+      "type": "summary_completion",
+      "prompt": "In addition to the direct benefits of automation, it may bring other advantages. For example, schemes for 20 ........................................................... will be more workable, especially in towns and cities, resulting in fewer cars on the road.",
+      "options": [],
+      "answers": [],
+      "notes": "Complete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer. Write your answers in boxes 19-22 on your answer sheet."
+    },
+    {
+      "id": 21,
+      "type": "summary_completion",
+      "prompt": "According to the University of Michigan Transportation Research Institute, there could be a 43 percent drop in 21 ........................................................... of cars.",
+      "options": [],
+      "answers": [],
+      "notes": "Complete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer. Write your answers in boxes 19-22 on your answer sheet."
+    },
+    {
+      "id": 22,
+      "type": "summary_completion",
+      "prompt": "However, this would mean that the yearly 22 ........................................................... of each car would, on average, be twice as high as it currently is. This would lead to a higher turnover of vehicles, and therefore no reduction in automotive manufacturing.",
+      "options": [],
+      "answers": [],
+      "notes": "Complete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer. Write your answers in boxes 19-22 on your answer sheet."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": "The impact of driverless cars",
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 24
+}

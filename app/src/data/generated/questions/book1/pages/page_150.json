@@ -1,0 +1,124 @@
+{
+  "section": "answer_key",
+  "test_number": 4,
+  "questions": [],
+  "answer_key_entries": [
+    {
+      "test_number": 4,
+      "module": "reading",
+      "id": 14,
+      "answers": [
+        "E"
+      ]
+    },
+    {
+      "test_number": 4,
+      "module": "reading",
+      "id": 15,
+      "answers": [
+        "G"
+      ]
+    },
+    {
+      "test_number": 4,
+      "module": "reading",
+      "id": 16,
+      "answers": [
+        "A"
+      ]
+    },
+    {
+      "test_number": 4,
+      "module": "reading",
+      "id": 17,
+      "answers": [
+        "C"
+      ]
+    },
+    {
+      "test_number": 4,
+      "module": "reading",
+      "id": 18,
+      "answers": [
+        "F"
+      ]
+    },
+    {
+      "test_number": 4,
+      "module": "reading",
+      "id": 19,
+      "answers": [
+        "D"
+      ]
+    },
+    {
+      "test_number": 4,
+      "module": "reading",
+      "id": 20,
+      "answers": [
+        "A"
+      ]
+    },
+    {
+      "test_number": 4,
+      "module": "reading",
+      "id": 21,
+      "answers": [
+        "S"
+      ]
+    },
+    {
+      "test_number": 4,
+      "module": "reading",
+      "id": 22,
+      "answers": [
+        "M"
+      ]
+    },
+    {
+      "test_number": 4,
+      "module": "reading",
+      "id": 23,
+      "answers": [
+        "S"
+      ]
+    },
+    {
+      "test_number": 4,
+      "module": "reading",
+      "id": 24,
+      "answers": [
+        "(it has) double(d)",
+        "doubling"
+      ]
+    },
+    {
+      "test_number": 4,
+      "module": "reading",
+      "id": 25,
+      "answers": [
+        "de-layering"
+      ]
+    },
+    {
+      "test_number": 4,
+      "module": "reading",
+      "id": 26,
+      "answers": [
+        "demographic trends"
+      ]
+    },
+    {
+      "test_number": 4,
+      "module": "reading",
+      "id": 27,
+      "answers": [
+        "employers"
+      ]
+    }
+  ],
+  "passage_title": "Why some women cross the finish line ahead of men",
+  "passage_text_excerpt": "",
+  "has_answer_key": true,
+  "_page_num": 150
+}

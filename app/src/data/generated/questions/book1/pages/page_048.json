@@ -1,0 +1,109 @@
+{
+  "section": "reading_passage_2",
+  "test_number": 2,
+  "questions": [
+    {
+      "id": 1,
+      "type": "matching",
+      "prompt": "Human beings started to show a preference for right-handedness when they first developed language.",
+      "options": [
+        "A. Dr Broca",
+        "B. Dr Brinkman",
+        "C. Geschwind and Galaburda",
+        "D. Charles Moore",
+        "E. Professor Turner"
+      ],
+      "answers": [],
+      "notes": "Use the information in the text to match the people (listed A-E) with the opinions (listed 1-7) below. Write the appropriate letter (A-E) in boxes 1-7 on your answer sheet. Some people match more than one opinion."
+    },
+    {
+      "id": 2,
+      "type": "matching",
+      "prompt": "Society is prejudiced against left-handed people.",
+      "options": [
+        "A. Dr Broca",
+        "B. Dr Brinkman",
+        "C. Geschwind and Galaburda",
+        "D. Charles Moore",
+        "E. Professor Turner"
+      ],
+      "answers": [],
+      "notes": "Use the information in the text to match the people (listed A-E) with the opinions (listed 1-7) below. Write the appropriate letter (A-E) in boxes 1-7 on your answer sheet. Some people match more than one opinion."
+    },
+    {
+      "id": 3,
+      "type": "matching",
+      "prompt": "Boys are more likely to be left-handed.",
+      "options": [
+        "A. Dr Broca",
+        "B. Dr Brinkman",
+        "C. Geschwind and Galaburda",
+        "D. Charles Moore",
+        "E. Professor Turner"
+      ],
+      "answers": [],
+      "notes": "Use the information in the text to match the people (listed A-E) with the opinions (listed 1-7) below. Write the appropriate letter (A-E) in boxes 1-7 on your answer sheet. Some people match more than one opinion."
+    },
+    {
+      "id": 4,
+      "type": "matching",
+      "prompt": "After a stroke, left-handed people recover their speech more quickly than right-handed people.",
+      "options": [
+        "A. Dr Broca",
+        "B. Dr Brinkman",
+        "C. Geschwind and Galaburda",
+        "D. Charles Moore",
+        "E. Professor Turner"
+      ],
+      "answers": [],
+      "notes": "Use the information in the text to match the people (listed A-E) with the opinions (listed 1-7) below. Write the appropriate letter (A-E) in boxes 1-7 on your answer sheet. Some people match more than one opinion."
+    },
+    {
+      "id": 5,
+      "type": "matching",
+      "prompt": "People who suffer strokes on the left side of the brain usually lose their power of speech.",
+      "options": [
+        "A. Dr Broca",
+        "B. Dr Brinkman",
+        "C. Geschwind and Galaburda",
+        "D. Charles Moore",
+        "E. Professor Turner"
+      ],
+      "answers": [],
+      "notes": "Use the information in the text to match the people (listed A-E) with the opinions (listed 1-7) below. Write the appropriate letter (A-E) in boxes 1-7 on your answer sheet. Some people match more than one opinion."
+    },
+    {
+      "id": 6,
+      "type": "matching",
+      "prompt": "The two sides of the brain develop different functions before birth.",
+      "options": [
+        "A. Dr Broca",
+        "B. Dr Brinkman",
+        "C. Geschwind and Galaburda",
+        "D. Charles Moore",
+        "E. Professor Turner"
+      ],
+      "answers": [],
+      "notes": "Use the information in the text to match the people (listed A-E) with the opinions (listed 1-7) below. Write the appropriate letter (A-E) in boxes 1-7 on your answer sheet. Some people match more than one opinion."
+    },
+    {
+      "id": 7,
+      "type": "matching",
+      "prompt": "Asymmetry is a common feature of the human body.",
+      "options": [
+        "A. Dr Broca",
+        "B. Dr Brinkman",
+        "C. Geschwind and Galaburda",
+        "D. Charles Moore",
+        "E. Professor Turner"
+      ],
+      "answers": [],
+      "notes": "Use the information in the text to match the people (listed A-E) with the opinions (listed 1-7) below. Write the appropriate letter (A-E) in boxes 1-7 on your answer sheet. Some people match more than one opinion."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 48
+}

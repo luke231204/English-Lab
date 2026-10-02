@@ -1,0 +1,61 @@
+{
+  "section": "listening_part_4",
+  "test_number": 1,
+  "questions": [
+    {
+      "id": 32,
+      "type": "mcq",
+      "prompt": "The speaker works within the Faculty of",
+      "options": [
+        "A. Science and Technology.",
+        "B. Arts and Social Sciences.",
+        "C. Architecture.",
+        "D. Law."
+      ],
+      "answers": [],
+      "notes": "Circle the appropriate letter."
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "prompt": "The Faculty consists firstly of",
+      "options": [
+        "A. subjects.",
+        "B. degrees.",
+        "C. divisions.",
+        "D. departments."
+      ],
+      "answers": [],
+      "notes": "Circle the appropriate letter."
+    },
+    {
+      "id": 34,
+      "type": "fill_blank",
+      "prompt": "The subjects taken in the first semester in this course are psychology, sociology, (34) ___________________________________ and ____________________________________.",
+      "options": [],
+      "answers": [],
+      "notes": "Complete the notes m NO MORE THAN THREE WORDS."
+    },
+    {
+      "id": 35,
+      "type": "fill_blank",
+      "prompt": "Students may have problems with (35) ___________________________________",
+      "options": [],
+      "answers": [],
+      "notes": "Complete the notes m NO MORE THAN THREE WORDS."
+    },
+    {
+      "id": 36,
+      "type": "fill_blank",
+      "prompt": "Students may have problems with ... and (36) ___________________________________.",
+      "options": [],
+      "answers": [],
+      "notes": "Complete the notes m NO MORE THAN THREE WORDS."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 24
+}

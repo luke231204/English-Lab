@@ -1,0 +1,59 @@
+{
+  "section": "listening_part_2",
+  "test_number": 1,
+  "questions": [
+    {
+      "id": 15,
+      "type": "fill_blank",
+      "prompt": "Day 1: Arrive. Notes: Hotel dining room has view of the 15 ....................",
+      "options": [],
+      "answers": [],
+      "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+    },
+    {
+      "id": 16,
+      "type": "fill_blank",
+      "prompt": "Day 2: Tynwald Exhibition and Peel. Notes: Tynwald may have been founded in 16 .................... not 979.",
+      "options": [],
+      "answers": [],
+      "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+    },
+    {
+      "id": 17,
+      "type": "fill_blank",
+      "prompt": "Day 3: Trip to Snaefell. Notes: Travel along promenade in a tram; train to Laxey; train to the 17 .................... of Snaefell",
+      "options": [],
+      "answers": [],
+      "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+    },
+    {
+      "id": 18,
+      "type": "fill_blank",
+      "prompt": "Day 4: Free day. Notes: Company provides a 18 .................... for local transport and heritage sites.",
+      "options": [],
+      "answers": [],
+      "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+    },
+    {
+      "id": 19,
+      "type": "fill_blank",
+      "prompt": "Day 5: Take the 19 .................... railway train from Douglas to Port Erin",
+      "options": [],
+      "answers": [],
+      "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+    },
+    {
+      "id": 20,
+      "type": "fill_blank",
+      "prompt": "Day 5: Free time, then coach to Castletown - former 20 .................... has old castle.",
+      "options": [],
+      "answers": [],
+      "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 14
+}

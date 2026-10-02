@@ -1,0 +1,59 @@
+{
+  "section": "reading_passage_3",
+  "test_number": 2,
+  "questions": [
+    {
+      "id": 37,
+      "type": "tfng",
+      "prompt": "Participants in the Santa Cruz study were more accurate at identifying the laughs of friends than those of strangers.",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "In boxes 37-40 on your answer sheet, write YES, NO or NOT GIVEN"
+    },
+    {
+      "id": 38,
+      "type": "tfng",
+      "prompt": "The researchers in the San Diego study were correct in their predictions regarding the behaviour of the high-status individuals.",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "In boxes 37-40 on your answer sheet, write YES, NO or NOT GIVEN"
+    },
+    {
+      "id": 39,
+      "type": "tfng",
+      "prompt": "The participants in the Australian National University study were given a fixed amount of time to complete the task focusing on employee profiles.",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "In boxes 37-40 on your answer sheet, write YES, NO or NOT GIVEN"
+    },
+    {
+      "id": 40,
+      "type": "tfng",
+      "prompt": "Cheng and Wang’s conclusions were in line with established notions regarding task performance.",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "In boxes 37-40 on your answer sheet, write YES, NO or NOT GIVEN"
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 50
+}

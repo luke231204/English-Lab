@@ -1,0 +1,63 @@
+{
+  "section": "reading_passage_3",
+  "test_number": 3,
+  "questions": [
+    {
+      "id": 37,
+      "type": "mcq",
+      "prompt": "What method did Jamie Tehrani use to test his ideas about fairy tales?",
+      "options": [
+        "A. He compared oral and written forms of the same stories.",
+        "B. He looked at many different forms of the same basic story.",
+        "C. He looked at unrelated stories from many different countries.",
+        "D. He contrasted the development of fairy tales with that of living creatures."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B, C or D."
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "prompt": "When discussing Tehrani's views, Jack Zipes suggests that",
+      "options": [
+        "A. Tehrani ignores key changes in the role of women.",
+        "B. stories which are too horrific are not always taken seriously.",
+        "C. Tehrani overemphasises the importance of violence in stories.",
+        "D. features of stories only survive if they have a deeper significance."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B, C or D."
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "prompt": "Why does Tehrani refer to Chinese and Japanese fairy tales?",
+      "options": [
+        "A. to indicate that Jack Zipes' theory is incorrect",
+        "B. to suggest that crime is a global problem",
+        "C. to imply that all fairy tales have a similar meaning",
+        "D. to add more evidence for Jack Zipes' ideas"
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B, C or D."
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "prompt": "What does Mathias Clasen believe about fairy tales?",
+      "options": [
+        "A. They are a safe way of learning to deal with fear.",
+        "B. They are a type of entertainment that some people avoid.",
+        "C. They reflect the changing values of our society.",
+        "D. They reduce our ability to deal with real-world problems."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B, C or D."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 72
+}

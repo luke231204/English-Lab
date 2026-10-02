@@ -1,0 +1,101 @@
+{
+  "section": "reading_passage_3",
+  "test_number": 4,
+  "questions": [
+    {
+      "id": 27,
+      "type": "summary_completion",
+      "prompt": "Many big businesses today are prepared to harm people and the environment in order to make money, and they appear to have no 27 ........................... .",
+      "options": [
+        "A. funding",
+        "B. trees",
+        "C. rare species",
+        "D. moral standards",
+        "E. control",
+        "F. involvement",
+        "G. flooding",
+        "H. overfishing",
+        "I. worker support"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-J, in boxes 27-31 on your answer sheet."
+    },
+    {
+      "id": 28,
+      "type": "summary_completion",
+      "prompt": "Lack of 28 ........................... by governments",
+      "options": [
+        "A. funding",
+        "B. trees",
+        "C. rare species",
+        "D. moral standards",
+        "E. control",
+        "F. involvement",
+        "G. flooding",
+        "H. overfishing",
+        "I. worker support"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-J, in boxes 27-31 on your answer sheet."
+    },
+    {
+      "id": 29,
+      "type": "summary_completion",
+      "prompt": "and lack of public 29 ........................... can lead to environmental problems",
+      "options": [
+        "A. funding",
+        "B. trees",
+        "C. rare species",
+        "D. moral standards",
+        "E. control",
+        "F. involvement",
+        "G. flooding",
+        "H. overfishing",
+        "I. worker support"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-J, in boxes 27-31 on your answer sheet."
+    },
+    {
+      "id": 30,
+      "type": "summary_completion",
+      "prompt": "such as 30 ...........................",
+      "options": [
+        "A. funding",
+        "B. trees",
+        "C. rare species",
+        "D. moral standards",
+        "E. control",
+        "F. involvement",
+        "G. flooding",
+        "H. overfishing",
+        "I. worker support"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-J, in boxes 27-31 on your answer sheet."
+    },
+    {
+      "id": 31,
+      "type": "summary_completion",
+      "prompt": "or the destruction of 31 ........................... .",
+      "options": [
+        "A. funding",
+        "B. trees",
+        "C. rare species",
+        "D. moral standards",
+        "E. control",
+        "F. involvement",
+        "G. flooding",
+        "H. overfishing",
+        "I. worker support"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-J, in boxes 27-31 on your answer sheet."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": "Big businesses",
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 92
+}

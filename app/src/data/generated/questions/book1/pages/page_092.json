@@ -1,0 +1,139 @@
+{
+  "section": "reading_passage_2",
+  "test_number": 4,
+  "questions": [
+    {
+      "id": 14,
+      "type": "matching",
+      "prompt": "The drawbacks of current company restructuring patterns.",
+      "options": [],
+      "answers": [],
+      "notes": "Write the appropriate letter (A-G) in boxes 14-19 on your answer sheet."
+    },
+    {
+      "id": 15,
+      "type": "matching",
+      "prompt": "Associations that provide support for professional women.",
+      "options": [],
+      "answers": [],
+      "notes": "Write the appropriate letter (A-G) in boxes 14-19 on your answer sheet."
+    },
+    {
+      "id": 16,
+      "type": "matching",
+      "prompt": "The success rate of female job applicants for management positions.",
+      "options": [],
+      "answers": [],
+      "notes": "Write the appropriate letter (A-G) in boxes 14-19 on your answer sheet."
+    },
+    {
+      "id": 17,
+      "type": "matching",
+      "prompt": "Male and female approaches to job applications.",
+      "options": [],
+      "answers": [],
+      "notes": "Write the appropriate letter (A-G) in boxes 14-19 on your answer sheet."
+    },
+    {
+      "id": 18,
+      "type": "matching",
+      "prompt": "Reasons why more women are being employed in the business sector.",
+      "options": [],
+      "answers": [],
+      "notes": "Write the appropriate letter (A-G) in boxes 14-19 on your answer sheet."
+    },
+    {
+      "id": 19,
+      "type": "matching",
+      "prompt": "The improvement in female numbers on company management structures.",
+      "options": [],
+      "answers": [],
+      "notes": "Write the appropriate letter (A-G) in boxes 14-19 on your answer sheet."
+    },
+    {
+      "id": 20,
+      "type": "matching",
+      "prompt": "Selection procedures do not favour women.",
+      "options": [
+        "M. if the point is made by Dr Marx",
+        "S. if the point is made by Hilary Sears",
+        "A. if the point is made by Ariane Berthoin Antal"
+      ],
+      "answers": [],
+      "notes": "In boxes 20-23 write M, S or A"
+    },
+    {
+      "id": 21,
+      "type": "matching",
+      "prompt": "The number of female-run businesses is increasing.",
+      "options": [
+        "M. if the point is made by Dr Marx",
+        "S. if the point is made by Hilary Sears",
+        "A. if the point is made by Ariane Berthoin Antal"
+      ],
+      "answers": [],
+      "notes": "In boxes 20-23 write M, S or A"
+    },
+    {
+      "id": 22,
+      "type": "matching",
+      "prompt": "Male applicants exceed female applicants for top posts.",
+      "options": [
+        "M. if the point is made by Dr Marx",
+        "S. if the point is made by Hilary Sears",
+        "A. if the point is made by Ariane Berthoin Antal"
+      ],
+      "answers": [],
+      "notes": "In boxes 20-23 write M, S or A"
+    },
+    {
+      "id": 23,
+      "type": "matching",
+      "prompt": "Women hold higher positions now than they used to.",
+      "options": [
+        "M. if the point is made by Dr Marx",
+        "S. if the point is made by Hilary Sears",
+        "A. if the point is made by Ariane Berthoin Antal"
+      ],
+      "answers": [],
+      "notes": "In boxes 20-23 write M, S or A"
+    },
+    {
+      "id": 24,
+      "type": "fill_blank",
+      "prompt": "What change has there been in the number of women in top management positions detailed in the annual survey?",
+      "options": [],
+      "answers": [],
+      "notes": "Using NO MORE THAN THREE WORDS answer the following questions."
+    },
+    {
+      "id": 25,
+      "type": "fill_blank",
+      "prompt": "What aspect of company structuring has disadvantaged women?",
+      "options": [],
+      "answers": [],
+      "notes": "Using NO MORE THAN THREE WORDS answer the following questions."
+    },
+    {
+      "id": 26,
+      "type": "fill_blank",
+      "prompt": "What information tells us that more women are working nowadays?",
+      "options": [],
+      "answers": [],
+      "notes": "Using NO MORE THAN THREE WORDS answer the following questions."
+    },
+    {
+      "id": 27,
+      "type": "fill_blank",
+      "prompt": "Which group of people should change their attitude to recruitment?",
+      "options": [],
+      "answers": [],
+      "notes": "Using NO MORE THAN THREE WORDS answer the following questions."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": "",
+  "passage_text_excerpt": "",
+  "has_answer_key": false,
+  "_page_num": 92
+}

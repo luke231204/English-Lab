@@ -1,0 +1,107 @@
+{
+  "section": "answer_key",
+  "test_number": null,
+  "questions": [],
+  "answer_key_entries": [
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 1,
+      "answers": [
+        "vi"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 2,
+      "answers": [
+        "ii"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 3,
+      "answers": [
+        "x"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 4,
+      "answers": [
+        "viii"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 5,
+      "answers": [
+        "iv"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 6,
+      "answers": [
+        "ix"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 7,
+      "answers": [
+        "existing"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 8,
+      "answers": [
+        "(related) phrases"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 9,
+      "answers": [
+        "meanings // forms"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 10,
+      "answers": [
+        "spoken // real // oral"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 11,
+      "answers": [
+        "noise // pauses // noises and pauses"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 12,
+      "answers": [
+        "B"
+      ]
+    }
+  ],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": true,
+  "_page_num": 145
+}

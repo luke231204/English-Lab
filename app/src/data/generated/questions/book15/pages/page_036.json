@@ -1,0 +1,66 @@
+{
+  "section": "listening_part_3",
+  "test_number": 2,
+  "questions": [
+    {
+      "id": 21,
+      "type": "mcq",
+      "prompt": "Which TWO groups of people is the display primarily intended for?",
+      "options": [
+        "A. students from the English department",
+        "B. residents of the local area",
+        "C. the university's teaching staff",
+        "D. potential new students",
+        "E. students from other departments"
+      ],
+      "answers": [],
+      "notes": "Choose TWO letters, A-E."
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "prompt": "Which TWO groups of people is the display primarily intended for?",
+      "options": [
+        "A. students from the English department",
+        "B. residents of the local area",
+        "C. the university's teaching staff",
+        "D. potential new students",
+        "E. students from other departments"
+      ],
+      "answers": [],
+      "notes": "Choose TWO letters, A-E."
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "prompt": "What are Cathy and Graham's TWO reasons for choosing the novelist Charles Dickens?",
+      "options": [
+        "A. His speeches inspired others to try to improve society.",
+        "B. He used his publications to draw attention to social problems.",
+        "C. His novels are well-known now.",
+        "D. He was consulted on a number of social issues.",
+        "E. His reputation has changed in recent times."
+      ],
+      "answers": [],
+      "notes": "Choose TWO letters, A-E."
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "prompt": "What are Cathy and Graham's TWO reasons for choosing the novelist Charles Dickens?",
+      "options": [
+        "A. His speeches inspired others to try to improve society.",
+        "B. He used his publications to draw attention to social problems.",
+        "C. His novels are well-known now.",
+        "D. He was consulted on a number of social issues.",
+        "E. His reputation has changed in recent times."
+      ],
+      "answers": [],
+      "notes": "Choose TWO letters, A-E."
+    }
+  ],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 36
+}

@@ -1,0 +1,119 @@
+{
+  "section": "answer_key",
+  "test_number": null,
+  "questions": [],
+  "answer_key_entries": [
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 1,
+      "answers": [
+        "viii"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 2,
+      "answers": [
+        "i"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 3,
+      "answers": [
+        "ix"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 4,
+      "answers": [
+        "iii"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 5,
+      "answers": [
+        "vi"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 6,
+      "answers": [
+        "molten glass",
+        "ribbon of glass",
+        "molten glass ribbon"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 7,
+      "answers": [
+        "belt of steel",
+        "steel belt",
+        "moving belt"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 8,
+      "answers": [
+        "(lightbulb) moulds"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 9,
+      "answers": [
+        "A"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 10,
+      "answers": [
+        "B"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 11,
+      "answers": [
+        "A"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 12,
+      "answers": [
+        "C"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 13,
+      "answers": [
+        "A"
+      ]
+    }
+  ],
+  "passage_title": "Glass",
+  "passage_text_excerpt": "",
+  "has_answer_key": true,
+  "_page_num": 149
+}

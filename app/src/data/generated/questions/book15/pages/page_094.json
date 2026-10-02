@@ -1,0 +1,82 @@
+{
+  "section": "reading_passage_3",
+  "test_number": 4,
+  "questions": [
+    {
+      "id": 35,
+      "type": "tfng",
+      "prompt": "The public should be prepared to fund good environmental practices.",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "Write YES, NO or NOT GIVEN"
+    },
+    {
+      "id": 36,
+      "type": "tfng",
+      "prompt": "There is a contrast between the moral principles of different businesses.",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "Write YES, NO or NOT GIVEN"
+    },
+    {
+      "id": 37,
+      "type": "tfng",
+      "prompt": "It is important to make a clear distinction between acceptable and unacceptable behaviour.",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "Write YES, NO or NOT GIVEN"
+    },
+    {
+      "id": 38,
+      "type": "tfng",
+      "prompt": "The public have successfully influenced businesses in the past.",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "Write YES, NO or NOT GIVEN"
+    },
+    {
+      "id": 39,
+      "type": "tfng",
+      "prompt": "In the future, businesses will show more concern for the environment.",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "Write YES, NO or NOT GIVEN"
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "prompt": "What would be the best subheading for this passage?",
+      "options": [
+        "A. Will the world survive the threat caused by big businesses?",
+        "B. How can big businesses be encouraged to be less driven by profit?",
+        "C. What environmental dangers are caused by the greed of businesses?",
+        "D. Are big businesses to blame for the damage they cause the environment?"
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter A, B, C or D."
+    }
+  ],
+  "answer_key_entries": [],
+  "has_answer_key": false,
+  "_page_num": 94
+}

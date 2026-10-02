@@ -1,0 +1,61 @@
+{
+  "section": "reading_passage_1",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 8,
+      "type": "table_completion",
+      "prompt": "One parent left-handed, One parent right-handed - Percentage of children left-handed",
+      "options": [],
+      "answers": [],
+      "notes": "Using the information in the passage, complete the table below. Write your answers in boxes 8 to 10 on your answer sheet."
+    },
+    {
+      "id": 9,
+      "type": "table_completion",
+      "prompt": "Both parents left-handed - Percentage of children left-handed",
+      "options": [],
+      "answers": [],
+      "notes": "Using the information in the passage, complete the table below. Write your answers in boxes 8 to 10 on your answer sheet."
+    },
+    {
+      "id": 10,
+      "type": "table_completion",
+      "prompt": "Both parents right-handed - Percentage of children left-handed",
+      "options": [],
+      "answers": [],
+      "notes": "Using the information in the passage, complete the table below. Write your answers in boxes 8 to 10 on your answer sheet."
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "prompt": "A study of monkeys has shown that",
+      "options": [
+        "A. monkeys are not usually right-handed.",
+        "B. monkeys display a capacity for speech.",
+        "C. monkey brains are smaller than human brains.",
+        "D. monkey brains are asymmetric."
+      ],
+      "answers": [],
+      "notes": "Choose the appropriate letters A-D and write them in boxes 11 and 12 on your answer sheet."
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "prompt": "According to the writer, left-handed people",
+      "options": [
+        "A. will often develop a stammer.",
+        "B. have undergone hardship for years.",
+        "C. are untrustworthy.",
+        "D. are good tennis players."
+      ],
+      "answers": [],
+      "notes": "Choose the appropriate letters A-D and write them in boxes 11 and 12 on your answer sheet."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 49
+}

@@ -1,0 +1,50 @@
+{
+  "section": "reading_passage_3",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 32,
+      "type": "mcq",
+      "prompt": "The main idea of the third paragraph is that environmental damage",
+      "options": [
+        "A. requires political action if it is to be stopped.",
+        "B. is the result of ignorance on the part of the public.",
+        "C. could be prevented by the action of ordinary people.",
+        "D. can only be stopped by educating business leaders."
+      ],
+      "answers": [],
+      "notes": "Write the correct letter in boxes 32-34 on your answer sheet."
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "prompt": "In the fourth paragraph, the writer describes ways in which the public can",
+      "options": [
+        "A. reduce their own individual impact on the environment.",
+        "B. learn more about the impact of business on the environment.",
+        "C. raise awareness of the effects of specific environmental disasters.",
+        "D. influence the environmental policies of businesses and governments."
+      ],
+      "answers": [],
+      "notes": "Write the correct letter in boxes 32-34 on your answer sheet."
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "prompt": "What pressure was exerted by big business in the case of the disease BSE?",
+      "options": [
+        "A. Meat packers stopped supplying hamburgers to fast-food chains.",
+        "B. A fast-food company forced their meat suppliers to follow the law.",
+        "C. Meat packers persuaded the government to reduce their expenses.",
+        "D. A fast-food company encouraged the government to introduce legislation."
+      ],
+      "answers": [],
+      "notes": "Write the correct letter in boxes 32-34 on your answer sheet."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 93
+}

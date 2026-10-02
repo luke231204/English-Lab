@@ -1,0 +1,59 @@
+{
+  "section": "reading_passage_2",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 23,
+      "type": "matching",
+      "prompt": "Reintroducing an extinct species to its original habitat could improve the health of a particular species living there.",
+      "options": [
+        "A. Ben Novak",
+        "B. Michael Archer",
+        "C. Beth Shapiro"
+      ],
+      "answers": [],
+      "notes": "Match each statement with the correct person, A, B or C. You may use any letter more than once."
+    },
+    {
+      "id": 24,
+      "type": "matching",
+      "prompt": "It is important to concentrate on the causes of an animal's extinction.",
+      "options": [
+        "A. Ben Novak",
+        "B. Michael Archer",
+        "C. Beth Shapiro"
+      ],
+      "answers": [],
+      "notes": "Match each statement with the correct person, A, B or C. You may use any letter more than once."
+    },
+    {
+      "id": 25,
+      "type": "matching",
+      "prompt": "A species brought back from extinction could have an important beneficial impact on the vegetation of its habitat.",
+      "options": [
+        "A. Ben Novak",
+        "B. Michael Archer",
+        "C. Beth Shapiro"
+      ],
+      "answers": [],
+      "notes": "Match each statement with the correct person, A, B or C. You may use any letter more than once."
+    },
+    {
+      "id": 26,
+      "type": "matching",
+      "prompt": "Our current efforts at preserving biodiversity are insufficient.",
+      "options": [
+        "A. Ben Novak",
+        "B. Michael Archer",
+        "C. Beth Shapiro"
+      ],
+      "answers": [],
+      "notes": "Match each statement with the correct person, A, B or C. You may use any letter more than once."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": "",
+  "has_answer_key": false,
+  "_page_num": 45
+}

@@ -1,0 +1,127 @@
+{
+  "section": "reading_passage_1",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 1,
+      "type": "matching",
+      "prompt": "reference to an appealing way of using dance that the writer is not proposing",
+      "options": [
+        "A-G"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-G, in boxes 1-6 on your answer sheet."
+    },
+    {
+      "id": 2,
+      "type": "matching",
+      "prompt": "an example of a contrast between past and present approaches to building",
+      "options": [
+        "A-G"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-G, in boxes 1-6 on your answer sheet."
+    },
+    {
+      "id": 3,
+      "type": "matching",
+      "prompt": "mention of an objective of both dance and engineering",
+      "options": [
+        "A-G"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-G, in boxes 1-6 on your answer sheet."
+    },
+    {
+      "id": 4,
+      "type": "matching",
+      "prompt": "reference to an unforeseen problem arising from ignoring the climate",
+      "options": [
+        "A-G"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-G, in boxes 1-6 on your answer sheet."
+    },
+    {
+      "id": 5,
+      "type": "matching",
+      "prompt": "why some measures intended to help people are being reversed",
+      "options": [
+        "A-G"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-G, in boxes 1-6 on your answer sheet."
+    },
+    {
+      "id": 6,
+      "type": "matching",
+      "prompt": "reference to how transport has an impact on human lives",
+      "options": [
+        "A-G"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-G, in boxes 1-6 on your answer sheet."
+    },
+    {
+      "id": 7,
+      "type": "summary_completion",
+      "prompt": "Guard rails were introduced on British roads to improve the 7 .................. of pedestrians",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 8,
+      "type": "summary_completion",
+      "prompt": "while ensuring that the movement of 8 .................. is not disrupted.",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 9,
+      "type": "summary_completion",
+      "prompt": "Pedestrians are led to access points, and encouraged to cross one 9 .................. at a time.",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 10,
+      "type": "summary_completion",
+      "prompt": "An unintended effect is to create psychological difficulties in crossing the road, particularly for less 10 .................. people.",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 11,
+      "type": "summary_completion",
+      "prompt": "Another result is that some people cross the road in a 11 .................. way.",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 12,
+      "type": "summary_completion",
+      "prompt": "The guard rails separate 12 .................. , and make it more difficult to introduce forms of transport that are 13 .................. .",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 13,
+      "type": "summary_completion",
+      "prompt": "The guard rails separate 12 .................. , and make it more difficult to introduce forms of transport that are 13 .................. .",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": "Guard rails",
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 41
+}

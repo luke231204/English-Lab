@@ -1,0 +1,85 @@
+{
+  "section": "reading_passage_3",
+  "test_number": 3,
+  "questions": [
+    {
+      "id": 27,
+      "type": "tfng",
+      "prompt": "Today, employees are facing a reduction in working hours.",
+      "options": [],
+      "answers": [],
+      "notes": "YES / NO / NOT GIVEN"
+    },
+    {
+      "id": 28,
+      "type": "tfng",
+      "prompt": "Social planners have been consulted about US employment figures.",
+      "options": [],
+      "answers": [],
+      "notes": "YES / NO / NOT GIVEN"
+    },
+    {
+      "id": 29,
+      "type": "tfng",
+      "prompt": "Salaries have not risen significantly since the 1970s.",
+      "options": [],
+      "answers": [],
+      "notes": "YES / NO / NOT GIVEN"
+    },
+    {
+      "id": 30,
+      "type": "tfng",
+      "prompt": "The economic recovery created more jobs.",
+      "options": [],
+      "answers": [],
+      "notes": "YES / NO / NOT GIVEN"
+    },
+    {
+      "id": 31,
+      "type": "tfng",
+      "prompt": "Bailyn’s research shows that part-time employees work more efficiently.",
+      "options": [],
+      "answers": [],
+      "notes": "YES / NO / NOT GIVEN"
+    },
+    {
+      "id": 32,
+      "type": "tfng",
+      "prompt": "Increased leisure time would benefit two-career households.",
+      "options": [],
+      "answers": [],
+      "notes": "YES / NO / NOT GIVEN"
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "prompt": "Bailyn argues that it is better for a company to employ more workers because",
+      "options": [
+        "A. it is easy to make excess staff redundant.",
+        "B. crises occur if you are under-staffed.",
+        "C. people are available to substitute for absent staff.",
+        "D. they can project a positive image at work."
+      ],
+      "answers": [],
+      "notes": "Choose the appropriate letters A-D"
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "prompt": "Schor thinks it will be difficult for workers in the US to reduce their working hours because",
+      "options": [
+        "A. they would not be able to afford cars or homes.",
+        "B. employers are offering high incomes for long hours.",
+        "C. the future is dependent on technological advances.",
+        "D. they do not wish to return to the humble post-war era."
+      ],
+      "answers": [],
+      "notes": "Choose the appropriate letters A-D"
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 76
+}

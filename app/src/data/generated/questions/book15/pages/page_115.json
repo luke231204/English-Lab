@@ -1,0 +1,59 @@
+{
+  "section": "audio_script",
+  "test_number": 4,
+  "questions": [
+    {
+      "id": 1,
+      "type": "fill_blank",
+      "prompt": "Occupation: ",
+      "options": [],
+      "answers": [],
+      "notes": "Information extracted from audio"
+    },
+    {
+      "id": 2,
+      "type": "fill_blank",
+      "prompt": "Reason for visit: ",
+      "options": [],
+      "answers": [],
+      "notes": "Information extracted from audio"
+    },
+    {
+      "id": 3,
+      "type": "fill_blank",
+      "prompt": "Station travelling back to: ",
+      "options": [],
+      "answers": [],
+      "notes": "Information extracted from audio"
+    },
+    {
+      "id": 4,
+      "type": "fill_blank",
+      "prompt": "Type of ticket: ",
+      "options": [],
+      "answers": [],
+      "notes": "Information extracted from audio"
+    },
+    {
+      "id": 5,
+      "type": "fill_blank",
+      "prompt": "Price of ticket: ",
+      "options": [],
+      "answers": [],
+      "notes": "Information extracted from audio"
+    },
+    {
+      "id": 6,
+      "type": "fill_blank",
+      "prompt": "How ticket was purchased: ",
+      "options": [],
+      "answers": [],
+      "notes": "Information extracted from audio"
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": "TEST 4 PART 1",
+  "passage_text_excerpt": "MAN: Hello. Do you mind if I ask you some questions about your journey today? We're doing a customer satisfaction survey.\nSOPHIE: Yes. OK. I've got about ten minutes before my train home leaves. I'm on a day trip.\nMAN: Great. Thank you. So first of all, could you tell me your name?\nSOPHIE: It's Soph",
+  "has_answer_key": false,
+  "_page_num": 115
+}

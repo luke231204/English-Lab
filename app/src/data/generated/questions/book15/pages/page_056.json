@@ -1,0 +1,83 @@
+{
+  "section": "listening_part_2",
+  "test_number": 3,
+  "questions": [
+    {
+      "id": 11,
+      "type": "mcq",
+      "prompt": "When did the Street Play Scheme first take place?",
+      "options": [
+        "A. two years ago",
+        "B. three years ago",
+        "C. six years ago"
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "prompt": "How often is Beechwood Road closed to traffic now?",
+      "options": [
+        "A. once a week",
+        "B. on Saturdays and Sundays",
+        "C. once a month"
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "prompt": "Who is responsible for closing the road?",
+      "options": [
+        "A. a council official",
+        "B. the police",
+        "C. local wardens"
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "prompt": "Residents who want to use their cars",
+      "options": [
+        "A. have to park in another street.",
+        "B. must drive very slowly.",
+        "C. need permission from a warden."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "prompt": "Alice says that Street Play Schemes are most needed in",
+      "options": [
+        "A. wealthy areas.",
+        "B. quiet suburban areas.",
+        "C. areas with heavy traffic."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "prompt": "What has been the reaction of residents who are not parents?",
+      "options": [
+        "A. Many of them were unhappy at first.",
+        "B. They like seeing children play in the street.",
+        "C. They are surprised by the lack of noise."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": "Street Play Scheme",
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 56
+}

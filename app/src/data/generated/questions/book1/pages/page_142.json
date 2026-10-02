@@ -1,0 +1,132 @@
+{
+  "section": "answer_key",
+  "test_number": 2,
+  "questions": [],
+  "answer_key_entries": [
+    {
+      "test_number": 2,
+      "module": "reading",
+      "id": 13,
+      "answers": [
+        "prepare"
+      ]
+    },
+    {
+      "test_number": 2,
+      "module": "reading",
+      "id": 14,
+      "answers": [
+        "full"
+      ]
+    },
+    {
+      "test_number": 2,
+      "module": "reading",
+      "id": 15,
+      "answers": [
+        "smoke"
+      ]
+    },
+    {
+      "test_number": 2,
+      "module": "reading",
+      "id": 16,
+      "answers": [
+        "charge"
+      ]
+    },
+    {
+      "test_number": 2,
+      "module": "reading",
+      "id": 17,
+      "answers": [
+        "machines"
+      ]
+    },
+    {
+      "test_number": 2,
+      "module": "reading",
+      "id": 18,
+      "answers": [
+        "combs"
+      ]
+    },
+    {
+      "test_number": 2,
+      "module": "reading",
+      "id": 19,
+      "answers": [
+        "split"
+      ]
+    },
+    {
+      "test_number": 2,
+      "module": "reading",
+      "id": 20,
+      "answers": [
+        "(hexagonal) cells",
+        "comb"
+      ]
+    },
+    {
+      "test_number": 2,
+      "module": "reading",
+      "id": 21,
+      "answers": [
+        "frames (of comb)"
+      ]
+    },
+    {
+      "test_number": 2,
+      "module": "reading",
+      "id": 22,
+      "answers": [
+        "screen"
+      ]
+    },
+    {
+      "test_number": 2,
+      "module": "reading",
+      "id": 23,
+      "answers": [
+        "brood chamber"
+      ]
+    },
+    {
+      "test_number": 2,
+      "module": "reading",
+      "id": 24,
+      "answers": [
+        "NOT GIVEN"
+      ]
+    },
+    {
+      "test_number": 2,
+      "module": "reading",
+      "id": 25,
+      "answers": [
+        "YES"
+      ]
+    },
+    {
+      "test_number": 2,
+      "module": "reading",
+      "id": 26,
+      "answers": [
+        "YES"
+      ]
+    },
+    {
+      "test_number": 2,
+      "module": "reading",
+      "id": 27,
+      "answers": [
+        "NO"
+      ]
+    }
+  ],
+  "passage_title": "Migratory beekeeping",
+  "passage_text_excerpt": "",
+  "has_answer_key": true,
+  "_page_num": 142
+}

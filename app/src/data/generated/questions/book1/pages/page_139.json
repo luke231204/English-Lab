@@ -1,0 +1,111 @@
+{
+  "section": "answer_key",
+  "test_number": null,
+  "questions": [],
+  "answer_key_entries": [
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 29,
+      "answers": [
+        "timber and stone"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 30,
+      "answers": [
+        "Modernism"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 31,
+      "answers": [
+        "International style"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 32,
+      "answers": [
+        "badly designed buildings",
+        "multi-storey housmg",
+        "mass-produced, low-cost high-rises"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 33,
+      "answers": [
+        "preservation"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 34,
+      "answers": [
+        "High-Tech"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 35,
+      "answers": [
+        "co-existence of styles",
+        "different styles together",
+        "styles mixed"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 36,
+      "answers": [
+        "G"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 37,
+      "answers": [
+        "F"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 38,
+      "answers": [
+        "H"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 39,
+      "answers": [
+        "C"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 40,
+      "answers": [
+        "D"
+      ]
+    }
+  ],
+  "passage_title": "Architecture",
+  "passage_text_excerpt": "",
+  "has_answer_key": true,
+  "_page_num": 139
+}

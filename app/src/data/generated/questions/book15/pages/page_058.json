@@ -1,0 +1,105 @@
+{
+  "section": "listening_part_3",
+  "test_number": 3,
+  "questions": [
+    {
+      "id": 21,
+      "type": "fill_blank",
+      "prompt": "what 21 .......................... the item is on",
+      "options": [],
+      "answers": [],
+      "notes": "Write ONE WORD ONLY"
+    },
+    {
+      "id": 22,
+      "type": "fill_blank",
+      "prompt": "the 22 .......................... of the item, including the headline",
+      "options": [],
+      "answers": [],
+      "notes": "Write ONE WORD ONLY"
+    },
+    {
+      "id": 23,
+      "type": "fill_blank",
+      "prompt": "any 23 .......................... accompanying the item",
+      "options": [],
+      "answers": [],
+      "notes": "Write ONE WORD ONLY"
+    },
+    {
+      "id": 24,
+      "type": "fill_blank",
+      "prompt": "the 24 .......................... of the item, e.g. what’s made prominent",
+      "options": [],
+      "answers": [],
+      "notes": "Write ONE WORD ONLY"
+    },
+    {
+      "id": 25,
+      "type": "fill_blank",
+      "prompt": "the writer’s main 25 ..........................",
+      "options": [],
+      "answers": [],
+      "notes": "Write ONE WORD ONLY"
+    },
+    {
+      "id": 26,
+      "type": "fill_blank",
+      "prompt": "the 26 .......................... the writer may make about the reader",
+      "options": [],
+      "answers": [],
+      "notes": "Write ONE WORD ONLY"
+    },
+    {
+      "id": 27,
+      "type": "matching",
+      "prompt": "national news item",
+      "options": [
+        "A. She will definitely look for a suitable article.",
+        "B. She may look for a suitable article.",
+        "C. She definitely won't look for an article."
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A, B or C"
+    },
+    {
+      "id": 28,
+      "type": "matching",
+      "prompt": "editorial",
+      "options": [
+        "A. She will definitely look for a suitable article.",
+        "B. She may look for a suitable article.",
+        "C. She definitely won't look for an article."
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A, B or C"
+    },
+    {
+      "id": 29,
+      "type": "matching",
+      "prompt": "human interest",
+      "options": [
+        "A. She will definitely look for a suitable article.",
+        "B. She may look for a suitable article.",
+        "C. She definitely won't look for an article."
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A, B or C"
+    },
+    {
+      "id": 30,
+      "type": "matching",
+      "prompt": "arts",
+      "options": [
+        "A. She will definitely look for a suitable article.",
+        "B. She may look for a suitable article.",
+        "C. She definitely won't look for an article."
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A, B or C"
+    }
+  ],
+  "answer_key_entries": [],
+  "has_answer_key": false,
+  "_page_num": 58
+}

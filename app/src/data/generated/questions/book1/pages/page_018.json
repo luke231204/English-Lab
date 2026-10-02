@@ -1,0 +1,50 @@
+{
+  "section": "listening_part_1",
+  "test_number": 1,
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "prompt": "What does her briefcase look like?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answers": [],
+      "notes": "Circle the appropriate letter."
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "prompt": "Which picture shows the distinguishing features?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answers": [],
+      "notes": "Circle the appropriate letter."
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "prompt": "What did she have inside her briefcase?",
+      "options": [
+        "A. wallet, pens and novel",
+        "B. papers and wallet",
+        "C. pens and novel",
+        "D. papers, pens and novel"
+      ],
+      "answers": [],
+      "notes": "Circle the appropriate letter."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 18
+}

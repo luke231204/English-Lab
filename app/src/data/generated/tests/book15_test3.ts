@@ -1,0 +1,751 @@
+import type { TestData } from '../../../types';
+
+export const cambridge15Test3: TestData = {
+  "book": 15,
+  "test": 3,
+  "title": "Cambridge IELTS 15 — Academic Test 3",
+  "listening": {
+    "audio_path": "/assets/audio/book15/test3.mp3",
+    "sections": [
+      {
+        "part": 1,
+        "title": "Part 1",
+        "questions": [
+          {
+            "id": 1,
+            "type": "fill_blank",
+            "prompt": "Administrative assistant in a company that produces 1 ................................ (North London)",
+            "options": [],
+            "answers": [
+              "furniture"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER"
+          },
+          {
+            "id": 2,
+            "type": "fill_blank",
+            "prompt": "go to 2 ................................ and take notes",
+            "options": [],
+            "answers": [
+              "meetings"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER"
+          },
+          {
+            "id": 3,
+            "type": "fill_blank",
+            "prompt": "management of 3 ................................",
+            "options": [],
+            "answers": [
+              "diary"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER"
+          },
+          {
+            "id": 4,
+            "type": "fill_blank",
+            "prompt": "attention to 4 ................................",
+            "options": [],
+            "answers": [
+              "detail(s)"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER"
+          },
+          {
+            "id": 5,
+            "type": "fill_blank",
+            "prompt": "need a minimum of 5 ................................ of experience of teleconferencing",
+            "options": [],
+            "answers": [
+              "1 / one year"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER"
+          }
+        ],
+        "start_sec": 38.6,
+        "end_sec": 461.7
+      },
+      {
+        "part": 2,
+        "title": "Part 2",
+        "questions": [
+          {
+            "id": 11,
+            "type": "mcq",
+            "prompt": "When did the Street Play Scheme first take place?",
+            "options": [
+              "A. two years ago",
+              "B. three years ago",
+              "C. six years ago"
+            ],
+            "answers": [
+              "B"
+            ],
+            "notes": "Choose the correct letter, A, B or C."
+          },
+          {
+            "id": 12,
+            "type": "mcq",
+            "prompt": "How often is Beechwood Road closed to traffic now?",
+            "options": [
+              "A. once a week",
+              "B. on Saturdays and Sundays",
+              "C. once a month"
+            ],
+            "answers": [
+              "A"
+            ],
+            "notes": "Choose the correct letter, A, B or C."
+          },
+          {
+            "id": 13,
+            "type": "mcq",
+            "prompt": "Who is responsible for closing the road?",
+            "options": [
+              "A. a council official",
+              "B. the police",
+              "C. local wardens"
+            ],
+            "answers": [
+              "C"
+            ],
+            "notes": "Choose the correct letter, A, B or C."
+          },
+          {
+            "id": 14,
+            "type": "mcq",
+            "prompt": "Residents who want to use their cars",
+            "options": [
+              "A. have to park in another street.",
+              "B. must drive very slowly.",
+              "C. need permission from a warden."
+            ],
+            "answers": [
+              "B"
+            ],
+            "notes": "Choose the correct letter, A, B or C."
+          },
+          {
+            "id": 15,
+            "type": "mcq",
+            "prompt": "Alice says that Street Play Schemes are most needed in",
+            "options": [
+              "A. wealthy areas.",
+              "B. quiet suburban areas.",
+              "C. areas with heavy traffic."
+            ],
+            "answers": [
+              "C"
+            ],
+            "notes": "Choose the correct letter, A, B or C."
+          },
+          {
+            "id": 16,
+            "type": "mcq",
+            "prompt": "What has been the reaction of residents who are not parents?",
+            "options": [
+              "A. Many of them were unhappy at first.",
+              "B. They like seeing children play in the street.",
+              "C. They are surprised by the lack of noise."
+            ],
+            "answers": [
+              "B"
+            ],
+            "notes": "Choose the correct letter, A, B or C."
+          }
+        ],
+        "start_sec": 461.7,
+        "end_sec": 889.8
+      },
+      {
+        "part": 3,
+        "title": "Part 3",
+        "questions": [
+          {
+            "id": 21,
+            "type": "fill_blank",
+            "prompt": "what 21 .......................... the item is on",
+            "options": [],
+            "answers": [
+              "page"
+            ],
+            "notes": "Write ONE WORD ONLY"
+          },
+          {
+            "id": 22,
+            "type": "fill_blank",
+            "prompt": "the 22 .......................... of the item, including the headline",
+            "options": [],
+            "answers": [
+              "size"
+            ],
+            "notes": "Write ONE WORD ONLY"
+          },
+          {
+            "id": 23,
+            "type": "fill_blank",
+            "prompt": "any 23 .......................... accompanying the item",
+            "options": [],
+            "answers": [
+              "graphic(s)"
+            ],
+            "notes": "Write ONE WORD ONLY"
+          },
+          {
+            "id": 24,
+            "type": "fill_blank",
+            "prompt": "the 24 .......................... of the item, e.g. whatÃ¢â‚¬â„¢s made prominent",
+            "options": [],
+            "answers": [
+              "structure"
+            ],
+            "notes": "Write ONE WORD ONLY"
+          },
+          {
+            "id": 25,
+            "type": "fill_blank",
+            "prompt": "the writerÃ¢â‚¬â„¢s main 25 ..........................",
+            "options": [],
+            "answers": [
+              "purpose"
+            ],
+            "notes": "Write ONE WORD ONLY"
+          },
+          {
+            "id": 26,
+            "type": "fill_blank",
+            "prompt": "the 26 .......................... the writer may make about the reader",
+            "options": [],
+            "answers": [
+              "assumption(s)"
+            ],
+            "notes": "Write ONE WORD ONLY"
+          },
+          {
+            "id": 27,
+            "type": "matching",
+            "prompt": "national news item",
+            "options": [
+              "A. She will definitely look for a suitable article.",
+              "B. She may look for a suitable article.",
+              "C. She definitely won't look for an article."
+            ],
+            "answers": [
+              "A"
+            ],
+            "notes": "Write the correct letter, A, B or C"
+          },
+          {
+            "id": 28,
+            "type": "matching",
+            "prompt": "editorial",
+            "options": [
+              "A. She will definitely look for a suitable article.",
+              "B. She may look for a suitable article.",
+              "C. She definitely won't look for an article."
+            ],
+            "answers": [
+              "C"
+            ],
+            "notes": "Write the correct letter, A, B or C"
+          },
+          {
+            "id": 29,
+            "type": "matching",
+            "prompt": "human interest",
+            "options": [
+              "A. She will definitely look for a suitable article.",
+              "B. She may look for a suitable article.",
+              "C. She definitely won't look for an article."
+            ],
+            "answers": [
+              "C"
+            ],
+            "notes": "Write the correct letter, A, B or C"
+          },
+          {
+            "id": 30,
+            "type": "matching",
+            "prompt": "arts",
+            "options": [
+              "A. She will definitely look for a suitable article.",
+              "B. She may look for a suitable article.",
+              "C. She definitely won't look for an article."
+            ],
+            "answers": [
+              "B"
+            ],
+            "notes": "Write the correct letter, A, B or C"
+          }
+        ],
+        "start_sec": 889.8,
+        "end_sec": 1276.3
+      }
+    ]
+  },
+  "reading": {
+    "passages": [
+      {
+        "passage_num": 1,
+        "title": "Reading Passage 1",
+        "passage_text": "",
+        "questions": [
+          {
+            "id": 1,
+            "type": "tfng",
+            "prompt": "On leaving school, Moore did what his father wanted him to do.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "answers": [
+              "TRUE"
+            ],
+            "notes": "In boxes 1-7 on your answer sheet, write TRUE, FALSE or NOT GIVEN"
+          },
+          {
+            "id": 2,
+            "type": "tfng",
+            "prompt": "Moore began studying sculpture in his first term at the Leeds School of Art.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "answers": [
+              "FALSE"
+            ],
+            "notes": "In boxes 1-7 on your answer sheet, write TRUE, FALSE or NOT GIVEN"
+          },
+          {
+            "id": 3,
+            "type": "tfng",
+            "prompt": "When Moore started at the Royal College of Art, its reputation for teaching sculpture was excellent.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "answers": [
+              "NOT GIVEN"
+            ],
+            "notes": "In boxes 1-7 on your answer sheet, write TRUE, FALSE or NOT GIVEN"
+          },
+          {
+            "id": 4,
+            "type": "tfng",
+            "prompt": "Moore became aware of ancient sculpture as a result of visiting London museums.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "answers": [
+              "TRUE"
+            ],
+            "notes": "In boxes 1-7 on your answer sheet, write TRUE, FALSE or NOT GIVEN"
+          },
+          {
+            "id": 5,
+            "type": "tfng",
+            "prompt": "The Trocadero Museum's Mayan sculpture attracted a lot of public interest.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "answers": [
+              "NOT GIVEN"
+            ],
+            "notes": "In boxes 1-7 on your answer sheet, write TRUE, FALSE or NOT GIVEN"
+          },
+          {
+            "id": 6,
+            "type": "tfng",
+            "prompt": "Moore thought the Mayan sculpture was similar in certain respects to other stone sculptures.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "answers": [
+              "FALSE"
+            ],
+            "notes": "In boxes 1-7 on your answer sheet, write TRUE, FALSE or NOT GIVEN"
+          },
+          {
+            "id": 7,
+            "type": "tfng",
+            "prompt": "The artists who belonged to Unit One wanted to make modern art and architecture more popular.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "answers": [
+              "TRUE"
+            ],
+            "notes": "In boxes 1-7 on your answer sheet, write TRUE, FALSE or NOT GIVEN"
+          }
+        ]
+      },
+      {
+        "passage_num": 2,
+        "title": null,
+        "passage_text": null,
+        "questions": [
+          {
+            "id": 14,
+            "type": "matching",
+            "prompt": "Section A",
+            "options": [
+              "i",
+              "ii",
+              "iii",
+              "iv",
+              "v",
+              "vi",
+              "vii",
+              "viii",
+              "ix",
+              "x"
+            ],
+            "answers": [
+              "iii"
+            ],
+            "notes": "Write the correct number, iÃ¢â‚¬â€œx"
+          },
+          {
+            "id": 15,
+            "type": "matching",
+            "prompt": "Section B",
+            "options": [
+              "i",
+              "ii",
+              "iii",
+              "iv",
+              "v",
+              "vi",
+              "vii",
+              "viii",
+              "ix",
+              "x"
+            ],
+            "answers": [
+              "vi"
+            ],
+            "notes": "Write the correct number, iÃ¢â‚¬â€œx"
+          },
+          {
+            "id": 16,
+            "type": "matching",
+            "prompt": "Section C",
+            "options": [
+              "i",
+              "ii",
+              "iii",
+              "iv",
+              "v",
+              "vi",
+              "vii",
+              "viii",
+              "ix",
+              "x"
+            ],
+            "answers": [
+              "v"
+            ],
+            "notes": "Write the correct number, iÃ¢â‚¬â€œx"
+          },
+          {
+            "id": 17,
+            "type": "matching",
+            "prompt": "Section D",
+            "options": [
+              "i",
+              "ii",
+              "iii",
+              "iv",
+              "v",
+              "vi",
+              "vii",
+              "viii",
+              "ix",
+              "x"
+            ],
+            "answers": [
+              "x"
+            ],
+            "notes": "Write the correct number, iÃ¢â‚¬â€œx"
+          },
+          {
+            "id": 18,
+            "type": "matching",
+            "prompt": "Section E",
+            "options": [
+              "i",
+              "ii",
+              "iii",
+              "iv",
+              "v",
+              "vi",
+              "vii",
+              "viii",
+              "ix",
+              "x"
+            ],
+            "answers": [
+              "iv"
+            ],
+            "notes": "Write the correct number, iÃ¢â‚¬â€œx"
+          },
+          {
+            "id": 19,
+            "type": "matching",
+            "prompt": "Section F",
+            "options": [
+              "i",
+              "ii",
+              "iii",
+              "iv",
+              "v",
+              "vi",
+              "vii",
+              "viii",
+              "ix",
+              "x"
+            ],
+            "answers": [
+              "viii"
+            ],
+            "notes": "Write the correct number, iÃ¢â‚¬â€œx"
+          },
+          {
+            "id": 20,
+            "type": "matching",
+            "prompt": "Section G",
+            "options": [
+              "i",
+              "ii",
+              "iii",
+              "iv",
+              "v",
+              "vi",
+              "vii",
+              "viii",
+              "ix",
+              "x"
+            ],
+            "answers": [
+              "i"
+            ],
+            "notes": "Write the correct number, iÃ¢â‚¬â€œx"
+          }
+        ]
+      },
+      {
+        "passage_num": 3,
+        "title": null,
+        "passage_text": null,
+        "questions": [
+          {
+            "id": 27,
+            "type": "matching",
+            "prompt": "In fairy tales, details of the plot",
+            "options": [
+              "A. may be provided through methods used in biological research.",
+              "B. are the reason for their survival.",
+              "C. show considerable global variation.",
+              "D. contain animals which transform to become humans.",
+              "E. were originally spoken rather than written.",
+              "F. have been developed without factual basis."
+            ],
+            "answers": [
+              "C"
+            ],
+            "notes": "Complete each sentence with the correct ending, A-F. Write the correct letter in boxes 27-31 on your answer sheet."
+          },
+          {
+            "id": 28,
+            "type": "matching",
+            "prompt": "Tehrani rejects the idea that the useful lessons for life in fairy tales",
+            "options": [
+              "A. may be provided through methods used in biological research.",
+              "B. are the reason for their survival.",
+              "C. show considerable global variation.",
+              "D. contain animals which transform to become humans.",
+              "E. were originally spoken rather than written.",
+              "F. have been developed without factual basis."
+            ],
+            "answers": [
+              "B"
+            ],
+            "notes": "Complete each sentence with the correct ending, A-F."
+          },
+          {
+            "id": 29,
+            "type": "matching",
+            "prompt": "Various theories about the social significance of fairy tales",
+            "options": [
+              "A. may be provided through methods used in biological research.",
+              "B. are the reason for their survival.",
+              "C. show considerable global variation.",
+              "D. contain animals which transform to become humans.",
+              "E. were originally spoken rather than written.",
+              "F. have been developed without factual basis."
+            ],
+            "answers": [
+              "F"
+            ],
+            "notes": "Complete each sentence with the correct ending, A-F."
+          },
+          {
+            "id": 30,
+            "type": "matching",
+            "prompt": "Insights into the development of fairy tales",
+            "options": [
+              "A. may be provided through methods used in biological research.",
+              "B. are the reason for their survival.",
+              "C. show considerable global variation.",
+              "D. contain animals which transform to become humans.",
+              "E. were originally spoken rather than written.",
+              "F. have been developed without factual basis."
+            ],
+            "answers": [
+              "A"
+            ],
+            "notes": "Complete each sentence with the correct ending, A-F."
+          },
+          {
+            "id": 31,
+            "type": "matching",
+            "prompt": "All the fairy tales analysed by Tehrani",
+            "options": [
+              "A. may be provided through methods used in biological research.",
+              "B. are the reason for their survival.",
+              "C. show considerable global variation.",
+              "D. contain animals which transform to become humans.",
+              "E. were originally spoken rather than written.",
+              "F. have been developed without factual basis."
+            ],
+            "answers": [
+              "E"
+            ],
+            "notes": "Complete each sentence with the correct ending, A-F."
+          },
+          {
+            "id": 32,
+            "type": "fill_blank",
+            "prompt": "Q32",
+            "options": [],
+            "answers": [
+              "D"
+            ],
+            "notes": ""
+          },
+          {
+            "id": 33,
+            "type": "fill_blank",
+            "prompt": "Q33",
+            "options": [],
+            "answers": [
+              "F"
+            ],
+            "notes": ""
+          },
+          {
+            "id": 34,
+            "type": "fill_blank",
+            "prompt": "Q34",
+            "options": [],
+            "answers": [
+              "B"
+            ],
+            "notes": ""
+          },
+          {
+            "id": 35,
+            "type": "fill_blank",
+            "prompt": "Q35",
+            "options": [],
+            "answers": [
+              "C"
+            ],
+            "notes": ""
+          },
+          {
+            "id": 36,
+            "type": "fill_blank",
+            "prompt": "Q36",
+            "options": [],
+            "answers": [
+              "G"
+            ],
+            "notes": ""
+          },
+          {
+            "id": 37,
+            "type": "mcq",
+            "prompt": "What method did Jamie Tehrani use to test his ideas about fairy tales?",
+            "options": [
+              "A. He compared oral and written forms of the same stories.",
+              "B. He looked at many different forms of the same basic story.",
+              "C. He looked at unrelated stories from many different countries.",
+              "D. He contrasted the development of fairy tales with that of living creatures."
+            ],
+            "answers": [
+              "B"
+            ],
+            "notes": "Choose the correct letter, A, B, C or D."
+          },
+          {
+            "id": 38,
+            "type": "mcq",
+            "prompt": "When discussing Tehrani's views, Jack Zipes suggests that",
+            "options": [
+              "A. Tehrani ignores key changes in the role of women.",
+              "B. stories which are too horrific are not always taken seriously.",
+              "C. Tehrani overemphasises the importance of violence in stories.",
+              "D. features of stories only survive if they have a deeper significance."
+            ],
+            "answers": [
+              "D"
+            ],
+            "notes": "Choose the correct letter, A, B, C or D."
+          },
+          {
+            "id": 39,
+            "type": "mcq",
+            "prompt": "Why does Tehrani refer to Chinese and Japanese fairy tales?",
+            "options": [
+              "A. to indicate that Jack Zipes' theory is incorrect",
+              "B. to suggest that crime is a global problem",
+              "C. to imply that all fairy tales have a similar meaning",
+              "D. to add more evidence for Jack Zipes' ideas"
+            ],
+            "answers": [
+              "A"
+            ],
+            "notes": "Choose the correct letter, A, B, C or D."
+          },
+          {
+            "id": 40,
+            "type": "mcq",
+            "prompt": "What does Mathias Clasen believe about fairy tales?",
+            "options": [
+              "A. They are a safe way of learning to deal with fear.",
+              "B. They are a type of entertainment that some people avoid.",
+              "C. They reflect the changing values of our society.",
+              "D. They reduce our ability to deal with real-world problems."
+            ],
+            "answers": [
+              "A"
+            ],
+            "notes": "Choose the correct letter, A, B, C or D."
+          }
+        ]
+      }
+    ]
+  }
+};

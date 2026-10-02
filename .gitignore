@@ -1,0 +1,92 @@
+# ==========================================
+# STRICT SECURITY & PRIVACY (NEVER COMMIT)
+# ==========================================
+# Secret API Keys and Config
+scripts/config.py
+config.py
+*.env
+*.env.*
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# API credentials & keys
+*token*
+*secret*
+*credential*
+*.pem
+*.key
+
+# ==========================================
+# LARGE BINARY FILES & SCANNED ASSETS
+# ==========================================
+# Scanned PDF Books (Large files > 50-100MB)
+Book */
+Book*/*.pdf
+*.pdf
+
+# Raw Audio Binaries (over GitHub 100MB limit)
+*.mp3
+*.wav
+*.m4a
+*.ogg
+app/public/assets/audio/
+test_*.mp3
+test_*.wav
+
+# ==========================================
+# DEPENDENCIES & BUILD OUTPUTS
+# ==========================================
+# Node.js
+node_modules/
+app/node_modules/
+dist/
+app/dist/
+build/
+.next/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*/__pycache__/
+*/**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary Gemini/IDE scratch artifacts
+gemini-code-*.md
+gemini-code-*.ts
+gemini-code-*.json
+scripts/_*
+scripts/*.log
+scripts/test_vision.py

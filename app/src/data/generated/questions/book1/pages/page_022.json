@@ -1,0 +1,63 @@
+{
+  "section": "listening_part_3",
+  "test_number": 1,
+  "questions": [
+    {
+      "id": 22,
+      "type": "mcq",
+      "prompt": "The orientation meeting",
+      "options": [
+        "A. took place recently.",
+        "B. took place last term.",
+        "C. will take place tomorrow.",
+        "D. will take place next week."
+      ],
+      "answers": [],
+      "notes": "Circle the appropriate letter."
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "prompt": "Attendance at lectures is",
+      "options": [
+        "A. optional after 4 pm.",
+        "B. closely monitored.",
+        "C. difficult to enforce.",
+        "D. sometimes unnecessary."
+      ],
+      "answers": [],
+      "notes": "Circle the appropriate letter."
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "prompt": "Tutorials take place",
+      "options": [
+        "A. every morning.",
+        "B. twice a week.",
+        "C. three mornings a week.",
+        "D. three afternoons a week."
+      ],
+      "answers": [],
+      "notes": "Circle the appropriate letter."
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "prompt": "The lecturer's name is",
+      "options": [
+        "A. Roberts.",
+        "B. Rawson.",
+        "C. Rogers.",
+        "D. Robertson."
+      ],
+      "answers": [],
+      "notes": "Circle the appropriate letter."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 22
+}

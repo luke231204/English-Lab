@@ -1,0 +1,111 @@
+{
+  "section": "reading_passage_2",
+  "test_number": 2,
+  "questions": [
+    {
+      "id": 14,
+      "type": "matching",
+      "prompt": "a reference to how further disappearance of multiple species could be avoided",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-F, in boxes 14-17 on your answer sheet. You may use any letter more than once."
+    },
+    {
+      "id": 15,
+      "type": "matching",
+      "prompt": "explanation of a way of reproducing an extinct animal using the DNA of only that species",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-F, in boxes 14-17 on your answer sheet. You may use any letter more than once."
+    },
+    {
+      "id": 16,
+      "type": "matching",
+      "prompt": "reference to a habitat which has suffered following the extinction of a species",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-F, in boxes 14-17 on your answer sheet. You may use any letter more than once."
+    },
+    {
+      "id": 17,
+      "type": "matching",
+      "prompt": "mention of the exact point at which a particular species became extinct",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-F, in boxes 14-17 on your answer sheet. You may use any letter more than once."
+    },
+    {
+      "id": 18,
+      "type": "summary_completion",
+      "prompt": "Professor George Church and his team are trying to identify the 18 ........................................ which enabled mammoths to live in the tundra.",
+      "options": [],
+      "answers": [],
+      "notes": "Choose NO MORE THAN TWO WORDS from the passage for each answer."
+    },
+    {
+      "id": 19,
+      "type": "summary_completion",
+      "prompt": "According to Church, introducing Asian elephants to the tundra would involve certain physical adaptations to minimise 19 ........................................ .",
+      "options": [],
+      "answers": [],
+      "notes": "Choose NO MORE THAN TWO WORDS from the passage for each answer."
+    },
+    {
+      "id": 20,
+      "type": "summary_completion",
+      "prompt": "To survive in the tundra, the species would need to have the mammoth-like features of thicker hair, 20 ........................................ of a reduced size",
+      "options": [],
+      "answers": [],
+      "notes": "Choose NO MORE THAN TWO WORDS from the passage for each answer."
+    },
+    {
+      "id": 21,
+      "type": "summary_completion",
+      "prompt": "and more 21 ........................................ .",
+      "options": [],
+      "answers": [],
+      "notes": "Choose NO MORE THAN TWO WORDS from the passage for each answer."
+    },
+    {
+      "id": 22,
+      "type": "summary_completion",
+      "prompt": "Repopulating the tundra with mammoths or Asian elephant/mammoth hybrids would also have an impact on the environment, which could help to reduce temperatures and decrease 22 ........................................ .",
+      "options": [],
+      "answers": [],
+      "notes": "Choose NO MORE THAN TWO WORDS from the passage for each answer."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": "The woolly mammoth revival project",
+  "passage_text_excerpt": "Professor George Church and his team are trying to identify the 18 ........................................ which enabled mammoths to live in the tundra. The findings could help preserve the mammoth’s close relative, the endangered Asian elephant.\n\nAccording to Church, introducing Asian elephants to the",
+  "has_answer_key": false,
+  "_page_num": 44
+}

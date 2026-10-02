@@ -1,0 +1,105 @@
+{
+  "section": "reading_passage_3",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 33,
+      "type": "matching",
+      "prompt": "He referred to the relevance of the form of transport used.",
+      "options": [
+        "A. Peter Fleming",
+        "B. Ran Fiennes",
+        "C. Chris Bonington",
+        "D. Robin Hanbury-Tenison",
+        "E. Wilfred Thesiger"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-E, in boxes 33-37. You may use any letter more than once."
+    },
+    {
+      "id": 34,
+      "type": "matching",
+      "prompt": "He described feelings on coming back home after a long journey.",
+      "options": [
+        "A. Peter Fleming",
+        "B. Ran Fiennes",
+        "C. Chris Bonington",
+        "D. Robin Hanbury-Tenison",
+        "E. Wilfred Thesiger"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-E, in boxes 33-37. You may use any letter more than once."
+    },
+    {
+      "id": 35,
+      "type": "matching",
+      "prompt": "He worked for the benefit of specific groups of people.",
+      "options": [
+        "A. Peter Fleming",
+        "B. Ran Fiennes",
+        "C. Chris Bonington",
+        "D. Robin Hanbury-Tenison",
+        "E. Wilfred Thesiger"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-E, in boxes 33-37. You may use any letter more than once."
+    },
+    {
+      "id": 36,
+      "type": "matching",
+      "prompt": "He did not consider learning about oneself an essential part of exploration.",
+      "options": [
+        "A. Peter Fleming",
+        "B. Ran Fiennes",
+        "C. Chris Bonington",
+        "D. Robin Hanbury-Tenison",
+        "E. Wilfred Thesiger"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-E, in boxes 33-37. You may use any letter more than once."
+    },
+    {
+      "id": 37,
+      "type": "matching",
+      "prompt": "He defined exploration as being both unique and of value to others.",
+      "options": [
+        "A. Peter Fleming",
+        "B. Ran Fiennes",
+        "C. Chris Bonington",
+        "D. Robin Hanbury-Tenison",
+        "E. Wilfred Thesiger"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-E, in boxes 33-37. You may use any letter more than once."
+    },
+    {
+      "id": 38,
+      "type": "summary_completion",
+      "prompt": "The writer has experience of a large number of 38 ............................",
+      "options": [],
+      "answers": [],
+      "notes": "Choose NO MORE THAN TWO WORDS from the passage for each answer."
+    },
+    {
+      "id": 39,
+      "type": "summary_completion",
+      "prompt": "and was the first stranger that certain previously 39 ............................ people had encountered.",
+      "options": [],
+      "answers": [],
+      "notes": "Choose NO MORE THAN TWO WORDS from the passage for each answer."
+    },
+    {
+      "id": 40,
+      "type": "summary_completion",
+      "prompt": "He believes there is no need for further exploration of Earth's 40 ............................",
+      "options": [],
+      "answers": [],
+      "notes": "Choose NO MORE THAN TWO WORDS from the passage for each answer."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": "The writer's own bias",
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 29
+}

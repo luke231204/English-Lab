@@ -1,0 +1,19 @@
+{
+  "section": "other",
+  "test_number": 2,
+  "questions": [
+    {
+      "id": 1,
+      "type": "sentence_completion",
+      "prompt": "In the future, nobody will buy printed newspapers or books because they will be able to read everything they want online without paying. To what extent do you agree or disagree with this statement?",
+      "options": [],
+      "answers": [],
+      "notes": "WRITING TASK 2: You should spend about 40 minutes on this task. Write at least 250 words."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": "WRITING TASK 2",
+  "passage_text_excerpt": "In the future, nobody will buy printed newspapers or books because they will be able to read everything they want online without paying. To what extent do you agree or disagree with this statement? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "has_answer_key": false,
+  "_page_num": 52
+}

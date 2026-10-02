@@ -1,0 +1,67 @@
+{
+  "section": "reading_passage_3",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 29,
+      "type": "fill_blank",
+      "prompt": "BUILDING MATERIALS for Before 18th century",
+      "options": [],
+      "answers": [],
+      "notes": "Write NO MORE THAN THREE WORDS for each answer."
+    },
+    {
+      "id": 30,
+      "type": "fill_blank",
+      "prompt": "STYLE OF PERIOD for 1920s (introduction of ...)",
+      "options": [],
+      "answers": [],
+      "notes": "Write NO MORE THAN THREE WORDS for each answer."
+    },
+    {
+      "id": 31,
+      "type": "fill_blank",
+      "prompt": "STYLE OF PERIOD for 1930s - 1950s",
+      "options": [],
+      "answers": [],
+      "notes": "Write NO MORE THAN THREE WORDS for each answer."
+    },
+    {
+      "id": 32,
+      "type": "fill_blank",
+      "prompt": "CHARACTERISTICS for 1960s (decline of Modernism)",
+      "options": [],
+      "answers": [],
+      "notes": "Write NO MORE THAN THREE WORDS for each answer."
+    },
+    {
+      "id": 33,
+      "type": "fill_blank",
+      "prompt": "CHARACTERISTICS for 1970s (... of historic buildings)",
+      "options": [],
+      "answers": [],
+      "notes": "Write NO MORE THAN THREE WORDS for each answer."
+    },
+    {
+      "id": 34,
+      "type": "fill_blank",
+      "prompt": "STYLE OF PERIOD for 1970s (beginning of ... era)",
+      "options": [],
+      "answers": [],
+      "notes": "Write NO MORE THAN THREE WORDS for each answer."
+    },
+    {
+      "id": 35,
+      "type": "fill_blank",
+      "prompt": "CHARACTERISTICS for 1980s (Post-Modernism)",
+      "options": [],
+      "answers": [],
+      "notes": "Write NO MORE THAN THREE WORDS for each answer."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": "celebrated scientific and engineering achievements by openly parading the sophisticated techniques used in construction. Such buildings are commonly made of metal and glass; examples are Stansted airport and the Lloyd's building in London.",
+  "has_answer_key": false,
+  "_page_num": 35
+}

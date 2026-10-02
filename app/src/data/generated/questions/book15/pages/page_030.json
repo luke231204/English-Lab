@@ -1,0 +1,19 @@
+{
+  "section": "other",
+  "test_number": 1,
+  "questions": [
+    {
+      "id": 1,
+      "type": "summary_completion",
+      "prompt": "The chart below shows the results of a survey about people's coffee and tea buying and drinking habits in five Australian cities. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+      "options": [],
+      "answers": [],
+      "notes": "Writing Task 1"
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": "Coffee and tea buying and drinking habits in five cities in Australia",
+  "passage_text_excerpt": "The chart below shows the results of a survey about people's coffee and tea buying and drinking habits in five Australian cities. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+  "has_answer_key": false,
+  "_page_num": 30
+}

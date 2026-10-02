@@ -1,0 +1,48 @@
+{
+  "section": "reading_passage_3",
+  "test_number": 4,
+  "questions": [
+    {
+      "id": 36,
+      "type": "sentence_completion",
+      "prompt": "While the population of a species may be on the increase, there is always a chance that small isolated groups ... (36) ...",
+      "options": [],
+      "answers": [],
+      "notes": "Use NO MORE THAN THREE WORDS for each answer."
+    },
+    {
+      "id": 37,
+      "type": "sentence_completion",
+      "prompt": "Survival of a species depends on a balance between the size of a population and its ... (37) ...",
+      "options": [],
+      "answers": [],
+      "notes": "Use NO MORE THAN THREE WORDS for each answer."
+    },
+    {
+      "id": 38,
+      "type": "sentence_completion",
+      "prompt": "The likelihood that animals which live in forests will become extinct is increased when ... (38) ...",
+      "options": [],
+      "answers": [],
+      "notes": "Use NO MORE THAN THREE WORDS for each answer."
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "prompt": "An alternative heading for the passage could be:",
+      "options": [
+        "A. The protection of native flora and fauna",
+        "B. Influential factors in assessing survival probability",
+        "C. An economic rationale for the logging of forests",
+        "D. Preventive measures for the extinction of a species"
+      ],
+      "answers": [],
+      "notes": "Choose the appropriate letter A-D and write it in box 39 on your answer sheet."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": "",
+  "has_answer_key": false,
+  "_page_num": 96
+}

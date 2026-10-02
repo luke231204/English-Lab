@@ -1,0 +1,61 @@
+{
+  "section": "audio_script",
+  "test_number": 3,
+  "questions": [
+    {
+      "id": 1,
+      "type": "fill_blank",
+      "prompt": "The company is called Home Solutions and they design and make ___________.",
+      "options": [],
+      "answers": [
+        "furniture"
+      ],
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "type": "fill_blank",
+      "prompt": "They expect the person they appoint to attend ___________ and take notes there.",
+      "options": [],
+      "answers": [
+        "meetings"
+      ],
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "type": "fill_blank",
+      "prompt": "In his last job, Joe also had to manage the ___________.",
+      "options": [],
+      "answers": [
+        "diary"
+      ],
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "type": "fill_blank",
+      "prompt": "The company wants someone who is careful and takes care with ___________.",
+      "options": [],
+      "answers": [
+        "details"
+      ],
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "type": "fill_blank",
+      "prompt": "The company asks for at least ___________ year(s) of experience.",
+      "options": [],
+      "answers": [
+        "one"
+      ],
+      "notes": ""
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": "Good morning. Thanks for coming in to see us here at the agency, Joe. I'm one of the agency representatives, and my name's Sally Baker. Hi Sally. I think we spoke on the phone, didn't we? That's right, we did. So thank you for sending in your CV. We've had quite a careful look at it and I t",
+  "has_answer_key": false,
+  "_page_num": 109
+}

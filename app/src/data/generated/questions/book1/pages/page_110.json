@@ -1,0 +1,107 @@
+{
+  "section": "reading_passage_2",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 30,
+      "type": "summary_completion",
+      "prompt": "From the point of view of recycling, paper has two advantages over minerals and oil in that firstly it comes from a resource which is ... (30) ...",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE OR TWO WORDS from the Reading Passage for each answer."
+    },
+    {
+      "id": 31,
+      "type": "summary_completion",
+      "prompt": "and secondly it is less threatening to our environment when we throw it away because it is ... (31) ...",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE OR TWO WORDS from the Reading Passage for each answer."
+    },
+    {
+      "id": 32,
+      "type": "summary_completion",
+      "prompt": "Although Australia's record in the re-use of waste paper is good, it is still necessary to use a combination of recycled fibre and ... (32) .. to make new paper.",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE OR TWO WORDS from the Reading Passage for each answer."
+    },
+    {
+      "id": 33,
+      "type": "summary_completion",
+      "prompt": "The paper industry has contributed positively and people have also been encouraged by ... (33) ... to collect their waste on a regular basis.",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE OR TWO WORDS from the Reading Passage for each answer."
+    },
+    {
+      "id": 34,
+      "type": "summary_completion",
+      "prompt": "One major difficulty is the removal of ink from used paper but ... (34) ... are being made in this area.",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE OR TWO WORDS from the Reading Passage for each answer."
+    },
+    {
+      "id": 35,
+      "type": "summary_completion",
+      "prompt": "However, we need to learn to accept paper which is generally of a lower ... (35) ... than before and to sort our waste paper by removing .. (36) .. before discarding it for collection.",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE OR TWO WORDS from the Reading Passage for each answer."
+    },
+    {
+      "id": 36,
+      "type": "summary_completion",
+      "prompt": "However, we need to learn to accept paper which is generally of a lower ... (35) ... than before and to sort our waste paper by removing .. (36) .. before discarding it for collection.",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE OR TWO WORDS from the Reading Passage for each answer."
+    },
+    {
+      "id": 37,
+      "type": "summary_completion",
+      "prompt": "Waste paper collected from: Factories, Retail stores, (37) ........................................., Paper converters and printers, Households",
+      "options": [],
+      "answers": [],
+      "notes": "Use ONE OR TWO WORDS for each answer."
+    },
+    {
+      "id": 38,
+      "type": "summary_completion",
+      "prompt": "The paper is then (38) .........................................",
+      "options": [],
+      "answers": [],
+      "notes": "Use ONE OR TWO WORDS for each answer."
+    },
+    {
+      "id": 39,
+      "type": "summary_completion",
+      "prompt": "and (39) ......................................... by adding water",
+      "options": [],
+      "answers": [],
+      "notes": "Use ONE OR TWO WORDS for each answer."
+    },
+    {
+      "id": 40,
+      "type": "summary_completion",
+      "prompt": "Chemicals are added in order to (40) .........................................",
+      "options": [],
+      "answers": [],
+      "notes": "Use ONE OR TWO WORDS for each answer."
+    },
+    {
+      "id": 41,
+      "type": "summary_completion",
+      "prompt": "The fibres are then (41) .........................................",
+      "options": [],
+      "answers": [],
+      "notes": "Use ONE OR TWO WORDS for each answer."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 110
+}

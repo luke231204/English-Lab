@@ -1,0 +1,59 @@
+{
+  "section": "reading_passage_1",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 8,
+      "type": "fill_blank",
+      "prompt": "Nutmeg was brought to Europe by the 8 .................",
+      "options": [],
+      "answers": [],
+      "notes": "Complete the table below. Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 9,
+      "type": "fill_blank",
+      "prompt": "Demand for nutmeg grew, as it was believed to be effective against the disease known as the 9 .................",
+      "options": [],
+      "answers": [],
+      "notes": "Complete the table below. Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 10,
+      "type": "fill_blank",
+      "prompt": "The Dutch ... put 10 ................. on nutmeg to avoid it being cultivated outside the islands",
+      "options": [],
+      "answers": [],
+      "notes": "Complete the table below. Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 11,
+      "type": "fill_blank",
+      "prompt": "The Dutch ... finally obtained the island of 11 ................. from the British",
+      "options": [],
+      "answers": [],
+      "notes": "Complete the table below. Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 12,
+      "type": "fill_blank",
+      "prompt": "1770 – nutmeg plants were secretly taken to 12 .................",
+      "options": [],
+      "answers": [],
+      "notes": "Complete the table below. Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 13,
+      "type": "fill_blank",
+      "prompt": "1778 – half the Banda Islands’ nutmeg plantations were destroyed by a 13 .................",
+      "options": [],
+      "answers": [],
+      "notes": "Complete the table below. Choose ONE WORD ONLY from the passage for each answer."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 21
+}

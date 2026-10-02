@@ -1,0 +1,123 @@
+{
+  "section": "answer_key",
+  "test_number": null,
+  "questions": [],
+  "answer_key_entries": [
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 28,
+      "answers": [
+        "iii"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 29,
+      "answers": [
+        "v"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 30,
+      "answers": [
+        "iv"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 31,
+      "answers": [
+        "vii"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 32,
+      "answers": [
+        "viii"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 33,
+      "answers": [
+        "NO"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 34,
+      "answers": [
+        "YES"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 35,
+      "answers": [
+        "NOT GIVEN"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 36,
+      "answers": [
+        "YES"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 37,
+      "answers": [
+        "NOT GIVEN"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 38,
+      "answers": [
+        "D"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 39,
+      "answers": [
+        "B"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 40,
+      "answers": [
+        "F"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 41,
+      "answers": [
+        "H"
+      ]
+    }
+  ],
+  "passage_title": "Tourism",
+  "passage_text_excerpt": "",
+  "has_answer_key": true,
+  "_page_num": 143
+}

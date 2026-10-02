@@ -1,0 +1,59 @@
+{
+  "section": "listening_part_2",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 11,
+      "type": "mcq",
+      "prompt": "According to the speaker, the company",
+      "options": [
+        "A has been in business for longer than most of its competitors.",
+        "B arranges holidays to more destinations than its competitors.",
+        "C has more customers than its competitors."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "prompt": "Where can customers meet the tour manager before travelling to the Isle of Man?",
+      "options": [
+        "A Liverpool",
+        "B Heysham",
+        "C Luton"
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "prompt": "How many lunches are included in the price of the holiday?",
+      "options": [
+        "A three",
+        "B four",
+        "C five"
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "prompt": "Customers have to pay extra for",
+      "options": [
+        "A guaranteeing themselves a larger room.",
+        "B booking at short notice.",
+        "C transferring to another date."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": "Matthews Island Holidays",
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 13
+}

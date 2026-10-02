@@ -1,0 +1,59 @@
+{
+  "section": "listening_part_3",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 26,
+      "type": "fill_blank",
+      "prompt": "A piece of work on a given topic. Students must: (26) ........................................ for 25 minutes",
+      "options": [],
+      "answers": [],
+      "notes": "Complete the notes below using NO MORE THAN THREE WORDS."
+    },
+    {
+      "id": 27,
+      "type": "fill_blank",
+      "prompt": "A piece of work on a given topic. Students must: ... for 25 minutes, (27) ........................................",
+      "options": [],
+      "answers": [],
+      "notes": "Complete the notes below using NO MORE THAN THREE WORDS."
+    },
+    {
+      "id": 28,
+      "type": "fill_blank",
+      "prompt": "Essay topic: Usually (28) ........................................",
+      "options": [],
+      "answers": [],
+      "notes": "Complete the notes below using NO MORE THAN THREE WORDS."
+    },
+    {
+      "id": 29,
+      "type": "fill_blank",
+      "prompt": "Type of exam: (29) ........................................",
+      "options": [],
+      "answers": [],
+      "notes": "Complete the notes below using NO MORE THAN THREE WORDS."
+    },
+    {
+      "id": 30,
+      "type": "fill_blank",
+      "prompt": "Library: Important books are in (30) ........................................",
+      "options": [],
+      "answers": [],
+      "notes": "Complete the notes below using NO MORE THAN THREE WORDS."
+    },
+    {
+      "id": 31,
+      "type": "fill_blank",
+      "prompt": "Focus of course: Focus on (31) ........................................",
+      "options": [],
+      "answers": [],
+      "notes": "Complete the notes below using NO MORE THAN THREE WORDS."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 23
+}

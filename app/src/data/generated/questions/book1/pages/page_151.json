@@ -1,0 +1,109 @@
+{
+  "section": "answer_key",
+  "test_number": null,
+  "questions": [],
+  "answer_key_entries": [
+    {
+      "test_number": 3,
+      "module": "reading",
+      "id": 28,
+      "answers": [
+        "YES"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "reading",
+      "id": 29,
+      "answers": [
+        "NO"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "reading",
+      "id": 30,
+      "answers": [
+        "NO"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "reading",
+      "id": 31,
+      "answers": [
+        "NOT GIVEN"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "reading",
+      "id": 32,
+      "answers": [
+        "vi"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "reading",
+      "id": 33,
+      "answers": [
+        "iii"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "reading",
+      "id": 34,
+      "answers": [
+        "i"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "reading",
+      "id": 35,
+      "answers": [
+        "ii"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "reading",
+      "id": 36,
+      "answers": [
+        "will/may not survive",
+        "will/may/could become extinct"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "reading",
+      "id": 37,
+      "answers": [
+        "locality",
+        "distnbution"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "reading",
+      "id": 38,
+      "answers": [
+        "logging takes place/occurs"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "reading",
+      "id": 39,
+      "answers": [
+        "B"
+      ]
+    }
+  ],
+  "passage_title": "Population viability analysis",
+  "passage_text_excerpt": "",
+  "has_answer_key": true,
+  "_page_num": 151
+}

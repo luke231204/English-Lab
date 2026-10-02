@@ -1,0 +1,63 @@
+{
+  "section": "listening_part_3",
+  "test_number": 2,
+  "questions": [
+    {
+      "id": 21,
+      "type": "mcq",
+      "prompt": "At first Fiona thinks that Martin's tutorial topic is",
+      "options": [
+        "A. inappropriate.",
+        "B. dull.",
+        "C. interesting.",
+        "D. fascinating."
+      ],
+      "answers": [],
+      "notes": "Circle the correct answer."
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "prompt": "According to Martin, the banana",
+      "options": [
+        "A. has only recently been cultivated.",
+        "B. is economical to grow.",
+        "C. is good for your health.",
+        "D. is his favourite food."
+      ],
+      "answers": [],
+      "notes": "Circle the correct answer."
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "prompt": "Fiona listens to Martin because she",
+      "options": [
+        "A. wants to know more about bananas.",
+        "B. has nothing else to do today.",
+        "C. is interested in the economy of Australia.",
+        "D. wants to help Martin."
+      ],
+      "answers": [],
+      "notes": "Circle the correct answer."
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "prompt": "According to Martin, bananas were introduced into Australia from",
+      "options": [
+        "A. India.",
+        "B. England.",
+        "C. China.",
+        "D. Africa."
+      ],
+      "answers": [],
+      "notes": "Circle the correct answer."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 42
+}

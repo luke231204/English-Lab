@@ -1,0 +1,67 @@
+{
+  "section": "listening_part_2",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 17,
+      "type": "mcq",
+      "prompt": "Which TWO benefits for children does Alice think are the most important?",
+      "options": [
+        "A. increased physical activity",
+        "B. increased sense of independence",
+        "C. opportunity to learn new games",
+        "D. opportunity to be part of a community",
+        "E. opportunity to make new friends"
+      ],
+      "answers": [],
+      "notes": "Choose TWO letters, A-E."
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "prompt": "Which TWO benefits for children does Alice think are the most important?",
+      "options": [
+        "A. increased physical activity",
+        "B. increased sense of independence",
+        "C. opportunity to learn new games",
+        "D. opportunity to be part of a community",
+        "E. opportunity to make new friends"
+      ],
+      "answers": [],
+      "notes": "Choose TWO letters, A-E."
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "prompt": "Which TWO results of the King Street experiment surprised Alice?",
+      "options": [
+        "A. more shoppers",
+        "B. improved safety",
+        "C. less air pollution",
+        "D. more relaxed atmosphere",
+        "E. less noise pollution"
+      ],
+      "answers": [],
+      "notes": "Choose TWO letters, A-E."
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "prompt": "Which TWO results of the King Street experiment surprised Alice?",
+      "options": [
+        "A. more shoppers",
+        "B. improved safety",
+        "C. less air pollution",
+        "D. more relaxed atmosphere",
+        "E. less noise pollution"
+      ],
+      "answers": [],
+      "notes": "Choose TWO letters, A-E."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 57
+}

@@ -1,0 +1,107 @@
+{
+  "section": "answer_key",
+  "test_number": null,
+  "questions": [],
+  "answer_key_entries": [
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 27,
+      "answers": [
+        "NO"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 28,
+      "answers": [
+        "NOT GIVEN"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 29,
+      "answers": [
+        "YES"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 30,
+      "answers": [
+        "NO"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 31,
+      "answers": [
+        "YES"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 32,
+      "answers": [
+        "NOT GIVEN"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 33,
+      "answers": [
+        "C"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 34,
+      "answers": [
+        "A"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 35,
+      "answers": [
+        "B"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 36,
+      "answers": [
+        "D"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 37,
+      "answers": [
+        "F"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 38,
+      "answers": [
+        "G"
+      ]
+    }
+  ],
+  "passage_title": "A workaholic economy",
+  "passage_text_excerpt": "",
+  "has_answer_key": true,
+  "_page_num": 147
+}

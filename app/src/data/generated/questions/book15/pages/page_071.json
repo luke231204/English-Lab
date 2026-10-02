@@ -1,0 +1,101 @@
+{
+  "section": "reading_passage_3",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 32,
+      "type": "summary_completion",
+      "prompt": "Tehrani used techniques from evolutionary biology to find out if 32 ......................... existed among 58 stories from around the world.",
+      "options": [
+        "A. ending",
+        "B. events",
+        "C. warning",
+        "D. links",
+        "E. records",
+        "F. variations",
+        "G. horror",
+        "H. people",
+        "I. plot"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-I, in boxes 32-36 on your answer sheet."
+    },
+    {
+      "id": 33,
+      "type": "summary_completion",
+      "prompt": "He also wanted to know which aspects of the stories had fewest 33 ......................... , as he believed these aspects would be the most important ones.",
+      "options": [
+        "A. ending",
+        "B. events",
+        "C. warning",
+        "D. links",
+        "E. records",
+        "F. variations",
+        "G. horror",
+        "H. people",
+        "I. plot"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-I, in boxes 32-36 on your answer sheet."
+    },
+    {
+      "id": 34,
+      "type": "summary_completion",
+      "prompt": "Contrary to other beliefs, he found that some 34 ......................... that were included in a story tended to change over time,",
+      "options": [
+        "A. ending",
+        "B. events",
+        "C. warning",
+        "D. links",
+        "E. records",
+        "F. variations",
+        "G. horror",
+        "H. people",
+        "I. plot"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-I, in boxes 32-36 on your answer sheet."
+    },
+    {
+      "id": 35,
+      "type": "summary_completion",
+      "prompt": "He was also surprised that parts of a story which seemed to provide some sort of 35 ......................... were unimportant.",
+      "options": [
+        "A. ending",
+        "B. events",
+        "C. warning",
+        "D. links",
+        "E. records",
+        "F. variations",
+        "G. horror",
+        "H. people",
+        "I. plot"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-I, in boxes 32-36 on your answer sheet."
+    },
+    {
+      "id": 36,
+      "type": "summary_completion",
+      "prompt": "The aspect that he found most important in a story's survival was 36 ......................... .",
+      "options": [
+        "A. ending",
+        "B. events",
+        "C. warning",
+        "D. links",
+        "E. records",
+        "F. variations",
+        "G. horror",
+        "H. people",
+        "I. plot"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-I, in boxes 32-36 on your answer sheet."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": "Phylogenetic analysis of Little Red Riding Hood",
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 71
+}

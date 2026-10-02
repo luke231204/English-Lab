@@ -1,0 +1,76 @@
+{
+  "section": "listening_part_4",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 37,
+      "type": "mcq",
+      "prompt": "The speaker says students can visit her",
+      "options": [
+        "A. every morning.",
+        "B. some mornings.",
+        "C. mornings only.",
+        "D. Friday morning."
+      ],
+      "answers": [],
+      "notes": "Circle the appropriate letter."
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "prompt": "According to the speaker, a tutorial",
+      "options": [
+        "A. is a type of lecture.",
+        "B. is less important than a lecture.",
+        "C. provides a chance to share views.",
+        "D. provides an alternative to groupwork."
+      ],
+      "answers": [],
+      "notes": "Circle the appropriate letter."
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "prompt": "When writing essays, the speaker advises the students to",
+      "options": [
+        "A. research their work well.",
+        "B. name the books they have read.",
+        "C. share work with their friends.",
+        "D. avoid using other writers' ideas."
+      ],
+      "answers": [],
+      "notes": "Circle the appropriate letter."
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "prompt": "The speaker thinks that plagiarism is",
+      "options": [
+        "A. a common problem.",
+        "B. an acceptable risk.",
+        "C. a minor concern.",
+        "D. a serious offence."
+      ],
+      "answers": [],
+      "notes": "Circle the appropriate letter."
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "prompt": "The speaker's aims are to",
+      "options": [
+        "A. introduce students to university expectations.",
+        "B. introduce students to the members of staff.",
+        "C. warn students about the difficulties of studying.",
+        "D. guide students round the university."
+      ],
+      "answers": [],
+      "notes": "Circle the appropriate letter."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 25
+}

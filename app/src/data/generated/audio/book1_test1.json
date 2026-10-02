@@ -1,0 +1,33 @@
+{
+  "book": 1,
+  "test": 1,
+  "audio_file": "Cambridge_IELTS_1_-_Listening_Test_1.mp3",
+  "total_duration_sec": 1608.2,
+  "parts": [
+    {
+      "part": 4,
+      "start_sec": 0.0,
+      "end_sec": 61.0,
+      "text_excerpt": "Section 4. Section 4. Section 4. Section 4."
+    },
+    {
+      "part": 1,
+      "start_sec": 61.0,
+      "end_sec": 489.0,
+      "text_excerpt": "Now turn to section one of your question booklet."
+    },
+    {
+      "part": 2,
+      "start_sec": 489.0,
+      "end_sec": 733.0,
+      "text_excerpt": "Now turn to section 2."
+    },
+    {
+      "part": 3,
+      "start_sec": 733.0,
+      "end_sec": 1608.2,
+      "text_excerpt": "Now turn to section three."
+    }
+  ],
+  "full_transcript_excerpt": " Section 4. Section 4. Section 4. Section 4. You will hear a number of different recordings and you will have to answer questions on what you hear. There will be time for you to read the instructions and questions and you will have a chance to check your work. All the recordings will be played once only. The test is in four sections. Write all your answers in the listening question booklet. At the end of the test, you will be given ten minutes to transfer your answers to an answer sheet. Now turn to section one of your question booklet. Section one. You will hear a telephone conversation between a woman and a police officer. First, look at questions one to five. For each of the questions, four alternatives are given. Decide which of the alternatives, A, B, C or D, best fits what you hear on the tape and circle the appropriate letter. You will see that there is an example which has been done for you. On this occasion only, the conversation relating to the example will be played first. Good evening, City Police Station. Can I help you? Oh, hello. I'd like to report a stolen briefcase, please. Just a minute, I'll put you through. The woman says she wants to report a stolen briefcase, so A has been circled. Now we shall begin. You should answer the questions as you listen, because you will not hear the recording a second time. Now listen carefully to the first part of the conversation and answer questions one to five. Good evening, City Police Station. Can I help you? Oh, hello. I'd like to report a stolen briefcase, please. Just a minute, and I'll put you through. Lost property, can I help you? Oh, yes. I've had my briefcase stolen. Okay, I'll take some details. Tell me what it looks like, first of all. Well, it's a soft leather one, you know, not a heavy box type like a man's. And how does it close? It's got buckles at the front, two of them. They're gold-plated ones. Fine. Was it locked? No, I'm afraid not. Never mind. Any distinguishing features? Pardon? Any marks o"
+}

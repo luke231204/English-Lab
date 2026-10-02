@@ -1,0 +1,89 @@
+{
+  "section": "reading_passage_3",
+  "test_number": 1,
+  "questions": [
+    {
+      "id": 27,
+      "type": "mcq",
+      "prompt": "The writer refers to visitors to New York to illustrate the point that",
+      "options": [
+        "A. exploration is an intrinsic element of being human.",
+        "B. most people are enthusiastic about exploring.",
+        "C. exploration can lead to surprising results.",
+        "D. most people find exploration daunting."
+      ],
+      "answers": [],
+      "notes": "Write the correct letter in boxes 27-32 on your answer sheet."
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "prompt": "According to the second paragraph, what is the writer's view of explorers?",
+      "options": [
+        "A. Their discoveries have brought both benefits and disadvantages.",
+        "B. Their main value is in teaching others.",
+        "C. They act on an urge that is common to everyone.",
+        "D. They tend to be more attracted to certain professions than to others."
+      ],
+      "answers": [],
+      "notes": "Write the correct letter in boxes 27-32 on your answer sheet."
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "prompt": "The writer refers to a description of Egdon Heath to suggest that",
+      "options": [
+        "A. Hardy was writing about his own experience of exploration.",
+        "B. Hardy was mistaken about the nature of exploration.",
+        "C. Hardy's aim was to investigate people's emotional states.",
+        "D. Hardy's aim was to show the attraction of isolation."
+      ],
+      "answers": [],
+      "notes": "Write the correct letter in boxes 27-32 on your answer sheet."
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "prompt": "In the fourth paragraph, the writer refers to 'a golden age' to suggest that",
+      "options": [
+        "A. the amount of useful information produced by exploration has decreased.",
+        "B. fewer people are interested in exploring than in the 19th century.",
+        "C. recent developments have made exploration less exciting.",
+        "D. we are wrong to think that exploration is no longer necessary."
+      ],
+      "answers": [],
+      "notes": "Write the correct letter in boxes 27-32 on your answer sheet."
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "prompt": "In the sixth paragraph, when discussing the definition of exploration, the writer argues that",
+      "options": [
+        "A. people tend to relate exploration to their own professional interests.",
+        "B. certain people are likely to misunderstand the nature of exploration.",
+        "C. the generally accepted definition has changed over time.",
+        "D. historians and scientists have more valid definitions than the general public."
+      ],
+      "answers": [],
+      "notes": "Write the correct letter in boxes 27-32 on your answer sheet."
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "prompt": "In the last paragraph, the writer explains that he is interested in",
+      "options": [
+        "A. how someone's personality is reflected in their choice of places to visit.",
+        "B. the human ability to cast new light on places that may be familiar.",
+        "C. how travel writing has evolved to meet changing demands.",
+        "D. the feelings that writers develop about the places that they explore."
+      ],
+      "answers": [],
+      "notes": "Write the correct letter in boxes 27-32 on your answer sheet."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 28
+}

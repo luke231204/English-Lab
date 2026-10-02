@@ -1,0 +1,65 @@
+{
+  "section": "listening_part_2",
+  "test_number": 4,
+  "questions": [
+    {
+      "id": 17,
+      "type": "mcq",
+      "prompt": "What does the speaker say about the adventure playground?",
+      "options": [
+        "A. Children must be supervised.",
+        "B. It costs more in winter.",
+        "C. Some activities are only for younger children.",
+        "D. No payment is required.",
+        "E. It was recently expanded."
+      ],
+      "answers": [],
+      "notes": "Choose TWO letters, A-E."
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "prompt": "What does the speaker say about the adventure playground?",
+      "options": [
+        "A. Children must be supervised.",
+        "B. It costs more in winter.",
+        "C. Some activities are only for younger children.",
+        "D. No payment is required.",
+        "E. It was recently expanded."
+      ],
+      "answers": [],
+      "notes": "Choose TWO letters, A-E."
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "prompt": "What does the speaker say about the glass houses?",
+      "options": [
+        "A. They are closed at weekends.",
+        "B. Volunteers are needed to work there.",
+        "C. They were badly damaged by fire.",
+        "D. More money is needed to repair some of the glass.",
+        "E. Visitors can see palm trees from tropical regions."
+      ],
+      "answers": [],
+      "notes": "Choose TWO letters, A-E."
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "prompt": "What does the speaker say about the glass houses?",
+      "options": [
+        "A. They are closed at weekends.",
+        "B. Volunteers are needed to work there.",
+        "C. They were badly damaged by fire.",
+        "D. More money is needed to repair some of the glass.",
+        "E. Visitors can see palm trees from tropical regions."
+      ],
+      "answers": [],
+      "notes": "Choose TWO letters, A-E."
+    }
+  ],
+  "answer_key_entries": [],
+  "has_answer_key": false,
+  "_page_num": 78
+}

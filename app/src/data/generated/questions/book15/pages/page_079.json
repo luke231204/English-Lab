@@ -1,0 +1,59 @@
+{
+  "section": "listening_part_3",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 21,
+      "type": "mcq",
+      "prompt": "What did Annie discover from reading about icehouses?",
+      "options": [
+        "A. why they were first created",
+        "B. how the ice was kept frozen",
+        "C. where they were located"
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "prompt": "What point does Annie make about refrigeration in ancient Rome?",
+      "options": [
+        "A. It became a commercial business.",
+        "B. It used snow from nearby.",
+        "C. It took a long time to become popular."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "prompt": "In connection with modern refrigerators, both Annie and Jack are worried about",
+      "options": [
+        "A. the complexity of the technology.",
+        "B. the fact that some are disposed of irresponsibly.",
+        "C. the large number that quickly break down."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "prompt": "What do Jack and Annie agree regarding domestic fridges?",
+      "options": [
+        "A. They are generally good value for money.",
+        "B. There are plenty of useful variations.",
+        "C. They are more useful than other domestic appliances."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": "Presentation about refrigeration",
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 79
+}

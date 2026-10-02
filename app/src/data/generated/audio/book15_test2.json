@@ -1,0 +1,33 @@
+{
+  "book": 15,
+  "test": 2,
+  "audio_file": "Cambridge_IELTS_15_-_Listening_Test_2.mp3",
+  "total_duration_sec": 1864.2,
+  "parts": [
+    {
+      "part": 1,
+      "start_sec": 38.5,
+      "end_sec": 872.3,
+      "text_excerpt": "Now turn to part 1."
+    },
+    {
+      "part": 2,
+      "start_sec": 872.3,
+      "end_sec": 887.0,
+      "text_excerpt": "That is the end of part two. You now have 30 seconds to check your answers to part two."
+    },
+    {
+      "part": 3,
+      "start_sec": 887.0,
+      "end_sec": 1338.5,
+      "text_excerpt": "Part three. You will hear two students of English called Kathy and Graham."
+    },
+    {
+      "part": 4,
+      "start_sec": 1338.5,
+      "end_sec": 1864.2,
+      "text_excerpt": "Part four. You will hear part of a presentation about an agricultural program in the country of"
+    }
+  ],
+  "full_transcript_excerpt": " Test 2. This is the IELTS Listening Test. You will hear a number of different recordings, and you will have to answer questions on what you hear. There will be time for you to read the instructions and questions, and you will have a chance to check your work. All the recordings will be played once only. The test is in four parts. At the end of the test, you will be given 10 minutes to transfer your answers to the answer sheet. Now turn to part 1. Part 1. You will hear a woman calling a tourist information office to ask about a festival. First, you have some time to look at questions 1 to 4. Part 1. Section 3. Section 4. Section 4. Section 4. Section 4. Section 4. Section 4. Now listen carefully and answer questions 1 to 4. Good morning. Your through to the tourist information office. Tim speaking, how can I help you? Oh, hello. Could you give me some information about next month's festival, please? My family and I will be staying in the town that week. Of course. Well, it starts with a concert on the afternoon of the 17th. Oh, I heard about that. The orchestra and singers come from the USA, don't they? They're from Canada. They're very popular over there. They're going to perform a number of well-known pieces that will appeal to children as well as adults. That sounds good. My whole family are interested in music. The next day, the 18th, there's a performance by a ballet company called Ustatus. Sorry? The name is spelled E-U-S-T-A-T-I-S. They appeared in last year's festival and went down very well. Again, their program is designed for all ages. Good. I expect we'll go to that. I hope there's going to be a play during the festival, a comedy ideally. You're in luck. On the 19th and 20th, a local amateur group are performing one written by a member of the group. It's called Jemima. That'll be on in the town hall. They've already performed it two or three times. I haven't seen it myself, but the review in the local paper was very good. And is it suitable for children?"
+}

@@ -1,0 +1,107 @@
+{
+  "section": "reading_passage_2",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 22,
+      "type": "tfng",
+      "prompt": "The club has long-term dormitory accommodation.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "TRUE if the statement is true, FALSE if the statement is false, NOT GIVEN if the information is not given in the passage"
+    },
+    {
+      "id": 23,
+      "type": "tfng",
+      "prompt": "Membership must be renewed monthly.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "TRUE if the statement is true, FALSE if the statement is false, NOT GIVEN if the information is not given in the passage"
+    },
+    {
+      "id": 24,
+      "type": "tfng",
+      "prompt": "The club provides subsidised restaurant meals.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "TRUE if the statement is true, FALSE if the statement is false, NOT GIVEN if the information is not given in the passage"
+    },
+    {
+      "id": 25,
+      "type": "tfng",
+      "prompt": "The club is open to non-members on Tuesday evenings.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "TRUE if the statement is true, FALSE if the statement is false, NOT GIVEN if the information is not given in the passage"
+    },
+    {
+      "id": 26,
+      "type": "tfng",
+      "prompt": "STA Travel help finance the Students Adviser.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "TRUE if the statement is true, FALSE if the statement is false, NOT GIVEN if the information is not given in the passage"
+    },
+    {
+      "id": 27,
+      "type": "tfng",
+      "prompt": "The services of the Students Adviser are free to all club members.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "TRUE if the statement is true, FALSE if the statement is false, NOT GIVEN if the information is not given in the passage"
+    },
+    {
+      "id": 28,
+      "type": "tfng",
+      "prompt": "You must make an appointment to see the Students Adviser.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "TRUE if the statement is true, FALSE if the statement is false, NOT GIVEN if the information is not given in the passage"
+    },
+    {
+      "id": 29,
+      "type": "tfng",
+      "prompt": "There will be a surcharge for accommodation over the Christmas period.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "TRUE if the statement is true, FALSE if the statement is false, NOT GIVEN if the information is not given in the passage"
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": "",
+  "passage_text_excerpt": "",
+  "has_answer_key": false,
+  "_page_num": 106
+}

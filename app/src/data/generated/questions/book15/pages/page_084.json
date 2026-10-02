@@ -1,0 +1,75 @@
+{
+  "section": "reading_passage_1",
+  "test_number": 4,
+  "questions": [
+    {
+      "id": 1,
+      "type": "fill_blank",
+      "prompt": "can access 1 .............................. deep below the surface",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 2,
+      "type": "fill_blank",
+      "prompt": "was a crucial part of local inhabitants’ 2 .............................. a long time ago",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 3,
+      "type": "fill_blank",
+      "prompt": "helped people to survive periods of 3 ..............................",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 4,
+      "type": "fill_blank",
+      "prompt": "prevents 4 .............................. of the soil",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 5,
+      "type": "fill_blank",
+      "prompt": "prevents land from becoming a 5 ..............................",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 6,
+      "type": "fill_blank",
+      "prompt": "6 .............................. used for fuel",
+      "options": [],
+      "answers": [],
+      "notes": "Choose NO MORE THAN TWO WORDS from the passage for each answer."
+    },
+    {
+      "id": 7,
+      "type": "fill_blank",
+      "prompt": "7 .............................. and .............................. used for medicine",
+      "options": [],
+      "answers": [],
+      "notes": "Choose NO MORE THAN TWO WORDS from the passage for each answer."
+    },
+    {
+      "id": 8,
+      "type": "fill_blank",
+      "prompt": "8 .............................. used for construction",
+      "options": [],
+      "answers": [],
+      "notes": "Choose NO MORE THAN TWO WORDS from the passage for each answer."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": "The importance of the huarango tree",
+  "passage_text_excerpt": "",
+  "has_answer_key": false,
+  "_page_num": 84
+}

@@ -1,0 +1,107 @@
+{
+  "section": "answer_key",
+  "test_number": null,
+  "questions": [],
+  "answer_key_entries": [
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 1,
+      "answers": [
+        "B"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 2,
+      "answers": [
+        "D"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 3,
+      "answers": [
+        "C"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 4,
+      "answers": [
+        "B"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 5,
+      "answers": [
+        "A"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 6,
+      "answers": [
+        "C"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 7,
+      "answers": [
+        "E"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 8,
+      "answers": [
+        "15-20%"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 9,
+      "answers": [
+        "40%"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 10,
+      "answers": [
+        "6%"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 11,
+      "answers": [
+        "D"
+      ]
+    },
+    {
+      "test_number": null,
+      "module": "reading",
+      "id": 12,
+      "answers": [
+        "B"
+      ]
+    }
+  ],
+  "passage_title": "Right and left-handedness in humans",
+  "passage_text_excerpt": "",
+  "has_answer_key": true,
+  "_page_num": 141
+}

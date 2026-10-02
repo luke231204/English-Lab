@@ -1,0 +1,89 @@
+{
+  "section": "listening_part_1",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 9,
+      "type": "mcq",
+      "prompt": "If you want to sit at the front of the coach",
+      "options": [
+        "A. ask when you get on the coach.",
+        "B. arrive early on the departure date.",
+        "C. book your seat well in advance.",
+        "D. avoid travelling at peak times."
+      ],
+      "answers": [],
+      "notes": "Choose the appropriate letters A-D and write them in boxes 9-14 on your answer sheet."
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "prompt": "Your air tickets",
+      "options": [
+        "A. will be sent to your departure point.",
+        "B. must be collected before leaving.",
+        "C. will be enclosed with other documents.",
+        "D. may be held by your coach driver."
+      ],
+      "answers": [],
+      "notes": "Choose the appropriate letters A-D and write them in boxes 9-14 on your answer sheet."
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "prompt": "If you need a special diet you should",
+      "options": [
+        "A. inform the hotel when you arrive.",
+        "B. pay extra with the booking.",
+        "C. tell the coach company.",
+        "D. book tourist class."
+      ],
+      "answers": [],
+      "notes": "Choose the appropriate letters A-D and write them in boxes 9-14 on your answer sheet."
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "prompt": "It may be necessary to pay extra for",
+      "options": [
+        "A. a bathroom.",
+        "B. boat tickets.",
+        "C. additional luggage.",
+        "D. entertainment."
+      ],
+      "answers": [],
+      "notes": "Choose the appropriate letters A-D and write them in boxes 9-14 on your answer sheet."
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "prompt": "Entertainment is available",
+      "options": [
+        "A. at all hotels.",
+        "B. if there is the demand.",
+        "C. upon request.",
+        "D. for an additional cost."
+      ],
+      "answers": [],
+      "notes": "Choose the appropriate letters A-D and write them in boxes 9-14 on your answer sheet."
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "prompt": "With every booking Classic Tours guarantee you will be able to",
+      "options": [
+        "A. request high quality meals.",
+        "B. take hand luggage on the coach.",
+        "C. use your own personal bathroom.",
+        "D. see a film if you want to."
+      ],
+      "answers": [],
+      "notes": "Choose the appropriate letters A-D and write them in boxes 9-14 on your answer sheet."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 103
+}

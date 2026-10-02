@@ -1,0 +1,71 @@
+{
+  "section": "audio_script",
+  "test_number": 1,
+  "questions": [
+    {
+      "id": 1,
+      "type": "fill_blank",
+      "prompt": "Name of the agent",
+      "options": [],
+      "answers": [
+        "Becky Jamieson"
+      ],
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "type": "fill_blank",
+      "prompt": "Direct line",
+      "options": [],
+      "answers": [
+        "0786651033"
+      ],
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "type": "fill_blank",
+      "prompt": "Most important skill for the job",
+      "options": [],
+      "answers": [
+        "communication"
+      ],
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "type": "fill_blank",
+      "prompt": "Duration of job offer",
+      "options": [],
+      "answers": [
+        "a week"
+      ],
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "type": "fill_blank",
+      "prompt": "Hourly rate",
+      "options": [],
+      "answers": [
+        "£10, 11"
+      ],
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "type": "fill_blank",
+      "prompt": "Clothes to wear",
+      "options": [],
+      "answers": [
+        "suit"
+      ],
+      "notes": ""
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": "Audioscripts - Test 1 - Part 1",
+  "passage_text_excerpt": "AMBER: Hello William. This is Amber – you said to phone if I wanted to get more\ninformation about the job agency you mentioned. Is now a good time?\nWILLIAM: Oh, hi Amber. Yes. Fine. So the agency I was talking about is called Bankside –\nthey're based in Docklands – I can tell you the address now – ",
+  "has_answer_key": false,
+  "_page_num": 98
+}

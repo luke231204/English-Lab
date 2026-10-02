@@ -1,0 +1,795 @@
+{
+  "book": 15,
+  "test": 1,
+  "listening": {
+    "sections": [
+      {
+        "part": 1,
+        "title": "Part 1",
+        "questions": [
+          {
+            "id": 1,
+            "type": "fill_blank",
+            "prompt": "Name of agent: Becky 1 ..............................",
+            "options": [],
+            "answers": [
+              "Jamieson"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+          },
+          {
+            "id": 2,
+            "type": "fill_blank",
+            "prompt": "Best to call her in the 2 ..............................",
+            "options": [],
+            "answers": [
+              "afternoon"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+          },
+          {
+            "id": 3,
+            "type": "fill_blank",
+            "prompt": "Must have good 3 .............................. skills",
+            "options": [],
+            "answers": [
+              "communication"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+          },
+          {
+            "id": 4,
+            "type": "fill_blank",
+            "prompt": "Jobs are usually for at least one 4 ..............................",
+            "options": [],
+            "answers": [
+              "week"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+          },
+          {
+            "id": 5,
+            "type": "fill_blank",
+            "prompt": "Pay is usually Â£ 5 .............................. per hour",
+            "options": [],
+            "answers": [
+              "10/ten"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+          },
+          {
+            "id": 6,
+            "type": "fill_blank",
+            "prompt": "Wear a 6 .............................. to the interview",
+            "options": [],
+            "answers": [
+              "suit"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+          },
+          {
+            "id": 7,
+            "type": "fill_blank",
+            "prompt": "Must bring your 7 .............................. to the interview",
+            "options": [],
+            "answers": [
+              "passport"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+          },
+          {
+            "id": 8,
+            "type": "fill_blank",
+            "prompt": "They will ask questions about each applicant's 8 ..............................",
+            "options": [],
+            "answers": [
+              "personality"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+          },
+          {
+            "id": 9,
+            "type": "fill_blank",
+            "prompt": "The 9 .............................. you receive at interview will benefit you",
+            "options": [],
+            "answers": [
+              "feedback"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+          },
+          {
+            "id": 10,
+            "type": "fill_blank",
+            "prompt": "Less 10 .............................. is involved in applying for jobs",
+            "options": [],
+            "answers": [
+              "time"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+          }
+        ]
+      },
+      {
+        "part": 2,
+        "title": "Part 2",
+        "questions": [
+          {
+            "id": 15,
+            "type": "fill_blank",
+            "prompt": "Day 1: Arrive. Notes: Hotel dining room has view of the 15 ....................",
+            "options": [],
+            "answers": [
+              "river"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+          },
+          {
+            "id": 16,
+            "type": "fill_blank",
+            "prompt": "Day 2: Tynwald Exhibition and Peel. Notes: Tynwald may have been founded in 16 .................... not 979.",
+            "options": [],
+            "answers": [
+              "1422"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+          },
+          {
+            "id": 17,
+            "type": "fill_blank",
+            "prompt": "Day 3: Trip to Snaefell. Notes: Travel along promenade in a tram; train to Laxey; train to the 17 .................... of Snaefell",
+            "options": [],
+            "answers": [
+              "top"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+          },
+          {
+            "id": 18,
+            "type": "fill_blank",
+            "prompt": "Day 4: Free day. Notes: Company provides a 18 .................... for local transport and heritage sites.",
+            "options": [],
+            "answers": [
+              "pass"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+          },
+          {
+            "id": 19,
+            "type": "fill_blank",
+            "prompt": "Day 5: Take the 19 .................... railway train from Douglas to Port Erin",
+            "options": [],
+            "answers": [
+              "steam"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+          },
+          {
+            "id": 20,
+            "type": "fill_blank",
+            "prompt": "Day 5: Free time, then coach to Castletown - former 20 .................... has old castle.",
+            "options": [],
+            "answers": [
+              "capital"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+          }
+        ]
+      },
+      {
+        "part": 3,
+        "title": "Part 3",
+        "questions": [
+          {
+            "id": 21,
+            "type": "matching",
+            "prompt": "the eldest child",
+            "options": [
+              "A outgoing",
+              "B selfish",
+              "C independent",
+              "D attention-seeking",
+              "E introverted",
+              "F co-operative",
+              "G caring",
+              "H competitive"
+            ],
+            "answers": [
+              "G"
+            ],
+            "notes": "What did findings of previous research claim about the personality traits a child is likely to have because of their position in the family? Choose SIX answers from the box and write the correct letter, A-H, next to Questions 21-26."
+          },
+          {
+            "id": 22,
+            "type": "matching",
+            "prompt": "a middle child",
+            "options": [
+              "A outgoing",
+              "B selfish",
+              "C independent",
+              "D attention-seeking",
+              "E introverted",
+              "F co-operative",
+              "G caring",
+              "H competitive"
+            ],
+            "answers": [
+              "F"
+            ],
+            "notes": "What did findings of previous research claim about the personality traits a child is likely to have because of their position in the family? Choose SIX answers from the box and write the correct letter, A-H, next to Questions 21-26."
+          },
+          {
+            "id": 23,
+            "type": "matching",
+            "prompt": "the youngest child",
+            "options": [
+              "A outgoing",
+              "B selfish",
+              "C independent",
+              "D attention-seeking",
+              "E introverted",
+              "F co-operative",
+              "G caring",
+              "H competitive"
+            ],
+            "answers": [
+              "A"
+            ],
+            "notes": "What did findings of previous research claim about the personality traits a child is likely to have because of their position in the family? Choose SIX answers from the box and write the correct letter, A-H, next to Questions 21-26."
+          },
+          {
+            "id": 24,
+            "type": "matching",
+            "prompt": "a twin",
+            "options": [
+              "A outgoing",
+              "B selfish",
+              "C independent",
+              "D attention-seeking",
+              "E introverted",
+              "F co-operative",
+              "G caring",
+              "H competitive"
+            ],
+            "answers": [
+              "E"
+            ],
+            "notes": "What did findings of previous research claim about the personality traits a child is likely to have because of their position in the family? Choose SIX answers from the box and write the correct letter, A-H, next to Questions 21-26."
+          },
+          {
+            "id": 25,
+            "type": "matching",
+            "prompt": "an only child",
+            "options": [
+              "A outgoing",
+              "B selfish",
+              "C independent",
+              "D attention-seeking",
+              "E introverted",
+              "F co-operative",
+              "G caring",
+              "H competitive"
+            ],
+            "answers": [
+              "B"
+            ],
+            "notes": "What did findings of previous research claim about the personality traits a child is likely to have because of their position in the family? Choose SIX answers from the box and write the correct letter, A-H, next to Questions 21-26."
+          },
+          {
+            "id": 26,
+            "type": "matching",
+            "prompt": "a child with much older siblings",
+            "options": [
+              "A outgoing",
+              "B selfish",
+              "C independent",
+              "D attention-seeking",
+              "E introverted",
+              "F co-operative",
+              "G caring",
+              "H competitive"
+            ],
+            "answers": [
+              "C"
+            ],
+            "notes": "What did findings of previous research claim about the personality traits a child is likely to have because of their position in the family? Choose SIX answers from the box and write the correct letter, A-H, next to Questions 21-26."
+          },
+          {
+            "id": 27,
+            "type": "mcq",
+            "prompt": "What do the speakers say about the evidence relating to birth order and academic success?",
+            "options": [
+              "A There is conflicting evidence about whether oldest children perform best in intelligence tests.",
+              "B There is little doubt that birth order has less influence on academic achievement than socio-economic status.",
+              "C Some studies have neglected to include important factors such as family size."
+            ],
+            "answers": [
+              "C"
+            ],
+            "notes": "Choose the correct letter, A, B or C."
+          },
+          {
+            "id": 28,
+            "type": "mcq",
+            "prompt": "What does Ruth think is surprising about the difference in oldest children's academic performance?",
+            "options": [
+              "A It is mainly thanks to their roles as teachers for their younger siblings.",
+              "B The advantages they have only lead to a slightly higher level of achievement.",
+              "C The extra parental attention they receive at a young age makes little difference."
+            ],
+            "answers": [
+              "A"
+            ],
+            "notes": "Choose the correct letter, A, B or C."
+          },
+          {
+            "id": 29,
+            "type": "mcq",
+            "prompt": "Which TWO experiences of sibling rivalry do the speakers agree has been valuable for them?",
+            "options": [
+              "A learning to share",
+              "B learning to stand up for oneself",
+              "C learning to be a good loser",
+              "D learning to be tolerant",
+              "E learning to say sorry"
+            ],
+            "answers": [
+              "B",
+              "D"
+            ],
+            "notes": "Choose TWO letters, A-E."
+          },
+          {
+            "id": 30,
+            "type": "mcq",
+            "prompt": "Which TWO experiences of sibling rivalry do the speakers agree has been valuable for them?",
+            "options": [
+              "A learning to share",
+              "B learning to stand up for oneself",
+              "C learning to be a good loser",
+              "D learning to be tolerant",
+              "E learning to say sorry"
+            ],
+            "answers": [
+              "B",
+              "D"
+            ],
+            "notes": "Choose TWO letters, A-E."
+          }
+        ]
+      },
+      {
+        "part": 4,
+        "title": "Part 4",
+        "questions": [
+          {
+            "id": 31,
+            "type": "fill_blank",
+            "prompt": "it provides 31 .................................... and food for a wide range of species",
+            "options": [],
+            "answers": [
+              "shelter"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          },
+          {
+            "id": 32,
+            "type": "fill_blank",
+            "prompt": "its leaves provide 32 .................................... which is used to make a disinfectant",
+            "options": [],
+            "answers": [
+              "oil"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          },
+          {
+            "id": 33,
+            "type": "fill_blank",
+            "prompt": "Cause â€“ lime used for making 33 .................................... was absorbed",
+            "options": [],
+            "answers": [
+              "roads"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          },
+          {
+            "id": 34,
+            "type": "fill_blank",
+            "prompt": "Cause â€“ 34 .................................... feed on eucalyptus leaves",
+            "options": [],
+            "answers": [
+              "insects"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          },
+          {
+            "id": 35,
+            "type": "fill_blank",
+            "prompt": "high-frequency bushfires have impact on vegetation, resulting in the growth of 35 ....................................",
+            "options": [],
+            "answers": [
+              "grass(es)"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          },
+          {
+            "id": 36,
+            "type": "fill_blank",
+            "prompt": "mid-frequency bushfires result in the growth of eucalyptus forests, because they: â€“ make more 36 .................................... available to the trees",
+            "options": [],
+            "answers": [
+              "water"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          },
+          {
+            "id": 37,
+            "type": "fill_blank",
+            "prompt": "mid-frequency bushfires result in the growth of eucalyptus forests, because they: â€“ maintain the quality of the 37 ....................................",
+            "options": [],
+            "answers": [
+              "soil"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          },
+          {
+            "id": 38,
+            "type": "fill_blank",
+            "prompt": "low-frequency bushfires result in the growth of 38 â€˜.................................... rainforestâ€™, which is:",
+            "options": [],
+            "answers": [
+              "dry"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          },
+          {
+            "id": 39,
+            "type": "fill_blank",
+            "prompt": "â€“ a 39 .................................... ecosystem",
+            "options": [],
+            "answers": [
+              "simple"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          },
+          {
+            "id": 40,
+            "type": "fill_blank",
+            "prompt": "â€“ an ideal environment for the 40 .................................... of the bell-miner",
+            "options": [],
+            "answers": [
+              "nest(s)"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "passages": [
+      {
+        "passage_num": 1,
+        "title": null,
+        "passage_text": null,
+        "questions": [
+          {
+            "id": 1,
+            "type": "fill_blank",
+            "prompt": "the leaves of the tree are 1 ..................................................... in shape",
+            "options": [],
+            "answers": [
+              "oval"
+            ],
+            "notes": "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer. Heading: The nutmeg tree and fruit"
+          },
+          {
+            "id": 2,
+            "type": "fill_blank",
+            "prompt": "the 2 ..................................................... surrounds the fruit and breaks open when the fruit is ripe",
+            "options": [],
+            "answers": [
+              "husk"
+            ],
+            "notes": "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer. Heading: The nutmeg tree and fruit"
+          },
+          {
+            "id": 3,
+            "type": "fill_blank",
+            "prompt": "the 3 ..................................................... is used to produce the spice nutmeg",
+            "options": [],
+            "answers": [
+              "seed"
+            ],
+            "notes": "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer. Heading: The nutmeg tree and fruit"
+          },
+          {
+            "id": 4,
+            "type": "fill_blank",
+            "prompt": "the covering known as the aril is used to produce 4 .....................................................",
+            "options": [],
+            "answers": [
+              "mace"
+            ],
+            "notes": "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer. Heading: The nutmeg tree and fruit"
+          },
+          {
+            "id": 5,
+            "type": "tfng",
+            "prompt": "In the Middle Ages, most Europeans knew where nutmeg was grown.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "answers": [
+              "FALSE"
+            ],
+            "notes": "Do the following statements agree with the information given in Reading Passage 1? TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this"
+          },
+          {
+            "id": 6,
+            "type": "tfng",
+            "prompt": "The VOC was the world's first major trading company.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "answers": [
+              "NOT GIVEN"
+            ],
+            "notes": "Do the following statements agree with the information given in Reading Passage 1? TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this"
+          },
+          {
+            "id": 7,
+            "type": "tfng",
+            "prompt": "Following the Treaty of Breda, the Dutch had control of all the islands where nutmeg grew.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "answers": [
+              "TRUE"
+            ],
+            "notes": "Do the following statements agree with the information given in Reading Passage 1? TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this"
+          }
+        ]
+      },
+      {
+        "passage_num": 2,
+        "title": "The impact of driverless cars",
+        "passage_text": null,
+        "questions": [
+          {
+            "id": 14,
+            "type": "matching",
+            "prompt": "reference to the amount of time when a car is not in use",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "answers": [
+              "C"
+            ],
+            "notes": "Which section contains the following information? Write the correct letter, A-G, in boxes 14-18 on your answer sheet."
+          },
+          {
+            "id": 15,
+            "type": "matching",
+            "prompt": "mention of several advantages of driverless vehicles for individual road-users",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "answers": [
+              "B"
+            ],
+            "notes": "Which section contains the following information? Write the correct letter, A-G, in boxes 14-18 on your answer sheet."
+          },
+          {
+            "id": 16,
+            "type": "matching",
+            "prompt": "reference to the opportunity of choosing the most appropriate vehicle for each trip",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "answers": [
+              "E"
+            ],
+            "notes": "Which section contains the following information? Write the correct letter, A-G, in boxes 14-18 on your answer sheet."
+          },
+          {
+            "id": 17,
+            "type": "matching",
+            "prompt": "an estimate of how long it will take to overcome a number of problems",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "answers": [
+              "G"
+            ],
+            "notes": "Which section contains the following information? Write the correct letter, A-G, in boxes 14-18 on your answer sheet."
+          },
+          {
+            "id": 18,
+            "type": "matching",
+            "prompt": "a suggestion that the use of driverless cars may have no effect on the number of vehicles manufactured",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "answers": [
+              "D"
+            ],
+            "notes": "Which section contains the following information? Write the correct letter, A-G, in boxes 14-18 on your answer sheet."
+          },
+          {
+            "id": 19,
+            "type": "summary_completion",
+            "prompt": "The impact of driverless cars\n\nFigures from the Transport Research Laboratory indicate that most motor accidents are partly due to 19 ..........................................................., so the introduction of driverless vehicles will result in greater safety.",
+            "options": [],
+            "answers": [
+              "human error"
+            ],
+            "notes": "Complete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer. Write your answers in boxes 19-22 on your answer sheet."
+          },
+          {
+            "id": 20,
+            "type": "summary_completion",
+            "prompt": "In addition to the direct benefits of automation, it may bring other advantages. For example, schemes for 20 ........................................................... will be more workable, especially in towns and cities, resulting in fewer cars on the road.",
+            "options": [],
+            "answers": [
+              "car (-) sharing"
+            ],
+            "notes": "Complete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer. Write your answers in boxes 19-22 on your answer sheet."
+          },
+          {
+            "id": 21,
+            "type": "summary_completion",
+            "prompt": "According to the University of Michigan Transportation Research Institute, there could be a 43 percent drop in 21 ........................................................... of cars.",
+            "options": [],
+            "answers": [
+              "ownership"
+            ],
+            "notes": "Complete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer. Write your answers in boxes 19-22 on your answer sheet."
+          },
+          {
+            "id": 22,
+            "type": "summary_completion",
+            "prompt": "However, this would mean that the yearly 22 ........................................................... of each car would, on average, be twice as high as it currently is. This would lead to a higher turnover of vehicles, and therefore no reduction in automotive manufacturing.",
+            "options": [],
+            "answers": [
+              "mileage"
+            ],
+            "notes": "Complete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer. Write your answers in boxes 19-22 on your answer sheet."
+          }
+        ]
+      },
+      {
+        "passage_num": 3,
+        "title": null,
+        "passage_text": null,
+        "questions": [
+          {
+            "id": 27,
+            "type": "mcq",
+            "prompt": "The writer refers to visitors to New York to illustrate the point that",
+            "options": [
+              "A. exploration is an intrinsic element of being human.",
+              "B. most people are enthusiastic about exploring.",
+              "C. exploration can lead to surprising results.",
+              "D. most people find exploration daunting."
+            ],
+            "answers": [
+              "A"
+            ],
+            "notes": "Write the correct letter in boxes 27-32 on your answer sheet."
+          },
+          {
+            "id": 28,
+            "type": "mcq",
+            "prompt": "According to the second paragraph, what is the writer's view of explorers?",
+            "options": [
+              "A. Their discoveries have brought both benefits and disadvantages.",
+              "B. Their main value is in teaching others.",
+              "C. They act on an urge that is common to everyone.",
+              "D. They tend to be more attracted to certain professions than to others."
+            ],
+            "answers": [
+              "C"
+            ],
+            "notes": "Write the correct letter in boxes 27-32 on your answer sheet."
+          },
+          {
+            "id": 29,
+            "type": "mcq",
+            "prompt": "The writer refers to a description of Egdon Heath to suggest that",
+            "options": [
+              "A. Hardy was writing about his own experience of exploration.",
+              "B. Hardy was mistaken about the nature of exploration.",
+              "C. Hardy's aim was to investigate people's emotional states.",
+              "D. Hardy's aim was to show the attraction of isolation."
+            ],
+            "answers": [
+              "C"
+            ],
+            "notes": "Write the correct letter in boxes 27-32 on your answer sheet."
+          },
+          {
+            "id": 30,
+            "type": "mcq",
+            "prompt": "In the fourth paragraph, the writer refers to 'a golden age' to suggest that",
+            "options": [
+              "A. the amount of useful information produced by exploration has decreased.",
+              "B. fewer people are interested in exploring than in the 19th century.",
+              "C. recent developments have made exploration less exciting.",
+              "D. we are wrong to think that exploration is no longer necessary."
+            ],
+            "answers": [
+              "D"
+            ],
+            "notes": "Write the correct letter in boxes 27-32 on your answer sheet."
+          },
+          {
+            "id": 31,
+            "type": "mcq",
+            "prompt": "In the sixth paragraph, when discussing the definition of exploration, the writer argues that",
+            "options": [
+              "A. people tend to relate exploration to their own professional interests.",
+              "B. certain people are likely to misunderstand the nature of exploration.",
+              "C. the generally accepted definition has changed over time.",
+              "D. historians and scientists have more valid definitions than the general public."
+            ],
+            "answers": [
+              "A"
+            ],
+            "notes": "Write the correct letter in boxes 27-32 on your answer sheet."
+          },
+          {
+            "id": 32,
+            "type": "mcq",
+            "prompt": "In the last paragraph, the writer explains that he is interested in",
+            "options": [
+              "A. how someone's personality is reflected in their choice of places to visit.",
+              "B. the human ability to cast new light on places that may be familiar.",
+              "C. how travel writing has evolved to meet changing demands.",
+              "D. the feelings that writers develop about the places that they explore."
+            ],
+            "answers": [
+              "B"
+            ],
+            "notes": "Write the correct letter in boxes 27-32 on your answer sheet."
+          }
+        ]
+      }
+    ]
+  }
+}

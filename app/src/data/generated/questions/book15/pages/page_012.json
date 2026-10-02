@@ -1,0 +1,91 @@
+{
+  "section": "listening_part_1",
+  "test_number": 1,
+  "questions": [
+    {
+      "id": 1,
+      "type": "fill_blank",
+      "prompt": "Name of agent: Becky 1 ..............................",
+      "options": [],
+      "answers": [],
+      "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+    },
+    {
+      "id": 2,
+      "type": "fill_blank",
+      "prompt": "Best to call her in the 2 ..............................",
+      "options": [],
+      "answers": [],
+      "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+    },
+    {
+      "id": 3,
+      "type": "fill_blank",
+      "prompt": "Must have good 3 .............................. skills",
+      "options": [],
+      "answers": [],
+      "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+    },
+    {
+      "id": 4,
+      "type": "fill_blank",
+      "prompt": "Jobs are usually for at least one 4 ..............................",
+      "options": [],
+      "answers": [],
+      "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+    },
+    {
+      "id": 5,
+      "type": "fill_blank",
+      "prompt": "Pay is usually £ 5 .............................. per hour",
+      "options": [],
+      "answers": [],
+      "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+    },
+    {
+      "id": 6,
+      "type": "fill_blank",
+      "prompt": "Wear a 6 .............................. to the interview",
+      "options": [],
+      "answers": [],
+      "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+    },
+    {
+      "id": 7,
+      "type": "fill_blank",
+      "prompt": "Must bring your 7 .............................. to the interview",
+      "options": [],
+      "answers": [],
+      "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+    },
+    {
+      "id": 8,
+      "type": "fill_blank",
+      "prompt": "They will ask questions about each applicant's 8 ..............................",
+      "options": [],
+      "answers": [],
+      "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+    },
+    {
+      "id": 9,
+      "type": "fill_blank",
+      "prompt": "The 9 .............................. you receive at interview will benefit you",
+      "options": [],
+      "answers": [],
+      "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+    },
+    {
+      "id": 10,
+      "type": "fill_blank",
+      "prompt": "Less 10 .............................. is involved in applying for jobs",
+      "options": [],
+      "answers": [],
+      "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 12
+}

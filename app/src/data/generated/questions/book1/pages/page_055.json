@@ -1,0 +1,101 @@
+{
+  "section": "reading_passage_3",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 28,
+      "type": "matching",
+      "prompt": "Paragraph A",
+      "options": [
+        "i. The politics of tourism",
+        "ii. The cost of tourism",
+        "iii. Justifying the study of tourism",
+        "iv. Tourism contrasted with travel",
+        "v. The essence of modern tourism",
+        "vi. Tourism versus leisure",
+        "vii. The artificiality of modern tourism",
+        "viii. The role of modern tour guides",
+        "ix. Creating an alternative to the everyday experience"
+      ],
+      "answers": [],
+      "notes": "Choose the most suitable heading for each paragraph from the list of headings (i-ix)"
+    },
+    {
+      "id": 29,
+      "type": "matching",
+      "prompt": "Paragraph B",
+      "options": [
+        "i. The politics of tourism",
+        "ii. The cost of tourism",
+        "iii. Justifying the study of tourism",
+        "iv. Tourism contrasted with travel",
+        "v. The essence of modern tourism",
+        "vi. Tourism versus leisure",
+        "vii. The artificiality of modern tourism",
+        "viii. The role of modern tour guides",
+        "ix. Creating an alternative to the everyday experience"
+      ],
+      "answers": [],
+      "notes": "Choose the most suitable heading for each paragraph from the list of headings (i-ix)"
+    },
+    {
+      "id": 30,
+      "type": "matching",
+      "prompt": "Paragraph C",
+      "options": [
+        "i. The politics of tourism",
+        "ii. The cost of tourism",
+        "iii. Justifying the study of tourism",
+        "iv. Tourism contrasted with travel",
+        "v. The essence of modern tourism",
+        "vi. Tourism versus leisure",
+        "vii. The artificiality of modern tourism",
+        "viii. The role of modern tour guides",
+        "ix. Creating an alternative to the everyday experience"
+      ],
+      "answers": [],
+      "notes": "Choose the most suitable heading for each paragraph from the list of headings (i-ix)"
+    },
+    {
+      "id": 31,
+      "type": "matching",
+      "prompt": "Paragraph E",
+      "options": [
+        "i. The politics of tourism",
+        "ii. The cost of tourism",
+        "iii. Justifying the study of tourism",
+        "iv. Tourism contrasted with travel",
+        "v. The essence of modern tourism",
+        "vi. Tourism versus leisure",
+        "vii. The artificiality of modern tourism",
+        "viii. The role of modern tour guides",
+        "ix. Creating an alternative to the everyday experience"
+      ],
+      "answers": [],
+      "notes": "Choose the most suitable heading for each paragraph from the list of headings (i-ix)"
+    },
+    {
+      "id": 32,
+      "type": "matching",
+      "prompt": "Paragraph F",
+      "options": [
+        "i. The politics of tourism",
+        "ii. The cost of tourism",
+        "iii. Justifying the study of tourism",
+        "iv. Tourism contrasted with travel",
+        "v. The essence of modern tourism",
+        "vi. Tourism versus leisure",
+        "vii. The artificiality of modern tourism",
+        "viii. The role of modern tour guides",
+        "ix. Creating an alternative to the everyday experience"
+      ],
+      "answers": [],
+      "notes": "Choose the most suitable heading for each paragraph from the list of headings (i-ix)"
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": "evaluating potential places to visit Such visits are made says Boorstin, within the \"environmental bubble of the familiar American style hotel which insulates the tourist from the strangeness of the host environment F To service the burgeoning tourist industry...",
+  "has_answer_key": false,
+  "_page_num": 55
+}

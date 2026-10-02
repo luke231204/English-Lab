@@ -1,0 +1,71 @@
+{
+  "section": "reading_passage_1",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 9,
+      "type": "tfng",
+      "prompt": "Local families have told Whaley about some traditional uses of huarango products.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "In boxes 9–13 on your answer sheet, write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this"
+    },
+    {
+      "id": 10,
+      "type": "tfng",
+      "prompt": "Farmer Alberto Benevides is now making a good profit from growing huarangos.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "In boxes 9–13 on your answer sheet, write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this"
+    },
+    {
+      "id": 11,
+      "type": "tfng",
+      "prompt": "Whaley needs the co-operation of farmers to help preserve the area's wildlife.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "In boxes 9–13 on your answer sheet, write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this"
+    },
+    {
+      "id": 12,
+      "type": "tfng",
+      "prompt": "For Whaley's project to succeed, it needs to be extended over a very large area.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "In boxes 9–13 on your answer sheet, write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this"
+    },
+    {
+      "id": 13,
+      "type": "tfng",
+      "prompt": "Whaley has plans to go to Africa to set up a similar project.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "In boxes 9–13 on your answer sheet, write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this"
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 85
+}

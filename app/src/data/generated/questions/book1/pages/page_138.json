@@ -1,0 +1,115 @@
+{
+  "section": "answer_key",
+  "test_number": 1,
+  "questions": [],
+  "answer_key_entries": [
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 16,
+      "answers": [
+        "YES"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 17,
+      "answers": [
+        "YES"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 18,
+      "answers": [
+        "NOT GIVEN"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 19,
+      "answers": [
+        "NO"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 20,
+      "answers": [
+        "NO"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 21,
+      "answers": [
+        "NOT GIVEN"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 22,
+      "answers": [
+        "YES"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 23,
+      "answers": [
+        "B"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 24,
+      "answers": [
+        "C"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 25,
+      "answers": [
+        "A"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 26,
+      "answers": [
+        "A"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 27,
+      "answers": [
+        "D"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 28,
+      "answers": [
+        "E"
+      ]
+    }
+  ],
+  "passage_title": "Zoo conservation programmes",
+  "passage_text_excerpt": "",
+  "has_answer_key": true,
+  "_page_num": 138
+}

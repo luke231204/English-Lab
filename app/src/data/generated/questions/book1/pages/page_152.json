@@ -1,0 +1,123 @@
+{
+  "section": "answer_key",
+  "test_number": null,
+  "questions": [],
+  "answer_key_entries": [
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 1,
+      "answers": [
+        "D"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 2,
+      "answers": [
+        "A"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 3,
+      "answers": [
+        "C"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 4,
+      "answers": [
+        "E"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 5,
+      "answers": [
+        "distilled (water)"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 6,
+      "answers": [
+        "the (type of) fabric"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 7,
+      "answers": [
+        "turn up/increase temperature"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 8,
+      "answers": [
+        "calcium deposits//furring up"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 9,
+      "answers": [
+        "C"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 10,
+      "answers": [
+        "D"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 11,
+      "answers": [
+        "C"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 12,
+      "answers": [
+        "A"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 13,
+      "answers": [
+        "B"
+      ]
+    },
+    {
+      "test_number": 1,
+      "module": "reading",
+      "id": 14,
+      "answers": [
+        "B"
+      ]
+    }
+  ],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": true,
+  "_page_num": 152
+}

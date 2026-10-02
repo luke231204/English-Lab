@@ -1,0 +1,96 @@
+{
+  "section": "reading_passage_3",
+  "test_number": 1,
+  "questions": [
+    {
+      "id": 36,
+      "type": "matching",
+      "prompt": "A rapid movement of people from rural areas to cities is triggered by technological advance.",
+      "options": [
+        "A. The quality of life is improved.",
+        "B. Architecture reflects the age.",
+        "C. A number of these have been knocked down.",
+        "D. Light steel frames and lifts are developed.",
+        "E. Historical buildings are preserved.",
+        "F. All decoration is removed.",
+        "G. Parts of cities become slums.",
+        "H. Modernist ideas cannot be put into practice until the second half of the 20th century."
+      ],
+      "answers": [],
+      "notes": "Match each Cause (36-40) in List A, with its Effect (A-H) in List B."
+    },
+    {
+      "id": 37,
+      "type": "matching",
+      "prompt": "Buildings become simple and functional.",
+      "options": [
+        "A. The quality of life is improved.",
+        "B. Architecture reflects the age.",
+        "C. A number of these have been knocked down.",
+        "D. Light steel frames and lifts are developed.",
+        "E. Historical buildings are preserved.",
+        "F. All decoration is removed.",
+        "G. Parts of cities become slums.",
+        "H. Modernist ideas cannot be put into practice until the second half of the 20th century."
+      ],
+      "answers": [],
+      "notes": "Match each Cause (36-40) in List A, with its Effect (A-H) in List B."
+    },
+    {
+      "id": 38,
+      "type": "matching",
+      "prompt": "An economic depression and the second world war hit Europe.",
+      "options": [
+        "A. The quality of life is improved.",
+        "B. Architecture reflects the age.",
+        "C. A number of these have been knocked down.",
+        "D. Light steel frames and lifts are developed.",
+        "E. Historical buildings are preserved.",
+        "F. All decoration is removed.",
+        "G. Parts of cities become slums.",
+        "H. Modernist ideas cannot be put into practice until the second half of the 20th century."
+      ],
+      "answers": [],
+      "notes": "Match each Cause (36-40) in List A, with its Effect (A-H) in List B."
+    },
+    {
+      "id": 39,
+      "type": "matching",
+      "prompt": "Multi-storey housing estates are built according to contemporary ideas on town planning.",
+      "options": [
+        "A. The quality of life is improved.",
+        "B. Architecture reflects the age.",
+        "C. A number of these have been knocked down.",
+        "D. Light steel frames and lifts are developed.",
+        "E. Historical buildings are preserved.",
+        "F. All decoration is removed.",
+        "G. Parts of cities become slums.",
+        "H. Modernist ideas cannot be put into practice until the second half of the 20th century."
+      ],
+      "answers": [],
+      "notes": "Match each Cause (36-40) in List A, with its Effect (A-H) in List B."
+    },
+    {
+      "id": 40,
+      "type": "matching",
+      "prompt": "Less land must be used for building.",
+      "options": [
+        "A. The quality of life is improved.",
+        "B. Architecture reflects the age.",
+        "C. A number of these have been knocked down.",
+        "D. Light steel frames and lifts are developed.",
+        "E. Historical buildings are preserved.",
+        "F. All decoration is removed.",
+        "G. Parts of cities become slums.",
+        "H. Modernist ideas cannot be put into practice until the second half of the 20th century."
+      ],
+      "answers": [],
+      "notes": "Match each Cause (36-40) in List A, with its Effect (A-H) in List B."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 36
+}

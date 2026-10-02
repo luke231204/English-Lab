@@ -1,0 +1,50 @@
+{
+  "section": "listening_part_1",
+  "test_number": 3,
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "prompt": "What are the parking regulations on campus?",
+      "options": [
+        "A. undergraduate parking allowed",
+        "B. postgraduate parking allowed",
+        "C. staff parking only allowed",
+        "D. no student parking allowed"
+      ],
+      "answers": [],
+      "notes": "Circle the appropriate letter"
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "prompt": "The administration office is in",
+      "options": [
+        "A. Block B.",
+        "B. Block D.",
+        "C. Block E.",
+        "D. Block G."
+      ],
+      "answers": [],
+      "notes": "Circle the appropriate letter"
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "prompt": "If you do not have a parking sticker, the following action will be taken:",
+      "options": [
+        "A. wheel clamp your car.",
+        "B. fine only.",
+        "C. tow away your car and fine.",
+        "D. tow away your car only."
+      ],
+      "answers": [],
+      "notes": "Circle the appropriate letter"
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 60
+}

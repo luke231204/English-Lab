@@ -1,0 +1,93 @@
+{
+  "section": "reading_passage_2",
+  "test_number": 1,
+  "questions": [
+    {
+      "id": 16,
+      "type": "tfng",
+      "prompt": "London Zoo's advertisements are dishonest.",
+      "options": [],
+      "answers": [],
+      "notes": "Do the following statements agree with the views of the writer in Reading Passage 2? In boxes 16-22 write YES, NO, or NOT GIVEN"
+    },
+    {
+      "id": 17,
+      "type": "tfng",
+      "prompt": "Zoos made an insignificant contribution to conservation up until 30 years ago.",
+      "options": [],
+      "answers": [],
+      "notes": "Do the following statements agree with the views of the writer in Reading Passage 2? In boxes 16-22 write YES, NO, or NOT GIVEN"
+    },
+    {
+      "id": 18,
+      "type": "tfng",
+      "prompt": "The WZCS document is not known in Eastern Europe.",
+      "options": [],
+      "answers": [],
+      "notes": "Do the following statements agree with the views of the writer in Reading Passage 2? In boxes 16-22 write YES, NO, or NOT GIVEN"
+    },
+    {
+      "id": 19,
+      "type": "tfng",
+      "prompt": "Zoos in the WZCS select list were carefully inspected.",
+      "options": [],
+      "answers": [],
+      "notes": "Do the following statements agree with the views of the writer in Reading Passage 2? In boxes 16-22 write YES, NO, or NOT GIVEN"
+    },
+    {
+      "id": 20,
+      "type": "tfng",
+      "prompt": "No-one knew how the animals were being treated at Robin Hill Adventure Park.",
+      "options": [],
+      "answers": [],
+      "notes": "Do the following statements agree with the views of the writer in Reading Passage 2? In boxes 16-22 write YES, NO, or NOT GIVEN"
+    },
+    {
+      "id": 21,
+      "type": "tfng",
+      "prompt": "Colin Tudge was dissatisfied with the treatment of animals at London Zoo.",
+      "options": [],
+      "answers": [],
+      "notes": "Do the following statements agree with the views of the writer in Reading Passage 2? In boxes 16-22 write YES, NO, or NOT GIVEN"
+    },
+    {
+      "id": 22,
+      "type": "tfng",
+      "prompt": "The number of successful zoo conservation programmes is unsatisfactory.",
+      "options": [],
+      "answers": [],
+      "notes": "Do the following statements agree with the views of the writer in Reading Passage 2? In boxes 16-22 write YES, NO, or NOT GIVEN"
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "prompt": "What were the objectives of the WZCS document?",
+      "options": [
+        "A. to improve the calibre of zoos world-wide",
+        "B. to identify zoos suitable for conservation practice",
+        "C. to provide funds for zoos in underdeveloped countries",
+        "D. to list the endangered species of the world"
+      ],
+      "answers": [],
+      "notes": "Choose the appropriate letters A-D and write them in boxes 23-25 on your answer sheet."
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "prompt": "Why does the writer refer to Robin Hill Adventure Park?",
+      "options": [
+        "A. to support the Isle of Wight local council",
+        "B. to criticise the 1981 Zoo Licensing Act",
+        "C. to illustrate a weakness in the WZCS document",
+        "D. to exemplify the standards in AAZPA zoos"
+      ],
+      "answers": [],
+      "notes": "Choose the appropriate letters A-D and write them in boxes 23-25 on your answer sheet."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 32
+}

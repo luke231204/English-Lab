@@ -1,0 +1,707 @@
+import type { TestData } from '../../../types';
+
+export const cambridge1Test1: TestData = {
+  "book": 1,
+  "test": 1,
+  "title": "Cambridge IELTS 1 — Academic Test 1",
+  "listening": {
+    "audio_path": "/assets/audio/book1/test1.mp3",
+    "sections": [
+      {
+        "part": 1,
+        "title": "Part 1",
+        "questions": [
+          {
+            "id": 1,
+            "type": "mcq",
+            "prompt": "What does her briefcase look like?",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ],
+            "answers": [
+              "A"
+            ],
+            "notes": "Circle the appropriate letter."
+          },
+          {
+            "id": 2,
+            "type": "mcq",
+            "prompt": "Which picture shows the distinguishing features?",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ],
+            "answers": [
+              "C"
+            ],
+            "notes": "Circle the appropriate letter."
+          },
+          {
+            "id": 3,
+            "type": "mcq",
+            "prompt": "What did she have inside her briefcase?",
+            "options": [
+              "A. wallet, pens and novel",
+              "B. papers and wallet",
+              "C. pens and novel",
+              "D. papers, pens and novel"
+            ],
+            "answers": [
+              "D"
+            ],
+            "notes": "Circle the appropriate letter."
+          }
+        ],
+        "start_sec": 61.0,
+        "end_sec": 489.0
+      },
+      {
+        "part": 2,
+        "title": "Part 2",
+        "questions": [
+          {
+            "id": 11,
+            "type": "mcq",
+            "prompt": "Tick the THREE other items which are mentioned in the news headlines.",
+            "options": [
+              "A. Rivers flood in the north",
+              "B. Money promised for drought victims",
+              "C. Nurses on strike in Melbourne",
+              "D. Passengers rescued from ship",
+              "E. Passengers rescued from plane",
+              "F. Bus and train drivers national strike threat",
+              "G. Teachers demand more pay",
+              "H. New uniform for QANTAS staff",
+              "I. National airports under new management"
+            ],
+            "answers": [
+              "E"
+            ],
+            "notes": "Tick the THREE other items which are mentioned in the news headlines."
+          },
+          {
+            "id": 12,
+            "type": "mcq",
+            "prompt": "Tick the THREE other items which are mentioned in the news headlines.",
+            "options": [],
+            "answers": [
+              "F"
+            ],
+            "notes": "Part of Questions 11-13"
+          },
+          {
+            "id": 13,
+            "type": "mcq",
+            "prompt": "Tick the THREE other items which are mentioned in the news headlines.",
+            "options": [],
+            "answers": [
+              "H"
+            ],
+            "notes": "Part of Questions 11-13"
+          }
+        ],
+        "start_sec": 489.0,
+        "end_sec": 733.0
+      },
+      {
+        "part": 3,
+        "title": "Part 3",
+        "questions": [
+          {
+            "id": 22,
+            "type": "mcq",
+            "prompt": "The orientation meeting",
+            "options": [
+              "A. took place recently.",
+              "B. took place last term.",
+              "C. will take place tomorrow.",
+              "D. will take place next week."
+            ],
+            "answers": [
+              "A"
+            ],
+            "notes": "Circle the appropriate letter."
+          },
+          {
+            "id": 23,
+            "type": "mcq",
+            "prompt": "Attendance at lectures is",
+            "options": [
+              "A. optional after 4 pm.",
+              "B. closely monitored.",
+              "C. difficult to enforce.",
+              "D. sometimes unnecessary."
+            ],
+            "answers": [
+              "B"
+            ],
+            "notes": "Circle the appropriate letter."
+          },
+          {
+            "id": 24,
+            "type": "mcq",
+            "prompt": "Tutorials take place",
+            "options": [
+              "A. every morning.",
+              "B. twice a week.",
+              "C. three mornings a week.",
+              "D. three afternoons a week."
+            ],
+            "answers": [
+              "C"
+            ],
+            "notes": "Circle the appropriate letter."
+          },
+          {
+            "id": 25,
+            "type": "mcq",
+            "prompt": "The lecturer's name is",
+            "options": [
+              "A. Roberts.",
+              "B. Rawson.",
+              "C. Rogers.",
+              "D. Robertson."
+            ],
+            "answers": [
+              "A"
+            ],
+            "notes": "Circle the appropriate letter."
+          }
+        ],
+        "start_sec": 733.0,
+        "end_sec": 1608.2
+      },
+      {
+        "part": 4,
+        "title": "Part 4",
+        "questions": [
+          {
+            "id": 32,
+            "type": "mcq",
+            "prompt": "The speaker works within the Faculty of",
+            "options": [
+              "A. Science and Technology.",
+              "B. Arts and Social Sciences.",
+              "C. Architecture.",
+              "D. Law."
+            ],
+            "answers": [
+              "B"
+            ],
+            "notes": "Circle the appropriate letter."
+          },
+          {
+            "id": 33,
+            "type": "mcq",
+            "prompt": "The Faculty consists firstly of",
+            "options": [
+              "A. subjects.",
+              "B. degrees.",
+              "C. divisions.",
+              "D. departments."
+            ],
+            "answers": [
+              "C"
+            ],
+            "notes": "Circle the appropriate letter."
+          },
+          {
+            "id": 34,
+            "type": "fill_blank",
+            "prompt": "The subjects taken in the first semester in this course are psychology, sociology, (34) ___________________________________ and ____________________________________.",
+            "options": [],
+            "answers": [
+              "history and economics"
+            ],
+            "notes": "Complete the notes m NO MORE THAN THREE WORDS."
+          },
+          {
+            "id": 35,
+            "type": "fill_blank",
+            "prompt": "Students may have problems with (35) ___________________________________",
+            "options": [],
+            "answers": [
+              "(meeting) deadlines (for essays)"
+            ],
+            "notes": "Complete the notes m NO MORE THAN THREE WORDS."
+          },
+          {
+            "id": 36,
+            "type": "fill_blank",
+            "prompt": "Students may have problems with ... and (36) ___________________________________.",
+            "options": [],
+            "answers": [
+              "attendance"
+            ],
+            "notes": "Complete the notes m NO MORE THAN THREE WORDS."
+          }
+        ],
+        "start_sec": 0.0,
+        "end_sec": 61.0
+      }
+    ]
+  },
+  "reading": {
+    "passages": [
+      {
+        "passage_num": 1,
+        "title": "EARLY FIRE-LIGHTING METHODS",
+        "passage_text": "Complete the summary below. Choose your answers from the box at the bottom of the page and write them in boxes 1 8 on your answer sheet. NB There are more words than spaces so you will not use them all You may use any of the words more than once.",
+        "questions": [
+          {
+            "id": 1,
+            "type": "summary_completion",
+            "prompt": "They tried to ... (1) ... burning logs or charcoal",
+            "options": [
+              "Mexicans",
+              "despite",
+              "sunlight",
+              "percussion",
+              "unaware",
+              "heating",
+              "until",
+              "random",
+              "preserve",
+              "lacking",
+              "chance",
+              "without",
+              "Eskimos",
+              "smoke",
+              "rotating",
+              "realising",
+              "heavenly",
+              "friction",
+              "make",
+              "surprised"
+            ],
+            "answers": [
+              "preserve"
+            ],
+            "notes": "Choose your answers from the box at the bottom of the page"
+          },
+          {
+            "id": 2,
+            "type": "summary_completion",
+            "prompt": "... (2) ... that they could create fire themselves.",
+            "options": [
+              "Mexicans",
+              "despite",
+              "sunlight",
+              "percussion",
+              "unaware",
+              "heating",
+              "until",
+              "random",
+              "preserve",
+              "lacking",
+              "chance",
+              "without",
+              "Eskimos",
+              "smoke",
+              "rotating",
+              "realising",
+              "heavenly",
+              "friction",
+              "make",
+              "surprised"
+            ],
+            "answers": [
+              "unaware"
+            ],
+            "notes": "Choose your answers from the box at the bottom of the page"
+          },
+          {
+            "id": 3,
+            "type": "summary_completion",
+            "prompt": "It is suspected that the first man-made flames were produced by ... (3) ...",
+            "options": [
+              "Mexicans",
+              "despite",
+              "sunlight",
+              "percussion",
+              "unaware",
+              "heating",
+              "until",
+              "random",
+              "preserve",
+              "lacking",
+              "chance",
+              "without",
+              "Eskimos",
+              "smoke",
+              "rotating",
+              "realising",
+              "heavenly",
+              "friction",
+              "make",
+              "surprised"
+            ],
+            "answers": [
+              "chance"
+            ],
+            "notes": "Choose your answers from the box at the bottom of the page"
+          },
+          {
+            "id": 4,
+            "type": "summary_completion",
+            "prompt": "The very first fire-lighting methods involved the creation of ... (4) ... by, for example",
+            "options": [
+              "Mexicans",
+              "despite",
+              "sunlight",
+              "percussion",
+              "unaware",
+              "heating",
+              "until",
+              "random",
+              "preserve",
+              "lacking",
+              "chance",
+              "without",
+              "Eskimos",
+              "smoke",
+              "rotating",
+              "realising",
+              "heavenly",
+              "friction",
+              "make",
+              "surprised"
+            ],
+            "answers": [
+              "friction"
+            ],
+            "notes": "Choose your answers from the box at the bottom of the page"
+          },
+          {
+            "id": 5,
+            "type": "summary_completion",
+            "prompt": "rapidly ... (5) ... a wooden stick in a round hole.",
+            "options": [
+              "Mexicans",
+              "despite",
+              "sunlight",
+              "percussion",
+              "unaware",
+              "heating",
+              "until",
+              "random",
+              "preserve",
+              "lacking",
+              "chance",
+              "without",
+              "Eskimos",
+              "smoke",
+              "rotating",
+              "realising",
+              "heavenly",
+              "friction",
+              "make",
+              "surprised"
+            ],
+            "answers": [
+              "rotating"
+            ],
+            "notes": "Choose your answers from the box at the bottom of the page"
+          },
+          {
+            "id": 6,
+            "type": "summary_completion",
+            "prompt": "The use of ... (6) ... or persistent chipping was also widespread in Europe and among other peoples",
+            "options": [
+              "Mexicans",
+              "despite",
+              "sunlight",
+              "percussion",
+              "unaware",
+              "heating",
+              "until",
+              "random",
+              "preserve",
+              "lacking",
+              "chance",
+              "without",
+              "Eskimos",
+              "smoke",
+              "rotating",
+              "realising",
+              "heavenly",
+              "friction",
+              "make",
+              "surprised"
+            ],
+            "answers": [
+              "percussion"
+            ],
+            "notes": "Choose your answers from the box at the bottom of the page"
+          },
+          {
+            "id": 7,
+            "type": "summary_completion",
+            "prompt": "such as the Chinese and ... (7) ... .",
+            "options": [
+              "Mexicans",
+              "despite",
+              "sunlight",
+              "percussion",
+              "unaware",
+              "heating",
+              "until",
+              "random",
+              "preserve",
+              "lacking",
+              "chance",
+              "without",
+              "Eskimos",
+              "smoke",
+              "rotating",
+              "realising",
+              "heavenly",
+              "friction",
+              "make",
+              "surprised"
+            ],
+            "answers": [
+              "Eskimos"
+            ],
+            "notes": "Choose your answers from the box at the bottom of the page"
+          },
+          {
+            "id": 8,
+            "type": "summary_completion",
+            "prompt": "European practice of this method continued until the 1850s ... (8) ... the discovery of phosphorus some years earlier.",
+            "options": [
+              "Mexicans",
+              "despite",
+              "sunlight",
+              "percussion",
+              "unaware",
+              "heating",
+              "until",
+              "random",
+              "preserve",
+              "lacking",
+              "chance",
+              "without",
+              "Eskimos",
+              "smoke",
+              "rotating",
+              "realising",
+              "heavenly",
+              "friction",
+              "make",
+              "surprised"
+            ],
+            "answers": [
+              "despite"
+            ],
+            "notes": "Choose your answers from the box at the bottom of the page"
+          }
+        ]
+      },
+      {
+        "passage_num": 2,
+        "title": null,
+        "passage_text": null,
+        "questions": [
+          {
+            "id": 16,
+            "type": "tfng",
+            "prompt": "London Zoo's advertisements are dishonest.",
+            "options": [],
+            "answers": [
+              "YES"
+            ],
+            "notes": "Do the following statements agree with the views of the writer in Reading Passage 2? In boxes 16-22 write YES, NO, or NOT GIVEN"
+          },
+          {
+            "id": 17,
+            "type": "tfng",
+            "prompt": "Zoos made an insignificant contribution to conservation up until 30 years ago.",
+            "options": [],
+            "answers": [
+              "YES"
+            ],
+            "notes": "Do the following statements agree with the views of the writer in Reading Passage 2? In boxes 16-22 write YES, NO, or NOT GIVEN"
+          },
+          {
+            "id": 18,
+            "type": "tfng",
+            "prompt": "The WZCS document is not known in Eastern Europe.",
+            "options": [],
+            "answers": [
+              "NOT GIVEN"
+            ],
+            "notes": "Do the following statements agree with the views of the writer in Reading Passage 2? In boxes 16-22 write YES, NO, or NOT GIVEN"
+          },
+          {
+            "id": 19,
+            "type": "tfng",
+            "prompt": "Zoos in the WZCS select list were carefully inspected.",
+            "options": [],
+            "answers": [
+              "NO"
+            ],
+            "notes": "Do the following statements agree with the views of the writer in Reading Passage 2? In boxes 16-22 write YES, NO, or NOT GIVEN"
+          },
+          {
+            "id": 20,
+            "type": "tfng",
+            "prompt": "No-one knew how the animals were being treated at Robin Hill Adventure Park.",
+            "options": [],
+            "answers": [
+              "NO"
+            ],
+            "notes": "Do the following statements agree with the views of the writer in Reading Passage 2? In boxes 16-22 write YES, NO, or NOT GIVEN"
+          },
+          {
+            "id": 21,
+            "type": "tfng",
+            "prompt": "Colin Tudge was dissatisfied with the treatment of animals at London Zoo.",
+            "options": [],
+            "answers": [
+              "NOT GIVEN"
+            ],
+            "notes": "Do the following statements agree with the views of the writer in Reading Passage 2? In boxes 16-22 write YES, NO, or NOT GIVEN"
+          },
+          {
+            "id": 22,
+            "type": "tfng",
+            "prompt": "The number of successful zoo conservation programmes is unsatisfactory.",
+            "options": [],
+            "answers": [
+              "YES"
+            ],
+            "notes": "Do the following statements agree with the views of the writer in Reading Passage 2? In boxes 16-22 write YES, NO, or NOT GIVEN"
+          },
+          {
+            "id": 23,
+            "type": "mcq",
+            "prompt": "What were the objectives of the WZCS document?",
+            "options": [
+              "A. to improve the calibre of zoos world-wide",
+              "B. to identify zoos suitable for conservation practice",
+              "C. to provide funds for zoos in underdeveloped countries",
+              "D. to list the endangered species of the world"
+            ],
+            "answers": [
+              "B"
+            ],
+            "notes": "Choose the appropriate letters A-D and write them in boxes 23-25 on your answer sheet."
+          },
+          {
+            "id": 24,
+            "type": "mcq",
+            "prompt": "Why does the writer refer to Robin Hill Adventure Park?",
+            "options": [
+              "A. to support the Isle of Wight local council",
+              "B. to criticise the 1981 Zoo Licensing Act",
+              "C. to illustrate a weakness in the WZCS document",
+              "D. to exemplify the standards in AAZPA zoos"
+            ],
+            "answers": [
+              "C"
+            ],
+            "notes": "Choose the appropriate letters A-D and write them in boxes 23-25 on your answer sheet."
+          }
+        ]
+      },
+      {
+        "passage_num": 3,
+        "title": null,
+        "passage_text": null,
+        "questions": [
+          {
+            "id": 36,
+            "type": "matching",
+            "prompt": "A rapid movement of people from rural areas to cities is triggered by technological advance.",
+            "options": [
+              "A. The quality of life is improved.",
+              "B. Architecture reflects the age.",
+              "C. A number of these have been knocked down.",
+              "D. Light steel frames and lifts are developed.",
+              "E. Historical buildings are preserved.",
+              "F. All decoration is removed.",
+              "G. Parts of cities become slums.",
+              "H. Modernist ideas cannot be put into practice until the second half of the 20th century."
+            ],
+            "answers": [],
+            "notes": "Match each Cause (36-40) in List A, with its Effect (A-H) in List B."
+          },
+          {
+            "id": 37,
+            "type": "matching",
+            "prompt": "Buildings become simple and functional.",
+            "options": [
+              "A. The quality of life is improved.",
+              "B. Architecture reflects the age.",
+              "C. A number of these have been knocked down.",
+              "D. Light steel frames and lifts are developed.",
+              "E. Historical buildings are preserved.",
+              "F. All decoration is removed.",
+              "G. Parts of cities become slums.",
+              "H. Modernist ideas cannot be put into practice until the second half of the 20th century."
+            ],
+            "answers": [],
+            "notes": "Match each Cause (36-40) in List A, with its Effect (A-H) in List B."
+          },
+          {
+            "id": 38,
+            "type": "matching",
+            "prompt": "An economic depression and the second world war hit Europe.",
+            "options": [
+              "A. The quality of life is improved.",
+              "B. Architecture reflects the age.",
+              "C. A number of these have been knocked down.",
+              "D. Light steel frames and lifts are developed.",
+              "E. Historical buildings are preserved.",
+              "F. All decoration is removed.",
+              "G. Parts of cities become slums.",
+              "H. Modernist ideas cannot be put into practice until the second half of the 20th century."
+            ],
+            "answers": [],
+            "notes": "Match each Cause (36-40) in List A, with its Effect (A-H) in List B."
+          },
+          {
+            "id": 39,
+            "type": "matching",
+            "prompt": "Multi-storey housing estates are built according to contemporary ideas on town planning.",
+            "options": [
+              "A. The quality of life is improved.",
+              "B. Architecture reflects the age.",
+              "C. A number of these have been knocked down.",
+              "D. Light steel frames and lifts are developed.",
+              "E. Historical buildings are preserved.",
+              "F. All decoration is removed.",
+              "G. Parts of cities become slums.",
+              "H. Modernist ideas cannot be put into practice until the second half of the 20th century."
+            ],
+            "answers": [],
+            "notes": "Match each Cause (36-40) in List A, with its Effect (A-H) in List B."
+          },
+          {
+            "id": 40,
+            "type": "matching",
+            "prompt": "Less land must be used for building.",
+            "options": [
+              "A. The quality of life is improved.",
+              "B. Architecture reflects the age.",
+              "C. A number of these have been knocked down.",
+              "D. Light steel frames and lifts are developed.",
+              "E. Historical buildings are preserved.",
+              "F. All decoration is removed.",
+              "G. Parts of cities become slums.",
+              "H. Modernist ideas cannot be put into practice until the second half of the 20th century."
+            ],
+            "answers": [],
+            "notes": "Match each Cause (36-40) in List A, with its Effect (A-H) in List B."
+          }
+        ]
+      }
+    ]
+  }
+};

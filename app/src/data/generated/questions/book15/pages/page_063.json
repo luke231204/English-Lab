@@ -1,0 +1,59 @@
+{
+  "section": "reading_passage_1",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 8,
+      "type": "fill_blank",
+      "prompt": "Moore is urged to offer his 8 .............................................................. and leave the Royal College",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 9,
+      "type": "fill_blank",
+      "prompt": "Moore turns to drawing because 9 .............................................................. for sculpting are not readily available",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 10,
+      "type": "fill_blank",
+      "prompt": "While visiting his hometown, Moore does some drawings of 10 ..............................................................",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 11,
+      "type": "fill_blank",
+      "prompt": "Moore is employed to produce a sculpture of a 11 ..............................................................",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 12,
+      "type": "fill_blank",
+      "prompt": "12 .............................................................. start to buy Moore's work",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 13,
+      "type": "fill_blank",
+      "prompt": "Moore's increased 13 .............................................................. makes it possible for him to do more ambitious sculptures",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": "Moore’s career as an artist",
+  "passage_text_excerpt": "",
+  "has_answer_key": false,
+  "_page_num": 63
+}

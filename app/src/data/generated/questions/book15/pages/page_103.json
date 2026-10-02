@@ -1,0 +1,71 @@
+{
+  "section": "audio_script",
+  "test_number": 2,
+  "questions": [
+    {
+      "id": 1,
+      "type": "fill_blank",
+      "prompt": "The name of the ballet company is __________.",
+      "options": [],
+      "answers": [
+        "Eustatis"
+      ],
+      "notes": "Information extracted from audio script context."
+    },
+    {
+      "id": 2,
+      "type": "fill_blank",
+      "prompt": "The title of the play is __________.",
+      "options": [],
+      "answers": [
+        "Jemima"
+      ],
+      "notes": "Information extracted from audio script context."
+    },
+    {
+      "id": 3,
+      "type": "fill_blank",
+      "prompt": "The dance performance is on the __________.",
+      "options": [],
+      "answers": [
+        "20th"
+      ],
+      "notes": "Information extracted from audio script context."
+    },
+    {
+      "id": 4,
+      "type": "fill_blank",
+      "prompt": "The name of the modern dance show is __________.",
+      "options": [],
+      "answers": [
+        "Chat"
+      ],
+      "notes": "Information extracted from audio script context."
+    },
+    {
+      "id": 5,
+      "type": "fill_blank",
+      "prompt": "The focus of the cookery workshop is a __________ lifestyle.",
+      "options": [],
+      "answers": [
+        "healthy"
+      ],
+      "notes": "Information extracted from audio script context."
+    },
+    {
+      "id": 6,
+      "type": "fill_blank",
+      "prompt": "The workshop for children focuses on creating __________.",
+      "options": [],
+      "answers": [
+        "posters"
+      ],
+      "notes": "Information extracted from audio script context."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": "TEST 2 PART 1",
+  "passage_text_excerpt": "Good morning. You're through to the tourist information office, Tim speaking. How can I help you?\nOh hello. Could you give me some information about next month's festival, please? My family and I will be staying in the town that week.\nOf course. Well it starts with a concert on the afternoon of",
+  "has_answer_key": false,
+  "_page_num": 103
+}

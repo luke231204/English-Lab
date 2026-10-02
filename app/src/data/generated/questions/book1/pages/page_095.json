@@ -1,0 +1,103 @@
+{
+  "section": "reading_passage_3",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 28,
+      "type": "tfng",
+      "prompt": "Scientists are interested in the effect of forestry on native animals.",
+      "options": [],
+      "answers": [],
+      "notes": "YES / NO / NOT GIVEN"
+    },
+    {
+      "id": 29,
+      "type": "tfng",
+      "prompt": "PVA has been used in Australia for many years.",
+      "options": [],
+      "answers": [],
+      "notes": "YES / NO / NOT GIVEN"
+    },
+    {
+      "id": 30,
+      "type": "tfng",
+      "prompt": "A species is said to be extinct when only one individual exists.",
+      "options": [],
+      "answers": [],
+      "notes": "YES / NO / NOT GIVEN"
+    },
+    {
+      "id": 31,
+      "type": "tfng",
+      "prompt": "Extinction is a naturally occurring phenomenon.",
+      "options": [],
+      "answers": [],
+      "notes": "YES / NO / NOT GIVEN"
+    },
+    {
+      "id": 32,
+      "type": "matching",
+      "prompt": "Paragraph A",
+      "options": [
+        "i. Loss of ability to adapt",
+        "ii. Natural disasters",
+        "iii. An imbalance of the sexes",
+        "iv. Human disasters",
+        "v. Evolution",
+        "vi. The haphazard nature of reproduction"
+      ],
+      "answers": [],
+      "notes": "Write the appropriate number (i-vi)"
+    },
+    {
+      "id": 33,
+      "type": "matching",
+      "prompt": "Paragraph B",
+      "options": [
+        "i. Loss of ability to adapt",
+        "ii. Natural disasters",
+        "iii. An imbalance of the sexes",
+        "iv. Human disasters",
+        "v. Evolution",
+        "vi. The haphazard nature of reproduction"
+      ],
+      "answers": [],
+      "notes": "Write the appropriate number (i-vi)"
+    },
+    {
+      "id": 34,
+      "type": "matching",
+      "prompt": "Paragraph C",
+      "options": [
+        "i. Loss of ability to adapt",
+        "ii. Natural disasters",
+        "iii. An imbalance of the sexes",
+        "iv. Human disasters",
+        "v. Evolution",
+        "vi. The haphazard nature of reproduction"
+      ],
+      "answers": [],
+      "notes": "Write the appropriate number (i-vi)"
+    },
+    {
+      "id": 35,
+      "type": "matching",
+      "prompt": "Paragraph D",
+      "options": [
+        "i. Loss of ability to adapt",
+        "ii. Natural disasters",
+        "iii. An imbalance of the sexes",
+        "iv. Human disasters",
+        "v. Evolution",
+        "vi. The haphazard nature of reproduction"
+      ],
+      "answers": [],
+      "notes": "Write the appropriate number (i-vi)"
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": "",
+  "has_answer_key": false,
+  "_page_num": 95
+}

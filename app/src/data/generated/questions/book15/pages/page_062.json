@@ -1,0 +1,93 @@
+{
+  "section": "reading_passage_1",
+  "test_number": 3,
+  "questions": [
+    {
+      "id": 1,
+      "type": "tfng",
+      "prompt": "On leaving school, Moore did what his father wanted him to do.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "In boxes 1-7 on your answer sheet, write TRUE, FALSE or NOT GIVEN"
+    },
+    {
+      "id": 2,
+      "type": "tfng",
+      "prompt": "Moore began studying sculpture in his first term at the Leeds School of Art.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "In boxes 1-7 on your answer sheet, write TRUE, FALSE or NOT GIVEN"
+    },
+    {
+      "id": 3,
+      "type": "tfng",
+      "prompt": "When Moore started at the Royal College of Art, its reputation for teaching sculpture was excellent.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "In boxes 1-7 on your answer sheet, write TRUE, FALSE or NOT GIVEN"
+    },
+    {
+      "id": 4,
+      "type": "tfng",
+      "prompt": "Moore became aware of ancient sculpture as a result of visiting London museums.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "In boxes 1-7 on your answer sheet, write TRUE, FALSE or NOT GIVEN"
+    },
+    {
+      "id": 5,
+      "type": "tfng",
+      "prompt": "The Trocadero Museum's Mayan sculpture attracted a lot of public interest.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "In boxes 1-7 on your answer sheet, write TRUE, FALSE or NOT GIVEN"
+    },
+    {
+      "id": 6,
+      "type": "tfng",
+      "prompt": "Moore thought the Mayan sculpture was similar in certain respects to other stone sculptures.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "In boxes 1-7 on your answer sheet, write TRUE, FALSE or NOT GIVEN"
+    },
+    {
+      "id": 7,
+      "type": "tfng",
+      "prompt": "The artists who belonged to Unit One wanted to make modern art and architecture more popular.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "In boxes 1-7 on your answer sheet, write TRUE, FALSE or NOT GIVEN"
+    }
+  ],
+  "answer_key_entries": [],
+  "has_answer_key": false,
+  "_page_num": 62
+}

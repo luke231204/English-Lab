@@ -1,0 +1,96 @@
+{
+  "section": "reading_passage_3",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 32,
+      "type": "summary_completion",
+      "prompt": "In one study at Australian National University, randomly chosen groups of participants were shown one of three videos, each designed to generate a different kind of 32 ........................... .",
+      "options": [
+        "A. laughter",
+        "B. relaxing",
+        "C. boring",
+        "D. anxiety",
+        "E. stimulating",
+        "F. emotion",
+        "G. enjoyment",
+        "H. amusing"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-H, in boxes 32-36 on your answer sheet."
+    },
+    {
+      "id": 33,
+      "type": "summary_completion",
+      "prompt": "When all participants were then given a deliberately frustrating task to do, it was found that those who had watched the 33 ........................... video persisted with the task for longer and tried harder to accomplish the task than either of the other two groups.",
+      "options": [
+        "A. laughter",
+        "B. relaxing",
+        "C. boring",
+        "D. anxiety",
+        "E. stimulating",
+        "F. emotion",
+        "G. enjoyment",
+        "H. amusing"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-H, in boxes 32-36 on your answer sheet."
+    },
+    {
+      "id": 34,
+      "type": "summary_completion",
+      "prompt": "A second study in which participants were asked to perform a particularly 34 ........................... task produced similar results.",
+      "options": [
+        "A. laughter",
+        "B. relaxing",
+        "C. boring",
+        "D. anxiety",
+        "E. stimulating",
+        "F. emotion",
+        "G. enjoyment",
+        "H. amusing"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-H, in boxes 32-36 on your answer sheet."
+    },
+    {
+      "id": 35,
+      "type": "summary_completion",
+      "prompt": "According to researchers David Cheng and Lu Wang, these findings suggest that humour not only reduces 35 ........................... and helps build social connections",
+      "options": [
+        "A. laughter",
+        "B. relaxing",
+        "C. boring",
+        "D. anxiety",
+        "E. stimulating",
+        "F. emotion",
+        "G. enjoyment",
+        "H. amusing"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-H, in boxes 32-36 on your answer sheet."
+    },
+    {
+      "id": 36,
+      "type": "summary_completion",
+      "prompt": "but it may also have a 36 ........................... effect on the body and mind.",
+      "options": [
+        "A. laughter",
+        "B. relaxing",
+        "C. boring",
+        "D. anxiety",
+        "E. stimulating",
+        "F. emotion",
+        "G. enjoyment",
+        "H. amusing"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-H, in boxes 32-36 on your answer sheet."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": "The benefits of humour",
+  "passage_text_excerpt": "In one study at Australian National University, randomly chosen groups of participants were shown one of three videos, each designed to generate a different kind of 32 ........................... . When all participants were then given a deliberately frustrating task to do, it was found that those who had ",
+  "has_answer_key": false,
+  "_page_num": 49
+}

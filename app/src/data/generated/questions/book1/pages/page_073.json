@@ -1,0 +1,59 @@
+{
+  "section": "reading_passage_2",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 21,
+      "type": "sentence_completion",
+      "prompt": "Many developers prefer mass-produced houses because they ...",
+      "options": [],
+      "answers": [],
+      "notes": "Use NO MORE THAN THREE WORDS for each answer."
+    },
+    {
+      "id": 22,
+      "type": "sentence_completion",
+      "prompt": "The Dutch development was welcomed by ...",
+      "options": [],
+      "answers": [],
+      "notes": "Use NO MORE THAN THREE WORDS for each answer."
+    },
+    {
+      "id": 23,
+      "type": "sentence_completion",
+      "prompt": "Hurkmans’ houses are built into ...",
+      "options": [],
+      "answers": [],
+      "notes": "Use NO MORE THAN THREE WORDS for each answer."
+    },
+    {
+      "id": 24,
+      "type": "sentence_completion",
+      "prompt": "The Ivrea centre was developed for ...",
+      "options": [],
+      "answers": [],
+      "notes": "Use NO MORE THAN THREE WORDS for each answer."
+    },
+    {
+      "id": 25,
+      "type": "sentence_completion",
+      "prompt": "Japanese scientists are helping people ... underground life.",
+      "options": [],
+      "answers": [],
+      "notes": "Use NO MORE THAN THREE WORDS for each answer."
+    },
+    {
+      "id": 26,
+      "type": "sentence_completion",
+      "prompt": "Frank Siegmund’s first underground room was used for ...",
+      "options": [],
+      "answers": [],
+      "notes": "Use NO MORE THAN THREE WORDS for each answer."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": "",
+  "has_answer_key": false,
+  "_page_num": 73
+}

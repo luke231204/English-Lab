@@ -1,0 +1,333 @@
+{
+  "section": "answer_key",
+  "test_number": 3,
+  "questions": [],
+  "answer_key_entries": [
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 1,
+      "answers": [
+        "furniture"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 2,
+      "answers": [
+        "meetings"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 3,
+      "answers": [
+        "diary"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 4,
+      "answers": [
+        "detail(s)"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 5,
+      "answers": [
+        "1 / one year"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 6,
+      "answers": [
+        "deliveries"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 7,
+      "answers": [
+        "tidy"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 8,
+      "answers": [
+        "team"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 9,
+      "answers": [
+        "heavy"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 10,
+      "answers": [
+        "customer"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 11,
+      "answers": [
+        "B"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 12,
+      "answers": [
+        "A"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 13,
+      "answers": [
+        "C"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 14,
+      "answers": [
+        "B"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 15,
+      "answers": [
+        "C"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 16,
+      "answers": [
+        "B"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 17,
+      "answers": [
+        "B",
+        "D"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 18,
+      "answers": [
+        "B",
+        "D"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 19,
+      "answers": [
+        "A",
+        "E"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 20,
+      "answers": [
+        "A",
+        "E"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 21,
+      "answers": [
+        "page"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 22,
+      "answers": [
+        "size"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 23,
+      "answers": [
+        "graphic(s)"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 24,
+      "answers": [
+        "structure"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 25,
+      "answers": [
+        "purpose"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 26,
+      "answers": [
+        "assumption(s)"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 27,
+      "answers": [
+        "A"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 28,
+      "answers": [
+        "C"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 29,
+      "answers": [
+        "C"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 30,
+      "answers": [
+        "B"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 31,
+      "answers": [
+        "mud"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 32,
+      "answers": [
+        "clay"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 33,
+      "answers": [
+        "metal"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 34,
+      "answers": [
+        "hair"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 35,
+      "answers": [
+        "bath(s)"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 36,
+      "answers": [
+        "disease(s)"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 37,
+      "answers": [
+        "perfume"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 38,
+      "answers": [
+        "salt"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 39,
+      "answers": [
+        "science"
+      ]
+    },
+    {
+      "test_number": 3,
+      "module": "listening",
+      "id": 40,
+      "answers": [
+        "tax"
+      ]
+    }
+  ],
+  "has_answer_key": true,
+  "_page_num": 125
+}

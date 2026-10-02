@@ -1,0 +1,76 @@
+{
+  "section": "reading_passage_3",
+  "test_number": 2,
+  "questions": [
+    {
+      "id": 27,
+      "type": "mcq",
+      "prompt": "When referring to laughter in the first paragraph, the writer emphasises",
+      "options": [
+        "A. its impact on language.",
+        "B. its function in human culture.",
+        "C. its value to scientific research.",
+        "D. its universality in animal societies."
+      ],
+      "answers": [],
+      "notes": "Write the correct letter in boxes 27-31 on your answer sheet."
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "prompt": "What does the writer suggest about Charley Douglass?",
+      "options": [
+        "A. He understood the importance of enjoying humour in a group setting.",
+        "B. He believed that TV viewers at home needed to be told when to laugh.",
+        "C. He wanted his shows to appeal to audiences across the social spectrum.",
+        "D. He preferred shows where audiences were present in the recording studio."
+      ],
+      "answers": [],
+      "notes": "Write the correct letter in boxes 27-31 on your answer sheet."
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "prompt": "What makes the Santa Cruz study particularly significant?",
+      "options": [
+        "A. the various different types of laughter that were studied",
+        "B. the similar results produced by a wide range of cultures",
+        "C. the number of different academic disciplines involved",
+        "D. the many kinds of people whose laughter was recorded"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter in boxes 27-31 on your answer sheet."
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "prompt": "Which of the following happened in the San Diego study?",
+      "options": [
+        "A. Some participants became very upset.",
+        "B. Participants exchanged roles.",
+        "C. Participants who had not met before became friends.",
+        "D. Some participants were unable to laugh."
+      ],
+      "answers": [],
+      "notes": "Write the correct letter in boxes 27-31 on your answer sheet."
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "prompt": "In the fifth paragraph, what did the results of the San Diego study suggest?",
+      "options": [
+        "A. It is clear whether a dominant laugh is produced by a high- or low-status person.",
+        "B. Low-status individuals in a position of power will still produce submissive laughs.",
+        "C. The submissive laughs of low- and high-status individuals are surprisingly similar.",
+        "D. High-status individuals can always be identified by their way of laughing."
+      ],
+      "answers": [],
+      "notes": "Write the correct letter in boxes 27-31 on your answer sheet."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 48
+}

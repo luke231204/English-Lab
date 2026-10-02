@@ -1,0 +1,64 @@
+{
+  "section": "reading_passage_1",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 7,
+      "type": "fill_blank",
+      "prompt": "Data from ... (7) ... written corpus",
+      "options": [],
+      "answers": [],
+      "notes": "Use NO MORE THAN THREE WORDS"
+    },
+    {
+      "id": 8,
+      "type": "fill_blank",
+      "prompt": "Key words and ... (8) ...",
+      "options": [],
+      "answers": [],
+      "notes": "Use NO MORE THAN THREE WORDS"
+    },
+    {
+      "id": 9,
+      "type": "fill_blank",
+      "prompt": "Most frequently used ... (9) ... of words.",
+      "options": [],
+      "answers": [],
+      "notes": "Use NO MORE THAN THREE WORDS"
+    },
+    {
+      "id": 10,
+      "type": "fill_blank",
+      "prompt": "Differences between written and ... (10) ... use",
+      "options": [],
+      "answers": [],
+      "notes": "Use NO MORE THAN THREE WORDS"
+    },
+    {
+      "id": 11,
+      "type": "fill_blank",
+      "prompt": "The portrayal of feelings through ... (11) ...",
+      "options": [],
+      "answers": [],
+      "notes": "Use NO MORE THAN THREE WORDS"
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "prompt": "Why was this article written?",
+      "options": [
+        "A. To give an example of a current dictionary.",
+        "B. To announce a new approach to dictionary writing.",
+        "C. To show how dictionaries have progressed over the years.",
+        "D. To compare the content of different dictionaries"
+      ],
+      "answers": [],
+      "notes": "Choose the appropriate letter A-D"
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 69
+}

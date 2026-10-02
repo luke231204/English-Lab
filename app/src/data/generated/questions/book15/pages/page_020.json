@@ -1,0 +1,79 @@
+{
+  "section": "reading_passage_1",
+  "test_number": 1,
+  "questions": [
+    {
+      "id": 1,
+      "type": "fill_blank",
+      "prompt": "the leaves of the tree are 1 ..................................................... in shape",
+      "options": [],
+      "answers": [],
+      "notes": "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer. Heading: The nutmeg tree and fruit"
+    },
+    {
+      "id": 2,
+      "type": "fill_blank",
+      "prompt": "the 2 ..................................................... surrounds the fruit and breaks open when the fruit is ripe",
+      "options": [],
+      "answers": [],
+      "notes": "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer. Heading: The nutmeg tree and fruit"
+    },
+    {
+      "id": 3,
+      "type": "fill_blank",
+      "prompt": "the 3 ..................................................... is used to produce the spice nutmeg",
+      "options": [],
+      "answers": [],
+      "notes": "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer. Heading: The nutmeg tree and fruit"
+    },
+    {
+      "id": 4,
+      "type": "fill_blank",
+      "prompt": "the covering known as the aril is used to produce 4 .....................................................",
+      "options": [],
+      "answers": [],
+      "notes": "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer. Heading: The nutmeg tree and fruit"
+    },
+    {
+      "id": 5,
+      "type": "tfng",
+      "prompt": "In the Middle Ages, most Europeans knew where nutmeg was grown.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "Do the following statements agree with the information given in Reading Passage 1? TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this"
+    },
+    {
+      "id": 6,
+      "type": "tfng",
+      "prompt": "The VOC was the world's first major trading company.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "Do the following statements agree with the information given in Reading Passage 1? TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this"
+    },
+    {
+      "id": 7,
+      "type": "tfng",
+      "prompt": "Following the Treaty of Breda, the Dutch had control of all the islands where nutmeg grew.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "Do the following statements agree with the information given in Reading Passage 1? TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this"
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 20
+}
