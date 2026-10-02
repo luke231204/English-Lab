@@ -1,0 +1,59 @@
+{
+  "section": "reading_passage_1",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 8,
+      "type": "tfng",
+      "prompt": "Urban farming can take place above or below ground.",
+      "options": [],
+      "answers": [],
+      "notes": "TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this"
+    },
+    {
+      "id": 9,
+      "type": "tfng",
+      "prompt": "Some of the equipment used in aeroponic farming can be made by hand.",
+      "options": [],
+      "answers": [],
+      "notes": "TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this"
+    },
+    {
+      "id": 10,
+      "type": "tfng",
+      "prompt": "Urban farming relies more on electricity than some other types of farming.",
+      "options": [],
+      "answers": [],
+      "notes": "TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this"
+    },
+    {
+      "id": 11,
+      "type": "tfng",
+      "prompt": "Fruit and vegetables grown on an aeroponic urban farm are cheaper than traditionally grown organic produce.",
+      "options": [],
+      "answers": [],
+      "notes": "TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this"
+    },
+    {
+      "id": 12,
+      "type": "tfng",
+      "prompt": "Most produce can be grown on an aeroponic urban farm at any time of the year.",
+      "options": [],
+      "answers": [],
+      "notes": "TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this"
+    },
+    {
+      "id": 13,
+      "type": "tfng",
+      "prompt": "Beans take longer to grow on an urban farm than other vegetables.",
+      "options": [],
+      "answers": [],
+      "notes": "TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this"
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 21
+}

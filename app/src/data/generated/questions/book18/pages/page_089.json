@@ -1,0 +1,67 @@
+{
+  "section": "reading_passage_2",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 10,
+      "type": "mcq",
+      "prompt": "Which TWO advantages of using newer buildings for green roofs are mentioned in Paragraph C of the passage?",
+      "options": [
+        "A. a longer growing season for edible produce",
+        "B. more economical use of water",
+        "C. greater water-storage capacity",
+        "D. ability to cultivate more plant types",
+        "E. a large surface area for growing plants"
+      ],
+      "answers": [],
+      "notes": "Choose TWO letters, A-E."
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "prompt": "Which TWO advantages of using newer buildings for green roofs are mentioned in Paragraph C of the passage?",
+      "options": [
+        "A. a longer growing season for edible produce",
+        "B. more economical use of water",
+        "C. greater water-storage capacity",
+        "D. ability to cultivate more plant types",
+        "E. a large surface area for growing plants"
+      ],
+      "answers": [],
+      "notes": "Choose TWO letters, A-E."
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "prompt": "Which TWO aims of new variations on the concept of green roofs are mentioned in Paragraph E of the passage?",
+      "options": [
+        "A. to provide habitats for a wide range of species",
+        "B. to grow plants successfully even in the wettest climates",
+        "C. to regulate the temperature of the immediate environment",
+        "D. to generate power from a sustainable source",
+        "E. to collect water to supply other buildings"
+      ],
+      "answers": [],
+      "notes": "Choose TWO letters, A-E."
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "prompt": "Which TWO aims of new variations on the concept of green roofs are mentioned in Paragraph E of the passage?",
+      "options": [
+        "A. to provide habitats for a wide range of species",
+        "B. to grow plants successfully even in the wettest climates",
+        "C. to regulate the temperature of the immediate environment",
+        "D. to generate power from a sustainable source",
+        "E. to collect water to supply other buildings"
+      ],
+      "answers": [],
+      "notes": "Choose TWO letters, A-E."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": "",
+  "passage_text_excerpt": "",
+  "has_answer_key": false,
+  "_page_num": 89
+}

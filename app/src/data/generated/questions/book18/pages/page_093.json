@@ -1,0 +1,143 @@
+{
+  "section": "reading_passage_2",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 17,
+      "type": "matching",
+      "prompt": "The methodology behind the growth mindset studies was not strict enough.",
+      "options": [
+        "A Alfred Binet",
+        "B Carol Dweck",
+        "C Andrew Gelman",
+        "D Timothy Bates",
+        "E David Yeager and Gregory Walton"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-E, in boxes 17-22 on your answer sheet."
+    },
+    {
+      "id": 18,
+      "type": "matching",
+      "prompt": "The idea of the growth mindset has been incorrectly interpreted.",
+      "options": [
+        "A Alfred Binet",
+        "B Carol Dweck",
+        "C Andrew Gelman",
+        "D Timothy Bates",
+        "E David Yeager and Gregory Walton"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-E, in boxes 17-22 on your answer sheet."
+    },
+    {
+      "id": 19,
+      "type": "matching",
+      "prompt": "Intellectual ability is an unchangeable feature of each individual.",
+      "options": [
+        "A Alfred Binet",
+        "B Carol Dweck",
+        "C Andrew Gelman",
+        "D Timothy Bates",
+        "E David Yeager and Gregory Walton"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-E, in boxes 17-22 on your answer sheet."
+    },
+    {
+      "id": 20,
+      "type": "matching",
+      "prompt": "The growth mindset should be promoted without students being aware of it.",
+      "options": [
+        "A Alfred Binet",
+        "B Carol Dweck",
+        "C Andrew Gelman",
+        "D Timothy Bates",
+        "E David Yeager and Gregory Walton"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-E, in boxes 17-22 on your answer sheet."
+    },
+    {
+      "id": 21,
+      "type": "matching",
+      "prompt": "The growth mindset is not simply about boosting students' morale.",
+      "options": [
+        "A Alfred Binet",
+        "B Carol Dweck",
+        "C Andrew Gelman",
+        "D Timothy Bates",
+        "E David Yeager and Gregory Walton"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-E, in boxes 17-22 on your answer sheet."
+    },
+    {
+      "id": 22,
+      "type": "matching",
+      "prompt": "Research shows that the growth mindset has no effect on academic achievement.",
+      "options": [
+        "A Alfred Binet",
+        "B Carol Dweck",
+        "C Andrew Gelman",
+        "D Timothy Bates",
+        "E David Yeager and Gregory Walton"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-E, in boxes 17-22 on your answer sheet."
+    },
+    {
+      "id": 23,
+      "type": "tfng",
+      "prompt": "Dweck has handled criticisms of her work in an admirable way.",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "Do the following statements agree with the views of the writer in Reading Passage 2?"
+    },
+    {
+      "id": 24,
+      "type": "tfng",
+      "prompt": "Students' self-perception is a more effective driver of self-confidence than actual achievement is.",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "Do the following statements agree with the views of the writer in Reading Passage 2?"
+    },
+    {
+      "id": 25,
+      "type": "tfng",
+      "prompt": "Recent evidence about growth mindset interventions has attracted unfair coverage in the media.",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "Do the following statements agree with the views of the writer in Reading Passage 2?"
+    },
+    {
+      "id": 26,
+      "type": "tfng",
+      "prompt": "Deliberate attempts to encourage students to strive for high achievement may have a negative effect.",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "Do the following statements agree with the views of the writer in Reading Passage 2?"
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": "",
+  "passage_text_excerpt": "",
+  "has_answer_key": false,
+  "_page_num": 93
+}

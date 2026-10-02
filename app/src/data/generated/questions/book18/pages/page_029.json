@@ -1,0 +1,83 @@
+{
+  "section": "reading_passage_3",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 27,
+      "type": "matching",
+      "prompt": "a reference to the cooperation that takes place to try and minimise risk",
+      "options": [],
+      "answers": [],
+      "notes": "Write the correct letter, A-F, in boxes 27-31 on your answer sheet."
+    },
+    {
+      "id": 28,
+      "type": "matching",
+      "prompt": "an explanation of a person's aims",
+      "options": [],
+      "answers": [],
+      "notes": "Write the correct letter, A-F, in boxes 27-31 on your answer sheet."
+    },
+    {
+      "id": 29,
+      "type": "matching",
+      "prompt": "a description of a major collision that occurred in space",
+      "options": [],
+      "answers": [],
+      "notes": "Write the correct letter, A-F, in boxes 27-31 on your answer sheet."
+    },
+    {
+      "id": 30,
+      "type": "matching",
+      "prompt": "a comparison between tracking objects in space and the efficiency of a transportation system",
+      "options": [],
+      "answers": [],
+      "notes": "Write the correct letter, A-F, in boxes 27-31 on your answer sheet."
+    },
+    {
+      "id": 31,
+      "type": "matching",
+      "prompt": "a reference to efforts to classify space junk",
+      "options": [],
+      "answers": [],
+      "notes": "Write the correct letter, A-F, in boxes 27-31 on your answer sheet."
+    },
+    {
+      "id": 32,
+      "type": "summary_completion",
+      "prompt": "The committee gives advice on how the 32 ...................................................... of space can be achieved.",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 33,
+      "type": "summary_completion",
+      "prompt": "The committee advises that when satellites are no longer active, any unused 33 ...................................................... or pressurised material that could cause 34 ...................................................... should be removed.",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 34,
+      "type": "summary_completion",
+      "prompt": "The committee advises that when satellites are no longer active, any unused 33 ...................................................... or pressurised material that could cause 34 ...................................................... should be removed.",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 35,
+      "type": "summary_completion",
+      "prompt": "Although operators of large satellite constellations accept that they have obligations as stewards of space, Holger Krag points out that the operators that become 35 ...................................................... are unlikely to prioritise removing their satellites from space.",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": "",
+  "passage_text_excerpt": "",
+  "has_answer_key": false,
+  "_page_num": 29
+}

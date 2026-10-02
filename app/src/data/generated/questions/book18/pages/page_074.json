@@ -1,0 +1,63 @@
+{
+  "section": "reading_passage_3",
+  "test_number": 3,
+  "questions": [
+    {
+      "id": 27,
+      "type": "mcq",
+      "prompt": "The writer describes the Romeo and Juliet lesson in order to demonstrate",
+      "options": [
+        "A. how few students are interested in literature.",
+        "B. how a teacher handles a range of learning needs.",
+        "C. how unsuitable Shakespeare is for most teenagers.",
+        "D. how weaker students can disrupt their classmates' learning."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B, C or D."
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "prompt": "What does the writer say about streaming in the third paragraph?",
+      "options": [
+        "A. It has a very broad appeal.",
+        "B. It favours cleverer students.",
+        "C. It is relatively simple to implement.",
+        "D. It works better in some schools than others."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B, C or D."
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "prompt": "What idea is suggested by the reference to Mount Qomolangma in the fifth paragraph?",
+      "options": [
+        "A. students following unsuitable paths",
+        "B. students attempting interesting tasks",
+        "C. students not achieving their full potential",
+        "D. students not being aware of their limitations"
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B, C or D."
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "prompt": "What does the word 'scaffolding' in the sixth paragraph refer to?",
+      "options": [
+        "A. the factors which prevent a student from learning effectively",
+        "B. the environment where most of a student's learning takes place",
+        "C. the assistance given to a student in their initial stages of learning",
+        "D. the setting of appropriate learning targets for a student's aptitude"
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B, C or D."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 74
+}

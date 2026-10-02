@@ -1,0 +1,89 @@
+{
+  "section": "reading_passage_2",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 14,
+      "type": "mcq",
+      "prompt": "What point does the writer make about AI in the first paragraph?",
+      "options": [
+        "A It is difficult to predict how quickly AI will progress.",
+        "B Much can be learned about the use of AI in chess machines.",
+        "C The future is unlikely to see limitations on the capabilities of AI.",
+        "D Experts disagree on which specialised tasks AI will be able to perform."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B, C or D."
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "prompt": "What is the writer doing in the second paragraph?",
+      "options": [
+        "A explaining why machines will be able to outperform humans",
+        "B describing the characteristics that humans and machines share",
+        "C giving information about the development of machine intelligence",
+        "D indicating which aspects of humans are the most advanced"
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B, C or D."
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "prompt": "Why does the writer mention the story of King Midas?",
+      "options": [
+        "A to compare different visions of progress",
+        "B to illustrate that poorly defined objectives can go wrong",
+        "C to emphasise the need for cooperation",
+        "D to point out the financial advantages of a course of action"
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B, C or D."
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "prompt": "What challenge does the writer refer to in the fourth paragraph?",
+      "options": [
+        "A encouraging humans to behave in a more principled way",
+        "B deciding which values we want AI to share with us",
+        "C creating a better world for all creatures on the planet",
+        "D ensuring AI is more human-friendly than we are ourselves"
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B, C or D."
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "prompt": "What does the writer suggest about the future of AI in the fifth paragraph?",
+      "options": [
+        "A The safety of machines will become a key issue.",
+        "B It is hard to know what impact machines will have on the world.",
+        "C Machines will be superior to humans in certain respects.",
+        "D Many humans will oppose machines having a wider role."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B, C or D."
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "prompt": "Which of the following best summarises the writer's argument in the sixth paragraph?",
+      "options": [
+        "A More intelligent machines will result in greater abuses of power.",
+        "B Machine learning will share very few features with human learning.",
+        "C There are a limited number of people with the knowledge to program machines.",
+        "D Human shortcomings will make creating the machines we need more difficult."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B, C or D."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 47
+}

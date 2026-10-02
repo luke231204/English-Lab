@@ -1,0 +1,67 @@
+{
+  "section": "reading_passage_2",
+  "test_number": 1,
+  "questions": [
+    {
+      "id": 1,
+      "type": "sentence_completion",
+      "prompt": "Vertical tubes are used to grow strawberries, ............................................ and herbs.",
+      "options": [],
+      "answers": [],
+      "notes": "Choose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer."
+    },
+    {
+      "id": 2,
+      "type": "sentence_completion",
+      "prompt": "There will eventually be a daily harvest of as much as ............................................ in weight of fruit and vegetables.",
+      "options": [],
+      "answers": [],
+      "notes": "Choose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer."
+    },
+    {
+      "id": 3,
+      "type": "sentence_completion",
+      "prompt": "It may be possible that the farm's produce will account for as much as 10% of the city's ............................................ overall.",
+      "options": [],
+      "answers": [],
+      "notes": "Choose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer."
+    },
+    {
+      "id": 4,
+      "type": "table_completion",
+      "prompt": "Intensive farming growth: wide range of 4 ............................................ used",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 5,
+      "type": "table_completion",
+      "prompt": "Intensive farming selection: varieties of fruit and vegetables chosen that can survive long 5 ............................................",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 6,
+      "type": "table_completion",
+      "prompt": "Intensive farming sale: 6 ............................................ receive very little of overall income",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 7,
+      "type": "table_completion",
+      "prompt": "Aeroponic urban farming selection: produce chosen because of its 7 ............................................",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": "Urban farming in Paris",
+  "passage_text_excerpt": "",
+  "has_answer_key": false,
+  "_page_num": 20
+}

@@ -1,0 +1,59 @@
+{
+  "section": "listening_part_2",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 11,
+      "type": "mcq",
+      "prompt": "The museum building was originally",
+      "options": [
+        "A. a factory.",
+        "B. a private home.",
+        "C. a hall of residence."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "prompt": "The university uses part of the museum building as",
+      "options": [
+        "A. teaching rooms.",
+        "B. a research library.",
+        "C. administration offices."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "prompt": "What does the guide say about the entrance fee?",
+      "options": [
+        "A. Visitors decide whether or not they wish to pay.",
+        "B. Only children and students receive a discount.",
+        "C. The museum charges extra for special exhibitions."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "prompt": "What are visitors advised to leave in the cloakroom?",
+      "options": [
+        "A. cameras",
+        "B. coats",
+        "C. bags"
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 81
+}

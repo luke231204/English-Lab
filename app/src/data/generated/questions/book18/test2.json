@@ -1,0 +1,589 @@
+{
+  "book": 18,
+  "test": 2,
+  "listening": {
+    "sections": [
+      {
+        "part": 1,
+        "title": "Part 1",
+        "questions": [
+          {
+            "id": 1,
+            "type": "fill_blank",
+            "prompt": "1 .................................... provided for all staff",
+            "options": [],
+            "answers": [
+              "training"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          },
+          {
+            "id": 2,
+            "type": "fill_blank",
+            "prompt": "2 .................................... during weekdays at all Milo's Restaurants",
+            "options": [],
+            "answers": [
+              "discount"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          },
+          {
+            "id": 3,
+            "type": "fill_blank",
+            "prompt": "3 .................................... provided after midnight",
+            "options": [],
+            "answers": [
+              "taxi"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          },
+          {
+            "id": 4,
+            "type": "fill_blank",
+            "prompt": "must care about maintaining a high standard of 4 ....................................",
+            "options": [],
+            "answers": [
+              "service"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          },
+          {
+            "id": 5,
+            "type": "fill_blank",
+            "prompt": "must have a qualification in 5 ....................................",
+            "options": [],
+            "answers": [
+              "English"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          }
+        ]
+      },
+      {
+        "part": 2,
+        "title": "Part 2",
+        "questions": [
+          {
+            "id": 11,
+            "type": "mcq",
+            "prompt": "What are the TWO main reasons why this site has been chosen for the housing development?",
+            "options": [
+              "A It has suitable geographical features.",
+              "B There is easy access to local facilities.",
+              "C It has good connections with the airport.",
+              "D The land is of little agricultural value.",
+              "E It will be convenient for workers."
+            ],
+            "answers": [
+              "B",
+              "E"
+            ],
+            "notes": "Choose TWO letters, A-E."
+          },
+          {
+            "id": 12,
+            "type": "mcq",
+            "prompt": "What are the TWO main reasons why this site has been chosen for the housing development?",
+            "options": [
+              "A It has suitable geographical features.",
+              "B There is easy access to local facilities.",
+              "C It has good connections with the airport.",
+              "D The land is of little agricultural value.",
+              "E It will be convenient for workers."
+            ],
+            "answers": [
+              "B",
+              "E"
+            ],
+            "notes": "Choose TWO letters, A-E."
+          },
+          {
+            "id": 13,
+            "type": "mcq",
+            "prompt": "Which TWO aspects of the planned housing development have people given positive feedback about?",
+            "options": [
+              "A the facilities for cyclists",
+              "B the impact on the environment",
+              "C the encouragement of good relations between residents",
+              "D the low cost of all the accommodation",
+              "E the rural location"
+            ],
+            "answers": [
+              "B",
+              "C"
+            ],
+            "notes": "Choose TWO letters, A-E."
+          },
+          {
+            "id": 14,
+            "type": "mcq",
+            "prompt": "Which TWO aspects of the planned housing development have people given positive feedback about?",
+            "options": [
+              "A the facilities for cyclists",
+              "B the impact on the environment",
+              "C the encouragement of good relations between residents",
+              "D the low cost of all the accommodation",
+              "E the rural location"
+            ],
+            "answers": [
+              "B",
+              "C"
+            ],
+            "notes": "Choose TWO letters, A-E."
+          }
+        ]
+      },
+      {
+        "part": 3,
+        "title": "Part 3",
+        "questions": [
+          {
+            "id": 21,
+            "type": "mcq",
+            "prompt": "Why do the students think the Laki eruption of 1783 is so important?",
+            "options": [
+              "A. It was the most severe eruption in modern times.",
+              "B. It led to the formal study of volcanoes.",
+              "C. It had a profound effect on society."
+            ],
+            "answers": [
+              "C"
+            ],
+            "notes": "Choose the correct letter, A, B or C."
+          },
+          {
+            "id": 22,
+            "type": "mcq",
+            "prompt": "What surprised Adam about observations made at the time?",
+            "options": [
+              "A. the number of places producing them",
+              "B. the contradictions in them",
+              "C. the lack of scientific data to support them"
+            ],
+            "answers": [
+              "A"
+            ],
+            "notes": "Choose the correct letter, A, B or C."
+          },
+          {
+            "id": 23,
+            "type": "mcq",
+            "prompt": "According to Michelle, what did the contemporary sources say about the Laki haze?",
+            "options": [
+              "A. People thought it was similar to ordinary fog.",
+              "B. It was associated with health issues.",
+              "C. It completely blocked out the sun for weeks."
+            ],
+            "answers": [
+              "B"
+            ],
+            "notes": "Choose the correct letter, A, B or C."
+          },
+          {
+            "id": 24,
+            "type": "mcq",
+            "prompt": "Adam corrects Michelle when she claims that Benjamin Franklin",
+            "options": [
+              "A. came to the wrong conclusion about the cause of the haze.",
+              "B. was the first to identify the reason for the haze.",
+              "C. supported the opinions of other observers about the haze."
+            ],
+            "answers": [
+              "B"
+            ],
+            "notes": "Choose the correct letter, A, B or C."
+          },
+          {
+            "id": 25,
+            "type": "mcq",
+            "prompt": "Which TWO issues following the Laki eruption surprised the students? (First choice)",
+            "options": [
+              "A. how widespread the effects were",
+              "B. how long-lasting the effects were",
+              "C. the number of deaths it caused",
+              "D. the speed at which the volcanic ash cloud spread",
+              "E. how people ignored the warning signs"
+            ],
+            "answers": [
+              "A",
+              "B"
+            ],
+            "notes": "Choose TWO letters, A-E."
+          },
+          {
+            "id": 26,
+            "type": "mcq",
+            "prompt": "Which TWO issues following the Laki eruption surprised the students? (Second choice)",
+            "options": [
+              "A. how widespread the effects were",
+              "B. how long-lasting the effects were",
+              "C. the number of deaths it caused",
+              "D. the speed at which the volcanic ash cloud spread",
+              "E. how people ignored the warning signs"
+            ],
+            "answers": [
+              "A",
+              "B"
+            ],
+            "notes": "Choose TWO letters, A-E."
+          }
+        ]
+      },
+      {
+        "part": 4,
+        "title": "Part 4",
+        "questions": [
+          {
+            "id": 31,
+            "type": "fill_blank",
+            "prompt": "They are 31 ............................................... but can be overlooked by consumers and designers.",
+            "options": [],
+            "answers": [
+              "convenient"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          },
+          {
+            "id": 32,
+            "type": "fill_blank",
+            "prompt": "Men started to wear 32 ............................................... in the 18th century.",
+            "options": [],
+            "answers": [
+              "suits"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          },
+          {
+            "id": 33,
+            "type": "fill_blank",
+            "prompt": "A 33 ............................................... sewed pockets into the lining of the garments.",
+            "options": [],
+            "answers": [
+              "tailor"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          },
+          {
+            "id": 34,
+            "type": "fill_blank",
+            "prompt": "Bigger pockets might be made for men who belonged to a certain type of 34 ............................................... .",
+            "options": [],
+            "answers": [
+              "profession"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          },
+          {
+            "id": 35,
+            "type": "fill_blank",
+            "prompt": "Women's pockets were less 35 ............................................... than men's.",
+            "options": [],
+            "answers": [
+              "visible"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          },
+          {
+            "id": 36,
+            "type": "fill_blank",
+            "prompt": "Pockets were produced in pairs using 36 ............................................... to link them together.",
+            "options": [],
+            "answers": [
+              "string(s)"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          },
+          {
+            "id": 37,
+            "type": "fill_blank",
+            "prompt": "Pockets hung from the women's 37 ............................................... under skirts and petticoats.",
+            "options": [],
+            "answers": [
+              "waist(s)"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          },
+          {
+            "id": 38,
+            "type": "fill_blank",
+            "prompt": "Items such as 38 ............................................... could be reached through a gap in the material.",
+            "options": [],
+            "answers": [
+              "perfume"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          },
+          {
+            "id": 39,
+            "type": "fill_blank",
+            "prompt": "When dresses changed shape, hidden pockets had a negative effect on the 39 ............................................... of women.",
+            "options": [],
+            "answers": [
+              "image"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          },
+          {
+            "id": 40,
+            "type": "fill_blank",
+            "prompt": "Bags called 'pouches' became popular, before women carried a 40 ............................................... .",
+            "options": [],
+            "answers": [
+              "handbag"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "passages": [
+      {
+        "passage_num": 1,
+        "title": null,
+        "passage_text": null,
+        "questions": [
+          {
+            "id": 9,
+            "type": "tfng",
+            "prompt": "During the third phase of construction, sandstone slabs were placed in both the outer areas and the middle of the Stonehenge site.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "answers": [
+              "TRUE"
+            ],
+            "notes": "Do the following statements agree with the information given in Reading Passage 1? In boxes 9-13 on your answer sheet, write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this"
+          },
+          {
+            "id": 10,
+            "type": "tfng",
+            "prompt": "There is scientific proof that the bluestones stood in the same spot until approximately 1600 BCE.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "answers": [
+              "FALSE"
+            ],
+            "notes": "Do the following statements agree with the information given in Reading Passage 1? In boxes 9-13 on your answer sheet, write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this"
+          },
+          {
+            "id": 11,
+            "type": "tfng",
+            "prompt": "John Aubrey's claim about Stonehenge was supported by 20th-century findings.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "answers": [
+              "FALSE"
+            ],
+            "notes": "Do the following statements agree with the information given in Reading Passage 1? In boxes 9-13 on your answer sheet, write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this"
+          },
+          {
+            "id": 12,
+            "type": "tfng",
+            "prompt": "Objects discovered at Stonehenge seem to indicate that it was constructed by a number of different groups of people.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "answers": [
+              "TRUE"
+            ],
+            "notes": "Do the following statements agree with the information given in Reading Passage 1? In boxes 9-13 on your answer sheet, write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this"
+          },
+          {
+            "id": 13,
+            "type": "tfng",
+            "prompt": "Criticism of Gerald Hawkins' theory about Stonehenge has come mainly from other astronomers.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "answers": [
+              "NOT GIVEN"
+            ],
+            "notes": "Do the following statements agree with the information given in Reading Passage 1? In boxes 9-13 on your answer sheet, write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this"
+          }
+        ]
+      },
+      {
+        "passage_num": 2,
+        "title": null,
+        "passage_text": "",
+        "questions": [
+          {
+            "id": 20,
+            "type": "tfng",
+            "prompt": "Machines with the ability to make moral decisions may prevent us from promoting the interests of our communities.",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ],
+            "answers": [
+              "YES"
+            ],
+            "notes": "Do the following statements agree with the claims of the writer in Reading Passage 2? In boxes 20–23 on your answer sheet, write YES, NO, or NOT GIVEN"
+          },
+          {
+            "id": 21,
+            "type": "tfng",
+            "prompt": "Silicon police would need to exist in large numbers in order to be effective.",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ],
+            "answers": [
+              "NOT GIVEN"
+            ],
+            "notes": "Do the following statements agree with the claims of the writer in Reading Passage 2? In boxes 20–23 on your answer sheet, write YES, NO, or NOT GIVEN"
+          },
+          {
+            "id": 22,
+            "type": "tfng",
+            "prompt": "Many people are comfortable with the prospect of their independence being restricted by machines.",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ],
+            "answers": [
+              "NO"
+            ],
+            "notes": "Do the following statements agree with the claims of the writer in Reading Passage 2? In boxes 20–23 on your answer sheet, write YES, NO, or NOT GIVEN"
+          },
+          {
+            "id": 23,
+            "type": "tfng",
+            "prompt": "If we want to ensure that machines act in our best interests, we all need to work together.",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ],
+            "answers": [
+              "YES"
+            ],
+            "notes": "Do the following statements agree with the claims of the writer in Reading Passage 2? In boxes 20–23 on your answer sheet, write YES, NO, or NOT GIVEN"
+          }
+        ]
+      },
+      {
+        "passage_num": 3,
+        "title": null,
+        "passage_text": null,
+        "questions": [
+          {
+            "id": 27,
+            "type": "tfng",
+            "prompt": "People first referred to Leonardo da Vinci as a genius 500 years ago.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "answers": [
+              "NOT GIVEN"
+            ],
+            "notes": "Do the following statements agree with the information given in Reading Passage 3? In boxes 27–33 on your answer sheet, write TRUE, FALSE, or NOT GIVEN"
+          },
+          {
+            "id": 28,
+            "type": "tfng",
+            "prompt": "The current climate crisis is predicted to cause more deaths than the plague.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "answers": [
+              "NOT GIVEN"
+            ],
+            "notes": "Do the following statements agree with the information given in Reading Passage 3? In boxes 27–33 on your answer sheet, write TRUE, FALSE, or NOT GIVEN"
+          },
+          {
+            "id": 29,
+            "type": "tfng",
+            "prompt": "Some of the challenges we face today can be compared to those of earlier times.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "answers": [
+              "TRUE"
+            ],
+            "notes": "Do the following statements agree with the information given in Reading Passage 3? In boxes 27–33 on your answer sheet, write TRUE, FALSE, or NOT GIVEN"
+          },
+          {
+            "id": 30,
+            "type": "tfng",
+            "prompt": "Leonardo da Vinci's 'ideal city' was constructed in the 15th century.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "answers": [
+              "FALSE"
+            ],
+            "notes": "Do the following statements agree with the information given in Reading Passage 3? In boxes 27–33 on your answer sheet, write TRUE, FALSE, or NOT GIVEN"
+          },
+          {
+            "id": 31,
+            "type": "tfng",
+            "prompt": "Poor town planning is a major contributor to climate change.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "answers": [
+              "TRUE"
+            ],
+            "notes": "Do the following statements agree with the information given in Reading Passage 3? In boxes 27–33 on your answer sheet, write TRUE, FALSE, or NOT GIVEN"
+          },
+          {
+            "id": 32,
+            "type": "tfng",
+            "prompt": "In Renaissance times, local people fought against the changes to Pienza and Ferrara.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "answers": [
+              "NOT GIVEN"
+            ],
+            "notes": "Do the following statements agree with the information given in Reading Passage 3? In boxes 27–33 on your answer sheet, write TRUE, FALSE, or NOT GIVEN"
+          },
+          {
+            "id": 33,
+            "type": "tfng",
+            "prompt": "Leonardo da Vinci kept a neat, organised record of his designs.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "answers": [
+              "FALSE"
+            ],
+            "notes": "Do the following statements agree with the information given in Reading Passage 3? In boxes 27–33 on your answer sheet, write TRUE, FALSE, or NOT GIVEN"
+          }
+        ]
+      }
+    ]
+  }
+}

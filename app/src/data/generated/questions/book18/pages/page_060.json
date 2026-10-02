@@ -1,0 +1,67 @@
+{
+  "section": "listening_part_3",
+  "test_number": 3,
+  "questions": [
+    {
+      "id": 21,
+      "type": "mcq",
+      "prompt": "Which TWO opinions about the Luddites do the students express?",
+      "options": [
+        "A. Their actions were ineffective.",
+        "B. They are still influential today.",
+        "C. They have received unfair criticism.",
+        "D. They were proved right.",
+        "E. Their attitude is understandable."
+      ],
+      "answers": [],
+      "notes": "Choose TWO letters, A-E."
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "prompt": "Which TWO opinions about the Luddites do the students express?",
+      "options": [
+        "A. Their actions were ineffective.",
+        "B. They are still influential today.",
+        "C. They have received unfair criticism.",
+        "D. They were proved right.",
+        "E. Their attitude is understandable."
+      ],
+      "answers": [],
+      "notes": "Choose TWO letters, A-E."
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "prompt": "Which TWO predictions about the future of work are the students doubtful about?",
+      "options": [
+        "A. Work will be more rewarding.",
+        "B. Unemployment will fall.",
+        "C. People will want to delay retiring.",
+        "D. Working hours will be shorter.",
+        "E. People will change jobs more frequently."
+      ],
+      "answers": [],
+      "notes": "Choose TWO letters, A-E."
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "prompt": "Which TWO predictions about the future of work are the students doubtful about?",
+      "options": [
+        "A. Work will be more rewarding.",
+        "B. Unemployment will fall.",
+        "C. People will want to delay retiring.",
+        "D. Working hours will be shorter.",
+        "E. People will change jobs more frequently."
+      ],
+      "answers": [],
+      "notes": "Choose TWO letters, A-E."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 60
+}

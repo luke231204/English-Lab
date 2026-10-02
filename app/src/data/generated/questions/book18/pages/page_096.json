@@ -1,0 +1,157 @@
+{
+  "section": "reading_passage_3",
+  "test_number": 4,
+  "questions": [
+    {
+      "id": 27,
+      "type": "tfng",
+      "prompt": "Wegener's ideas about continental drift were widely disputed while he was alive.",
+      "options": [],
+      "answers": [],
+      "notes": "YES / NO / NOT GIVEN"
+    },
+    {
+      "id": 28,
+      "type": "tfng",
+      "prompt": "The idea that the continents remained fixed in place was defended in a number of respected scientific publications.",
+      "options": [],
+      "answers": [],
+      "notes": "YES / NO / NOT GIVEN"
+    },
+    {
+      "id": 29,
+      "type": "tfng",
+      "prompt": "Wegener relied on a limited range of scientific fields to support his theory of continental drift.",
+      "options": [],
+      "answers": [],
+      "notes": "YES / NO / NOT GIVEN"
+    },
+    {
+      "id": 30,
+      "type": "tfng",
+      "prompt": "The similarities between Wegener's theory of continental drift and modern-day plate tectonics are enormous.",
+      "options": [],
+      "answers": [],
+      "notes": "YES / NO / NOT GIVEN"
+    },
+    {
+      "id": 31,
+      "type": "summary_completion",
+      "prompt": "One of the remarkable things about Wegener from a 31 .................................... is that although he proposed a theory of continental drift, he was not a geologist.",
+      "options": [
+        "A. modest fame",
+        "B. vast range",
+        "C. record-breaking achievement",
+        "D. research methods",
+        "E. select group",
+        "F. professional interests",
+        "G. scientific debate",
+        "H. hazardous exploration",
+        "I. biographer's perspective",
+        "J. narrow investigation"
+      ],
+      "answers": [],
+      "notes": "Complete the summary using the list of phrases, A-J, below."
+    },
+    {
+      "id": 32,
+      "type": "summary_completion",
+      "prompt": "His 32 .................................... were limited to atmospheric physics.",
+      "options": [
+        "A. modest fame",
+        "B. vast range",
+        "C. record-breaking achievement",
+        "D. research methods",
+        "E. select group",
+        "F. professional interests",
+        "G. scientific debate",
+        "H. hazardous exploration",
+        "I. biographer's perspective",
+        "J. narrow investigation"
+      ],
+      "answers": [],
+      "notes": "Complete the summary using the list of phrases, A-J, below."
+    },
+    {
+      "id": 33,
+      "type": "summary_completion",
+      "prompt": "However, at the time he proposed his theory of continental drift in 1912, he was already a person of 33 .................................... .",
+      "options": [
+        "A. modest fame",
+        "B. vast range",
+        "C. record-breaking achievement",
+        "D. research methods",
+        "E. select group",
+        "F. professional interests",
+        "G. scientific debate",
+        "H. hazardous exploration",
+        "I. biographer's perspective",
+        "J. narrow investigation"
+      ],
+      "answers": [],
+      "notes": "Complete the summary using the list of phrases, A-J, below."
+    },
+    {
+      "id": 34,
+      "type": "summary_completion",
+      "prompt": "Six years previously, there had been his 34 .................................... of 52 hours in a hot-air balloon, followed by his well-publicised but",
+      "options": [
+        "A. modest fame",
+        "B. vast range",
+        "C. record-breaking achievement",
+        "D. research methods",
+        "E. select group",
+        "F. professional interests",
+        "G. scientific debate",
+        "H. hazardous exploration",
+        "I. biographer's perspective",
+        "J. narrow investigation"
+      ],
+      "answers": [],
+      "notes": "Complete the summary using the list of phrases, A-J, below."
+    },
+    {
+      "id": 35,
+      "type": "summary_completion",
+      "prompt": "35 .................................... of Greenland's coast.",
+      "options": [
+        "A. modest fame",
+        "B. vast range",
+        "C. record-breaking achievement",
+        "D. research methods",
+        "E. select group",
+        "F. professional interests",
+        "G. scientific debate",
+        "H. hazardous exploration",
+        "I. biographer's perspective",
+        "J. narrow investigation"
+      ],
+      "answers": [],
+      "notes": "Complete the summary using the list of phrases, A-J, below."
+    },
+    {
+      "id": 36,
+      "type": "summary_completion",
+      "prompt": "With the publication of his textbook on thermodynamics, he had also come to the attention of a 36 .................................... of German scientists.",
+      "options": [
+        "A. modest fame",
+        "B. vast range",
+        "C. record-breaking achievement",
+        "D. research methods",
+        "E. select group",
+        "F. professional interests",
+        "G. scientific debate",
+        "H. hazardous exploration",
+        "I. biographer's perspective",
+        "J. narrow investigation"
+      ],
+      "answers": [],
+      "notes": "Complete the summary using the list of phrases, A-J, below."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 96
+}

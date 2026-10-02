@@ -1,0 +1,95 @@
+{
+  "section": "reading_passage_3",
+  "test_number": 2,
+  "questions": [
+    {
+      "id": 27,
+      "type": "tfng",
+      "prompt": "People first referred to Leonardo da Vinci as a genius 500 years ago.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "Do the following statements agree with the information given in Reading Passage 3? In boxes 27–33 on your answer sheet, write TRUE, FALSE, or NOT GIVEN"
+    },
+    {
+      "id": 28,
+      "type": "tfng",
+      "prompt": "The current climate crisis is predicted to cause more deaths than the plague.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "Do the following statements agree with the information given in Reading Passage 3? In boxes 27–33 on your answer sheet, write TRUE, FALSE, or NOT GIVEN"
+    },
+    {
+      "id": 29,
+      "type": "tfng",
+      "prompt": "Some of the challenges we face today can be compared to those of earlier times.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "Do the following statements agree with the information given in Reading Passage 3? In boxes 27–33 on your answer sheet, write TRUE, FALSE, or NOT GIVEN"
+    },
+    {
+      "id": 30,
+      "type": "tfng",
+      "prompt": "Leonardo da Vinci's 'ideal city' was constructed in the 15th century.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "Do the following statements agree with the information given in Reading Passage 3? In boxes 27–33 on your answer sheet, write TRUE, FALSE, or NOT GIVEN"
+    },
+    {
+      "id": 31,
+      "type": "tfng",
+      "prompt": "Poor town planning is a major contributor to climate change.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "Do the following statements agree with the information given in Reading Passage 3? In boxes 27–33 on your answer sheet, write TRUE, FALSE, or NOT GIVEN"
+    },
+    {
+      "id": 32,
+      "type": "tfng",
+      "prompt": "In Renaissance times, local people fought against the changes to Pienza and Ferrara.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "Do the following statements agree with the information given in Reading Passage 3? In boxes 27–33 on your answer sheet, write TRUE, FALSE, or NOT GIVEN"
+    },
+    {
+      "id": 33,
+      "type": "tfng",
+      "prompt": "Leonardo da Vinci kept a neat, organised record of his designs.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "Do the following statements agree with the information given in Reading Passage 3? In boxes 27–33 on your answer sheet, write TRUE, FALSE, or NOT GIVEN"
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 52
+}

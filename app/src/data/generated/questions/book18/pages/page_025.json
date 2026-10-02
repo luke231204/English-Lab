@@ -1,0 +1,47 @@
+{
+  "section": "reading_passage_2",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 19,
+      "type": "matching",
+      "prompt": "to remove trees that are diseased",
+      "options": [
+        "A. a TSI Cut",
+        "B. a Salvage Cut",
+        "C. a Shelterwood Cut"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A, B or C, in boxes 19-21 on your answer sheet."
+    },
+    {
+      "id": 20,
+      "type": "matching",
+      "prompt": "to generate income across a number of years",
+      "options": [
+        "A. a TSI Cut",
+        "B. a Salvage Cut",
+        "C. a Shelterwood Cut"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A, B or C, in boxes 19-21 on your answer sheet."
+    },
+    {
+      "id": 21,
+      "type": "matching",
+      "prompt": "to create a forest whose trees are close in age",
+      "options": [
+        "A. a TSI Cut",
+        "B. a Salvage Cut",
+        "C. a Shelterwood Cut"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A, B or C, in boxes 19-21 on your answer sheet."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": "",
+  "has_answer_key": false,
+  "_page_num": 25
+}

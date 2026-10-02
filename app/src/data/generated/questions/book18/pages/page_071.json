@@ -1,0 +1,35 @@
+{
+  "section": "reading_passage_3",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 24,
+      "type": "summary_completion",
+      "prompt": "The Model E was road-tested in 1924 by the Automobile Club of America. They found it easy to drive, despite its weight, and it impressed the spectators. A later version of the Model E raised its 24 ......................................., while keeping its emissions extremely low.",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD AND/OR A NUMBER from the passage for each answer."
+    },
+    {
+      "id": 25,
+      "type": "summary_completion",
+      "prompt": "The steam car was too expensive for many people and its design was constantly being altered. Under 25 ....................................... cars were produced before the company went out of business. However, even today, there are Model Es on the road in the US.",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD AND/OR A NUMBER from the passage for each answer."
+    },
+    {
+      "id": 26,
+      "type": "summary_completion",
+      "prompt": "They are straightforward to maintain, and they satisfy California's 26 ....................................... emissions laws. Perhaps today's technology and materials would help us revive the steam car.",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD AND/OR A NUMBER from the passage for each answer."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": "The Model E",
+  "passage_text_excerpt": "",
+  "has_answer_key": false,
+  "_page_num": 71
+}

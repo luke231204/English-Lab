@@ -1,0 +1,83 @@
+{
+  "section": "listening_part_2",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 15,
+      "type": "mcq",
+      "prompt": "What advice does Dan give about picking mushrooms in parks?",
+      "options": [
+        "A. Choose wooded areas.",
+        "B. Don't disturb wildlife.",
+        "C. Get there early."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "prompt": "Dan says it is a good idea for beginners to",
+      "options": [
+        "A. use a mushroom app.",
+        "B. join a group.",
+        "C. take a reference book."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "prompt": "What does Dan say is important for conservation?",
+      "options": [
+        "A. selecting only fully grown mushrooms",
+        "B. picking a limited amount of mushrooms",
+        "C. avoiding areas where rare mushroom species grow"
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "prompt": "According to Dan, some varieties of wild mushrooms are in decline because there is",
+      "options": [
+        "A. a huge demand for them from restaurants.",
+        "B. a lack of rain in this part of the country.",
+        "C. a rise in building developments locally."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "prompt": "Dan says that when storing mushrooms, people should",
+      "options": [
+        "A. keep them in the fridge for no more than two days.",
+        "B. keep them in a brown bag in a dark room.",
+        "C. leave them for a period after washing them."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "prompt": "What does Dan say about trying new varieties of mushrooms?",
+      "options": [
+        "A. Experiment with different recipes.",
+        "B. Expect some to have a strong taste.",
+        "C. Cook them for a long time."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 59
+}

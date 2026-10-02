@@ -1,0 +1,631 @@
+{
+  "book": 18,
+  "test": 1,
+  "listening": {
+    "sections": [
+      {
+        "part": 1,
+        "title": "Part 1",
+        "questions": [
+          {
+            "id": 1,
+            "type": "fill_blank",
+            "prompt": "Postcode: 1",
+            "options": [],
+            "answers": [
+              "DW30 7YZ"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+          },
+          {
+            "id": 2,
+            "type": "fill_blank",
+            "prompt": "Date of bus journey: 2",
+            "options": [],
+            "answers": [
+              "24(th) April"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+          },
+          {
+            "id": 3,
+            "type": "fill_blank",
+            "prompt": "Reason for trip: shopping and visit to the 3",
+            "options": [],
+            "answers": [
+              "dentist"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+          },
+          {
+            "id": 4,
+            "type": "fill_blank",
+            "prompt": "Travelled by bus because cost of 4 too high",
+            "options": [],
+            "answers": [
+              "parking"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+          },
+          {
+            "id": 5,
+            "type": "fill_blank",
+            "prompt": "Got on bus at 5 Street",
+            "options": [],
+            "answers": [
+              "Claxby"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+          },
+          {
+            "id": 6,
+            "type": "fill_blank",
+            "prompt": "Complaints about bus service: - bus today was 6",
+            "options": [],
+            "answers": [
+              "late"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+          },
+          {
+            "id": 7,
+            "type": "fill_blank",
+            "prompt": "- frequency of buses in the 7",
+            "options": [],
+            "answers": [
+              "evening"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+          },
+          {
+            "id": 8,
+            "type": "fill_blank",
+            "prompt": "Goes to the 8 by car",
+            "options": [],
+            "answers": [
+              "supermarket"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+          },
+          {
+            "id": 9,
+            "type": "fill_blank",
+            "prompt": "Dislikes travelling by bike in the city centre because of the 9",
+            "options": [],
+            "answers": [
+              "pollution"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+          },
+          {
+            "id": 10,
+            "type": "fill_blank",
+            "prompt": "Doesn't own a bike because of a lack of 10",
+            "options": [],
+            "answers": [
+              "storage"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+          }
+        ]
+      },
+      {
+        "part": 2,
+        "title": "Part 2",
+        "questions": [
+          {
+            "id": 16,
+            "type": "matching",
+            "prompt": "Fundraising",
+            "options": [
+              "A. experience on stage",
+              "B. original, new ideas",
+              "C. parenting skills",
+              "D. an understanding of food and diet",
+              "E. retail experience",
+              "F. a good memory",
+              "G. a good level of fitness"
+            ],
+            "answers": [
+              "B"
+            ],
+            "notes": "Choose FIVE answers from the box and write the correct letter, A-G, next to Questions 16-20."
+          },
+          {
+            "id": 17,
+            "type": "matching",
+            "prompt": "Litter collection",
+            "options": [
+              "A. experience on stage",
+              "B. original, new ideas",
+              "C. parenting skills",
+              "D. an understanding of food and diet",
+              "E. retail experience",
+              "F. a good memory",
+              "G. a good level of fitness"
+            ],
+            "answers": [
+              "G"
+            ],
+            "notes": "Choose FIVE answers from the box and write the correct letter, A-G, next to Questions 16-20."
+          },
+          {
+            "id": 18,
+            "type": "matching",
+            "prompt": "'Playmates'",
+            "options": [
+              "A. experience on stage",
+              "B. original, new ideas",
+              "C. parenting skills",
+              "D. an understanding of food and diet",
+              "E. retail experience",
+              "F. a good memory",
+              "G. a good level of fitness"
+            ],
+            "answers": [
+              "D"
+            ],
+            "notes": "Choose FIVE answers from the box and write the correct letter, A-G, next to Questions 16-20."
+          },
+          {
+            "id": 19,
+            "type": "matching",
+            "prompt": "Story club",
+            "options": [
+              "A. experience on stage",
+              "B. original, new ideas",
+              "C. parenting skills",
+              "D. an understanding of food and diet",
+              "E. retail experience",
+              "F. a good memory",
+              "G. a good level of fitness"
+            ],
+            "answers": [
+              "A"
+            ],
+            "notes": "Choose FIVE answers from the box and write the correct letter, A-G, next to Questions 16-20."
+          },
+          {
+            "id": 20,
+            "type": "matching",
+            "prompt": "First aid",
+            "options": [
+              "A. experience on stage",
+              "B. original, new ideas",
+              "C. parenting skills",
+              "D. an understanding of food and diet",
+              "E. retail experience",
+              "F. a good memory",
+              "G. a good level of fitness"
+            ],
+            "answers": [
+              "F"
+            ],
+            "notes": "Choose FIVE answers from the box and write the correct letter, A-G, next to Questions 16-20."
+          }
+        ]
+      },
+      {
+        "part": 3,
+        "title": "Part 3",
+        "questions": [
+          {
+            "id": 21,
+            "type": "mcq",
+            "prompt": "What problem did Chantal have at the start of the talk?",
+            "options": [
+              "A. Her view of the speaker was blocked.",
+              "B. She was unable to find an empty seat.",
+              "C. The students next to her were talking."
+            ],
+            "answers": [
+              "A"
+            ],
+            "notes": "Choose the correct letter, A, B or C."
+          },
+          {
+            "id": 22,
+            "type": "mcq",
+            "prompt": "What were Hugo and Chantal surprised to hear about the job market?",
+            "options": [
+              "A. It has become more competitive than it used to be.",
+              "B. There is more variety in it than they had realised.",
+              "C. Some areas of it are more exciting than others."
+            ],
+            "answers": [
+              "B"
+            ],
+            "notes": "Choose the correct letter, A, B or C."
+          },
+          {
+            "id": 23,
+            "type": "mcq",
+            "prompt": "Hugo and Chantal agree that the speaker's message was",
+            "options": [
+              "A. unfair to them at times.",
+              "B. hard for them to follow.",
+              "C. critical of the industry."
+            ],
+            "answers": [
+              "A"
+            ],
+            "notes": "Choose the correct letter, A, B or C."
+          },
+          {
+            "id": 24,
+            "type": "mcq",
+            "prompt": "What do Hugo and Chantal criticise about their school careers advice?",
+            "options": [
+              "A. when they received the advice",
+              "B. how much advice was given",
+              "C. who gave the advice"
+            ],
+            "answers": [
+              "C"
+            ],
+            "notes": "Choose the correct letter, A, B or C."
+          },
+          {
+            "id": 25,
+            "type": "mcq",
+            "prompt": "When discussing their future, Hugo and Chantal disagree on",
+            "options": [
+              "A. which is the best career in fashion.",
+              "B. when to choose a career in fashion.",
+              "C. why they would like a career in fashion."
+            ],
+            "answers": [
+              "B"
+            ],
+            "notes": "Choose the correct letter, A, B or C."
+          },
+          {
+            "id": 26,
+            "type": "mcq",
+            "prompt": "How does Hugo feel about being an unpaid assistant?",
+            "options": [
+              "A. He is realistic about the practice.",
+              "B. He feels the practice is dishonest.",
+              "C. He thinks others want to change the practice."
+            ],
+            "answers": [
+              "A"
+            ],
+            "notes": "Choose the correct letter, A, B or C."
+          },
+          {
+            "id": 27,
+            "type": "mcq",
+            "prompt": "Which TWO mistakes did the speaker admit she made in her first job?",
+            "options": [
+              "A. being dishonest to her employer",
+              "B. paying too much attention to how she looked",
+              "C. expecting to become well known",
+              "D. trying to earn a lot of money",
+              "E. openly disliking her client"
+            ],
+            "answers": [
+              "B",
+              "E"
+            ],
+            "notes": "Choose TWO letters, A-E."
+          },
+          {
+            "id": 28,
+            "type": "mcq",
+            "prompt": "Which TWO mistakes did the speaker admit she made in her first job?",
+            "options": [
+              "A. being dishonest to her employer",
+              "B. paying too much attention to how she looked",
+              "C. expecting to become well known",
+              "D. trying to earn a lot of money",
+              "E. openly disliking her client"
+            ],
+            "answers": [
+              "B",
+              "E"
+            ],
+            "notes": "Choose TWO letters, A-E."
+          },
+          {
+            "id": 29,
+            "type": "mcq",
+            "prompt": "Which TWO pieces of retail information do Hugo and Chantal agree would be useful?",
+            "options": [
+              "A. the reasons people return fashion items",
+              "B. how much time people have to shop for clothes",
+              "C. fashion designs people want but can't find",
+              "D. the best time of year for fashion buying",
+              "E. the most popular fashion sizes"
+            ],
+            "answers": [
+              "A",
+              "C"
+            ],
+            "notes": "Choose TWO letters, A-E."
+          },
+          {
+            "id": 30,
+            "type": "mcq",
+            "prompt": "Which TWO pieces of retail information do Hugo and Chantal agree would be useful?",
+            "options": [
+              "A. the reasons people return fashion items",
+              "B. how much time people have to shop for clothes",
+              "C. fashion designs people want but can't find",
+              "D. the best time of year for fashion buying",
+              "E. the most popular fashion sizes"
+            ],
+            "answers": [
+              "A",
+              "C"
+            ],
+            "notes": "Choose TWO letters, A-E."
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "passages": [
+      {
+        "passage_num": 2,
+        "title": "Urban farming in Paris",
+        "passage_text": "",
+        "questions": [
+          {
+            "id": 1,
+            "type": "sentence_completion",
+            "prompt": "Vertical tubes are used to grow strawberries, ............................................ and herbs.",
+            "options": [],
+            "answers": [
+              "lettuces"
+            ],
+            "notes": "Choose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer."
+          },
+          {
+            "id": 2,
+            "type": "sentence_completion",
+            "prompt": "There will eventually be a daily harvest of as much as ............................................ in weight of fruit and vegetables.",
+            "options": [],
+            "answers": [
+              "1,000 kg"
+            ],
+            "notes": "Choose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer."
+          },
+          {
+            "id": 3,
+            "type": "sentence_completion",
+            "prompt": "It may be possible that the farm's produce will account for as much as 10% of the city's ............................................ overall.",
+            "options": [],
+            "answers": [
+              "(food) consumption"
+            ],
+            "notes": "Choose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer."
+          },
+          {
+            "id": 4,
+            "type": "table_completion",
+            "prompt": "Intensive farming growth: wide range of 4 ............................................ used",
+            "options": [],
+            "answers": [
+              "pesticides"
+            ],
+            "notes": "Choose ONE WORD ONLY from the passage for each answer."
+          },
+          {
+            "id": 5,
+            "type": "table_completion",
+            "prompt": "Intensive farming selection: varieties of fruit and vegetables chosen that can survive long 5 ............................................",
+            "options": [],
+            "answers": [
+              "journeys"
+            ],
+            "notes": "Choose ONE WORD ONLY from the passage for each answer."
+          },
+          {
+            "id": 6,
+            "type": "table_completion",
+            "prompt": "Intensive farming sale: 6 ............................................ receive very little of overall income",
+            "options": [],
+            "answers": [
+              "producers"
+            ],
+            "notes": "Choose ONE WORD ONLY from the passage for each answer."
+          },
+          {
+            "id": 7,
+            "type": "table_completion",
+            "prompt": "Aeroponic urban farming selection: produce chosen because of its 7 ............................................",
+            "options": [],
+            "answers": [
+              "flavour / flavor"
+            ],
+            "notes": "Choose ONE WORD ONLY from the passage for each answer."
+          },
+          {
+            "id": 14,
+            "type": "matching",
+            "prompt": "bad outcomes for a forest when people focus only on its financial reward",
+            "options": [],
+            "answers": [
+              "B"
+            ],
+            "notes": "Write the correct letter, A-G, in boxes 14-18 on your answer sheet."
+          },
+          {
+            "id": 15,
+            "type": "matching",
+            "prompt": "reference to the aspects of any tree that contribute to its worth",
+            "options": [],
+            "answers": [
+              "A"
+            ],
+            "notes": "Write the correct letter, A-G, in boxes 14-18 on your answer sheet."
+          },
+          {
+            "id": 16,
+            "type": "matching",
+            "prompt": "mention of the potential use of wood to help run vehicles",
+            "options": [],
+            "answers": [
+              "C"
+            ],
+            "notes": "Write the correct letter, A-G, in boxes 14-18 on your answer sheet."
+          },
+          {
+            "id": 17,
+            "type": "matching",
+            "prompt": "examples of insects that attack trees",
+            "options": [],
+            "answers": [
+              "E"
+            ],
+            "notes": "Write the correct letter, A-G, in boxes 14-18 on your answer sheet."
+          },
+          {
+            "id": 18,
+            "type": "matching",
+            "prompt": "an alternative name for trees that produce low-use wood",
+            "options": [],
+            "answers": [
+              "B"
+            ],
+            "notes": "Write the correct letter, A-G, in boxes 14-18 on your answer sheet."
+          },
+          {
+            "id": 22,
+            "type": "fill_blank",
+            "prompt": "Some dead wood is removed to avoid the possibility of .............",
+            "options": [],
+            "answers": [
+              "fire"
+            ],
+            "notes": "Choose ONE WORD ONLY from the passage for each answer."
+          },
+          {
+            "id": 23,
+            "type": "fill_blank",
+            "prompt": "The ............. from the tops of cut trees can help improve soil quality.",
+            "options": [],
+            "answers": [
+              "nutrients"
+            ],
+            "notes": "Choose ONE WORD ONLY from the passage for each answer."
+          },
+          {
+            "id": 24,
+            "type": "fill_blank",
+            "prompt": "Some damaged trees should be left, as their ............. provide habitats for a range of creatures.",
+            "options": [],
+            "answers": [
+              "cavities"
+            ],
+            "notes": "Choose ONE WORD ONLY from the passage for each answer."
+          },
+          {
+            "id": 25,
+            "type": "fill_blank",
+            "prompt": "Some trees that are small, such as ............., are a source of food for animals and insects.",
+            "options": [],
+            "answers": [
+              "hawthorn"
+            ],
+            "notes": "Choose ONE WORD ONLY from the passage for each answer."
+          },
+          {
+            "id": 26,
+            "type": "fill_blank",
+            "prompt": "Any trees that are ............. should be left to grow, as they add to the variety of species in the forest.",
+            "options": [],
+            "answers": [
+              "rare"
+            ],
+            "notes": "Choose ONE WORD ONLY from the passage for each answer."
+          }
+        ]
+      },
+      {
+        "passage_num": 3,
+        "title": null,
+        "passage_text": null,
+        "questions": [
+          {
+            "id": 36,
+            "type": "matching",
+            "prompt": "Knowing the exact location of space junk would help prevent any possible danger.",
+            "options": [
+              "A. Carolin Frueh",
+              "B. Holger Krag",
+              "C. Marlon Sorge",
+              "D. Moriba Jah"
+            ],
+            "answers": [
+              "C"
+            ],
+            "notes": "Write the correct letter, A, B, C or D, in boxes 36-40 on your answer sheet."
+          },
+          {
+            "id": 37,
+            "type": "matching",
+            "prompt": "Space should be available to everyone and should be preserved for the future.",
+            "options": [
+              "A. Carolin Frueh",
+              "B. Holger Krag",
+              "C. Marlon Sorge",
+              "D. Moriba Jah"
+            ],
+            "answers": [
+              "D"
+            ],
+            "notes": "Write the correct letter, A, B, C or D, in boxes 36-40 on your answer sheet."
+          },
+          {
+            "id": 38,
+            "type": "matching",
+            "prompt": "A recommendation regarding satellites is widely ignored.",
+            "options": [
+              "A. Carolin Frueh",
+              "B. Holger Krag",
+              "C. Marlon Sorge",
+              "D. Moriba Jah"
+            ],
+            "answers": [
+              "B"
+            ],
+            "notes": "Write the correct letter, A, B, C or D, in boxes 36-40 on your answer sheet."
+          },
+          {
+            "id": 39,
+            "type": "matching",
+            "prompt": "There is conflicting information about where some satellites are in space.",
+            "options": [
+              "A. Carolin Frueh",
+              "B. Holger Krag",
+              "C. Marlon Sorge",
+              "D. Moriba Jah"
+            ],
+            "answers": [
+              "D"
+            ],
+            "notes": "Write the correct letter, A, B, C or D, in boxes 36-40 on your answer sheet."
+          },
+          {
+            "id": 40,
+            "type": "matching",
+            "prompt": "There is a risk we will not be able to undo the damage that occurs in space.",
+            "options": [
+              "A. Carolin Frueh",
+              "B. Holger Krag",
+              "C. Marlon Sorge",
+              "D. Moriba Jah"
+            ],
+            "answers": [
+              "A"
+            ],
+            "notes": "Write the correct letter, A, B, C or D, in boxes 36-40 on your answer sheet."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "section": "reading_passage_2",
+  "test_number": 1,
+  "questions": [
+    {
+      "id": 22,
+      "type": "fill_blank",
+      "prompt": "Some dead wood is removed to avoid the possibility of .............",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 23,
+      "type": "fill_blank",
+      "prompt": "The ............. from the tops of cut trees can help improve soil quality.",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 24,
+      "type": "fill_blank",
+      "prompt": "Some damaged trees should be left, as their ............. provide habitats for a range of creatures.",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 25,
+      "type": "fill_blank",
+      "prompt": "Some trees that are small, such as ............., are a source of food for animals and insects.",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 26,
+      "type": "fill_blank",
+      "prompt": "Any trees that are ............. should be left to grow, as they add to the variety of species in the forest.",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 26
+}

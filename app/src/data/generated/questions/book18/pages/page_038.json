@@ -1,0 +1,87 @@
+{
+  "section": "listening_part_3",
+  "test_number": 2,
+  "questions": [
+    {
+      "id": 21,
+      "type": "mcq",
+      "prompt": "Why do the students think the Laki eruption of 1783 is so important?",
+      "options": [
+        "A. It was the most severe eruption in modern times.",
+        "B. It led to the formal study of volcanoes.",
+        "C. It had a profound effect on society."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "prompt": "What surprised Adam about observations made at the time?",
+      "options": [
+        "A. the number of places producing them",
+        "B. the contradictions in them",
+        "C. the lack of scientific data to support them"
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "prompt": "According to Michelle, what did the contemporary sources say about the Laki haze?",
+      "options": [
+        "A. People thought it was similar to ordinary fog.",
+        "B. It was associated with health issues.",
+        "C. It completely blocked out the sun for weeks."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "prompt": "Adam corrects Michelle when she claims that Benjamin Franklin",
+      "options": [
+        "A. came to the wrong conclusion about the cause of the haze.",
+        "B. was the first to identify the reason for the haze.",
+        "C. supported the opinions of other observers about the haze."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "prompt": "Which TWO issues following the Laki eruption surprised the students? (First choice)",
+      "options": [
+        "A. how widespread the effects were",
+        "B. how long-lasting the effects were",
+        "C. the number of deaths it caused",
+        "D. the speed at which the volcanic ash cloud spread",
+        "E. how people ignored the warning signs"
+      ],
+      "answers": [],
+      "notes": "Choose TWO letters, A-E."
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "prompt": "Which TWO issues following the Laki eruption surprised the students? (Second choice)",
+      "options": [
+        "A. how widespread the effects were",
+        "B. how long-lasting the effects were",
+        "C. the number of deaths it caused",
+        "D. the speed at which the volcanic ash cloud spread",
+        "E. how people ignored the warning signs"
+      ],
+      "answers": [],
+      "notes": "Choose TWO letters, A-E."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 38
+}

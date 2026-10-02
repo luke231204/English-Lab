@@ -1,0 +1,51 @@
+{
+  "section": "listening_part_1",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 6,
+      "type": "fill_blank",
+      "prompt": "Location: [6] Street",
+      "options": [],
+      "answers": [],
+      "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+    },
+    {
+      "id": 7,
+      "type": "fill_blank",
+      "prompt": "Responsibilities include: Making sure [7] is clean",
+      "options": [],
+      "answers": [],
+      "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+    },
+    {
+      "id": 8,
+      "type": "fill_blank",
+      "prompt": "Pay and conditions: Starting salary 8 £ [...] per hour",
+      "options": [],
+      "answers": [],
+      "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+    },
+    {
+      "id": 9,
+      "type": "fill_blank",
+      "prompt": "Responsibilities include: Maintaining stock and organising [9]",
+      "options": [],
+      "answers": [],
+      "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+    },
+    {
+      "id": 10,
+      "type": "fill_blank",
+      "prompt": "Pay and conditions: No work on a [10] once a month",
+      "options": [],
+      "answers": [],
+      "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 35
+}

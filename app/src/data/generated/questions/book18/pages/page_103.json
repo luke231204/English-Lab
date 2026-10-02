@@ -1,0 +1,35 @@
+{
+  "section": "listening_part_2",
+  "test_number": 1,
+  "questions": [
+    {
+      "id": 18,
+      "type": "fill_blank",
+      "prompt": "If you enjoy working with children, we have three vacancies for what are called 'playmates'. These volunteers help children learn about staying healthy through a range of out-of-school activities. You don't need to have children yourself, but it's good if you know something about nutrition and can give clear instructions.",
+      "options": [],
+      "answers": [],
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "type": "fill_blank",
+      "prompt": "If that doesn't appeal to you, maybe you would be interested in helping out at our story club for disabled children, especially if you have done some acting. We put on three performances a year based on books they have read and we're always looking for support with the theatrical side of this.",
+      "options": [],
+      "answers": [],
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "type": "fill_blank",
+      "prompt": "The last area I'll mention today is first aid. Volunteers who join this group can end up teaching others in vulnerable groups who may be at risk of injury. Initially, though, your priority will be to take in a lot of information and not forget any important steps or details.",
+      "options": [],
+      "answers": [],
+      "notes": ""
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 103
+}

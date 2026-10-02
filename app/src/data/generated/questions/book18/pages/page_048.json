@@ -1,0 +1,59 @@
+{
+  "section": "reading_passage_2",
+  "test_number": 2,
+  "questions": [
+    {
+      "id": 20,
+      "type": "tfng",
+      "prompt": "Machines with the ability to make moral decisions may prevent us from promoting the interests of our communities.",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "Do the following statements agree with the claims of the writer in Reading Passage 2? In boxes 20–23 on your answer sheet, write YES, NO, or NOT GIVEN"
+    },
+    {
+      "id": 21,
+      "type": "tfng",
+      "prompt": "Silicon police would need to exist in large numbers in order to be effective.",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "Do the following statements agree with the claims of the writer in Reading Passage 2? In boxes 20–23 on your answer sheet, write YES, NO, or NOT GIVEN"
+    },
+    {
+      "id": 22,
+      "type": "tfng",
+      "prompt": "Many people are comfortable with the prospect of their independence being restricted by machines.",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "Do the following statements agree with the claims of the writer in Reading Passage 2? In boxes 20–23 on your answer sheet, write YES, NO, or NOT GIVEN"
+    },
+    {
+      "id": 23,
+      "type": "tfng",
+      "prompt": "If we want to ensure that machines act in our best interests, we all need to work together.",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "Do the following statements agree with the claims of the writer in Reading Passage 2? In boxes 20–23 on your answer sheet, write YES, NO, or NOT GIVEN"
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": "",
+  "has_answer_key": false,
+  "_page_num": 48
+}

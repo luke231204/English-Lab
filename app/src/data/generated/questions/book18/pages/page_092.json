@@ -1,0 +1,50 @@
+{
+  "section": "reading_passage_2",
+  "test_number": 4,
+  "questions": [
+    {
+      "id": 14,
+      "type": "mcq",
+      "prompt": "What can we learn from the first paragraph?",
+      "options": [
+        "A. where the notion of innate intelligence first began",
+        "B. when ideas about the nature of intelligence began to shift",
+        "C. how scientists have responded to changing views of intelligence",
+        "D. why thinkers turned away from the idea of intelligence being fixed"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter in boxes 14-16 on your answer sheet."
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "prompt": "The second paragraph describes how schools encourage students to",
+      "options": [
+        "A. identify their personal ambitions.",
+        "B. help each other to realise their goals.",
+        "C. have confidence in their potential to succeed.",
+        "D. concentrate on where their particular strengths lie."
+      ],
+      "answers": [],
+      "notes": "Write the correct letter in boxes 14-16 on your answer sheet."
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "prompt": "In the third paragraph, the writer suggests that students with a fixed mindset",
+      "options": [
+        "A. tend to be less competitive.",
+        "B. generally have a low sense of self-esteem.",
+        "C. will only work hard if they are given constant encouragement.",
+        "D. are afraid to push themselves beyond what they see as their limitations."
+      ],
+      "answers": [],
+      "notes": "Write the correct letter in boxes 14-16 on your answer sheet."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 92
+}

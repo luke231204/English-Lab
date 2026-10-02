@@ -1,0 +1,67 @@
+{
+  "section": "listening_part_2",
+  "test_number": 3,
+  "questions": [
+    {
+      "id": 11,
+      "type": "mcq",
+      "prompt": "Which TWO warnings does Dan give about picking mushrooms?",
+      "options": [
+        "A. Don't pick more than one variety of mushroom at a time.",
+        "B. Don't pick mushrooms near busy roads.",
+        "C. Don't eat mushrooms given to you.",
+        "D. Don't eat mushrooms while picking them.",
+        "E. Don't pick old mushrooms."
+      ],
+      "answers": [],
+      "notes": "Choose TWO letters, A-E."
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "prompt": "Which TWO warnings does Dan give about picking mushrooms?",
+      "options": [
+        "A. Don't pick more than one variety of mushroom at a time.",
+        "B. Don't pick mushrooms near busy roads.",
+        "C. Don't eat mushrooms given to you.",
+        "D. Don't eat mushrooms while picking them.",
+        "E. Don't pick old mushrooms."
+      ],
+      "answers": [],
+      "notes": "Choose TWO letters, A-E."
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "prompt": "Which TWO ideas about wild mushrooms does Dan say are correct?",
+      "options": [
+        "A. Mushrooms should always be peeled before eating.",
+        "B. Mushrooms eaten by animals may be unsafe.",
+        "C. Cooking destroys toxins in mushrooms.",
+        "D. Brightly coloured mushrooms can be edible.",
+        "E. All poisonous mushrooms have a bad smell."
+      ],
+      "answers": [],
+      "notes": "Choose TWO letters, A-E."
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "prompt": "Which TWO ideas about wild mushrooms does Dan say are correct?",
+      "options": [
+        "A. Mushrooms should always be peeled before eating.",
+        "B. Mushrooms eaten by animals may be unsafe.",
+        "C. Cooking destroys toxins in mushrooms.",
+        "D. Brightly coloured mushrooms can be edible.",
+        "E. All poisonous mushrooms have a bad smell."
+      ],
+      "answers": [],
+      "notes": "Choose TWO letters, A-E."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 58
+}

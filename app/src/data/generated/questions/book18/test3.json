@@ -1,0 +1,703 @@
+{
+  "book": 18,
+  "test": 3,
+  "listening": {
+    "sections": [
+      {
+        "part": 1,
+        "title": "Part 1",
+        "questions": [
+          {
+            "id": 1,
+            "type": "fill_blank",
+            "prompt": "Home address: 52 1 ......................................... Street, Peacetown",
+            "options": [],
+            "answers": [
+              "Marrowfield"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+          },
+          {
+            "id": 2,
+            "type": "fill_blank",
+            "prompt": "Heard about us: from a 2 .......................................................",
+            "options": [],
+            "answers": [
+              "relative"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+          },
+          {
+            "id": 3,
+            "type": "fill_blank",
+            "prompt": "Reasons for joining: to enter competitions to 3 .......................................................",
+            "options": [],
+            "answers": [
+              "socialise / socialize"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+          },
+          {
+            "id": 4,
+            "type": "fill_blank",
+            "prompt": "Type of membership: 4 ....................................................... membership (£30)",
+            "options": [],
+            "answers": [
+              "full"
+            ],
+            "notes": "Write ONE WORD AND/OR A NUMBER for each answer."
+          },
+          {
+            "id": 5,
+            "type": "fill_blank",
+            "prompt": "Title of competition: 5 ' ....................................................... '",
+            "options": [],
+            "answers": [
+              "Domestic Life"
+            ],
+            "notes": "Write NO MORE THAN TWO WORDS for each answer."
+          },
+          {
+            "id": 6,
+            "type": "fill_blank",
+            "prompt": "Scene must show some 6 .......................................",
+            "options": [],
+            "answers": [
+              "clouds"
+            ],
+            "notes": "Write NO MORE THAN TWO WORDS for each answer."
+          },
+          {
+            "id": 7,
+            "type": "fill_blank",
+            "prompt": "Feedback to Dan: The 7 ....................................... was wrong.",
+            "options": [],
+            "answers": [
+              "timing"
+            ],
+            "notes": "Write NO MORE THAN TWO WORDS for each answer."
+          },
+          {
+            "id": 8,
+            "type": "fill_blank",
+            "prompt": "Title of competition: 8 ' ....................................................... '",
+            "options": [],
+            "answers": [
+              "Animal Magic"
+            ],
+            "notes": "Write NO MORE THAN TWO WORDS for each answer."
+          },
+          {
+            "id": 9,
+            "type": "fill_blank",
+            "prompt": "Scene must show 9 .......................................",
+            "options": [],
+            "answers": [
+              "(animal) movement"
+            ],
+            "notes": "Write NO MORE THAN TWO WORDS for each answer."
+          },
+          {
+            "id": 10,
+            "type": "fill_blank",
+            "prompt": "Feedback to Dan: The photograph was too 10 ....................................... .",
+            "options": [],
+            "answers": [
+              "dark"
+            ],
+            "notes": "Write NO MORE THAN TWO WORDS for each answer."
+          }
+        ]
+      },
+      {
+        "part": 2,
+        "title": "Part 2",
+        "questions": [
+          {
+            "id": 11,
+            "type": "mcq",
+            "prompt": "Which TWO warnings does Dan give about picking mushrooms?",
+            "options": [
+              "A. Don't pick more than one variety of mushroom at a time.",
+              "B. Don't pick mushrooms near busy roads.",
+              "C. Don't eat mushrooms given to you.",
+              "D. Don't eat mushrooms while picking them.",
+              "E. Don't pick old mushrooms."
+            ],
+            "answers": [
+              "B",
+              "C"
+            ],
+            "notes": "Choose TWO letters, A-E."
+          },
+          {
+            "id": 12,
+            "type": "mcq",
+            "prompt": "Which TWO warnings does Dan give about picking mushrooms?",
+            "options": [
+              "A. Don't pick more than one variety of mushroom at a time.",
+              "B. Don't pick mushrooms near busy roads.",
+              "C. Don't eat mushrooms given to you.",
+              "D. Don't eat mushrooms while picking them.",
+              "E. Don't pick old mushrooms."
+            ],
+            "answers": [
+              "B",
+              "C"
+            ],
+            "notes": "Choose TWO letters, A-E."
+          },
+          {
+            "id": 13,
+            "type": "mcq",
+            "prompt": "Which TWO ideas about wild mushrooms does Dan say are correct?",
+            "options": [
+              "A. Mushrooms should always be peeled before eating.",
+              "B. Mushrooms eaten by animals may be unsafe.",
+              "C. Cooking destroys toxins in mushrooms.",
+              "D. Brightly coloured mushrooms can be edible.",
+              "E. All poisonous mushrooms have a bad smell."
+            ],
+            "answers": [
+              "B",
+              "D"
+            ],
+            "notes": "Choose TWO letters, A-E."
+          },
+          {
+            "id": 14,
+            "type": "mcq",
+            "prompt": "Which TWO ideas about wild mushrooms does Dan say are correct?",
+            "options": [
+              "A. Mushrooms should always be peeled before eating.",
+              "B. Mushrooms eaten by animals may be unsafe.",
+              "C. Cooking destroys toxins in mushrooms.",
+              "D. Brightly coloured mushrooms can be edible.",
+              "E. All poisonous mushrooms have a bad smell."
+            ],
+            "answers": [
+              "B",
+              "D"
+            ],
+            "notes": "Choose TWO letters, A-E."
+          },
+          {
+            "id": 15,
+            "type": "fill_blank",
+            "prompt": "Of course, mushroom picking is associated with the countryside but if you haven't got a car, your local park can be a great place to start. There are usually a range of habitats where mushrooms grow, such as playing fields and wooded areas. But you need to be there first thing in the morning, as there's likely be a lot of competition – not just from people but wildlife too. The deer often get the best mushrooms in my local park.",
+            "options": [],
+            "answers": [
+              "C"
+            ],
+            "notes": ""
+          },
+          {
+            "id": 16,
+            "type": "fill_blank",
+            "prompt": "If you're a complete beginner, I wouldn't recommend going alone or relying on photos in a book, even the one I've written! There are some really good phone apps for identifying mushrooms, but you can't always rely on getting a good signal in the middle of a wood. If possible, you should go with a group led by an expert – you'll stay safe and learn a lot that way.",
+            "options": [],
+            "answers": [
+              "B"
+            ],
+            "notes": ""
+          },
+          {
+            "id": 17,
+            "type": "fill_blank",
+            "prompt": "Conservation is a really important consideration and you must follow a few basic rules. You should never pick all the mushrooms in one area – collect only enough for your own needs. Be very careful that you don't trample on young mushrooms or other plants. And make sure you don't pick any mushrooms that are endangered and protected by law.",
+            "options": [],
+            "answers": [
+              "B"
+            ],
+            "notes": ""
+          },
+          {
+            "id": 18,
+            "type": "fill_blank",
+            "prompt": "There's been a decline in some varieties of wild mushrooms in this part of the country. Restaurants are becoming more interested in locally sourced food like wild mushrooms, but the biggest problem is that so many new houses have been built in this area in the last ten years. And more water is being taken from rivers and reservoirs because of this, and mushroom habitats have been destroyed.",
+            "options": [],
+            "answers": [
+              "C"
+            ],
+            "notes": ""
+          },
+          {
+            "id": 19,
+            "type": "fill_blank",
+            "prompt": "Anyway, a word of advice on storing mushrooms. Collect them in a brown paper bag and as soon as you get home, put them in the fridge. They'll be fine for a couple of days, but it's best to cook them as soon as possible – after washing them really carefully first, of course.",
+            "options": [],
+            "answers": [
+              "A"
+            ],
+            "notes": ""
+          },
+          {
+            "id": 20,
+            "type": "fill_blank",
+            "prompt": "So everybody knows what a mushroom tastes like, right? Well, you'll be surprised by the huge variety of wild mushrooms there are. Be adventurous! They're great in so many dishes – stir fries, risottos, pasta. But just be aware that some people can react badly to certain varieties so it's a good idea not to eat huge quantities to begin with.",
+            "options": [],
+            "answers": [
+              "A"
+            ],
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "part": 3,
+        "title": "Part 3",
+        "questions": [
+          {
+            "id": 21,
+            "type": "mcq",
+            "prompt": "Which TWO opinions about the Luddites do the students express?",
+            "options": [
+              "A. Their actions were ineffective.",
+              "B. They are still influential today.",
+              "C. They have received unfair criticism.",
+              "D. They were proved right.",
+              "E. Their attitude is understandable."
+            ],
+            "answers": [
+              "A",
+              "E"
+            ],
+            "notes": "Choose TWO letters, A-E."
+          },
+          {
+            "id": 22,
+            "type": "mcq",
+            "prompt": "Which TWO opinions about the Luddites do the students express?",
+            "options": [
+              "A. Their actions were ineffective.",
+              "B. They are still influential today.",
+              "C. They have received unfair criticism.",
+              "D. They were proved right.",
+              "E. Their attitude is understandable."
+            ],
+            "answers": [
+              "A",
+              "E"
+            ],
+            "notes": "Choose TWO letters, A-E."
+          },
+          {
+            "id": 23,
+            "type": "mcq",
+            "prompt": "Which TWO predictions about the future of work are the students doubtful about?",
+            "options": [
+              "A. Work will be more rewarding.",
+              "B. Unemployment will fall.",
+              "C. People will want to delay retiring.",
+              "D. Working hours will be shorter.",
+              "E. People will change jobs more frequently."
+            ],
+            "answers": [
+              "B",
+              "D"
+            ],
+            "notes": "Choose TWO letters, A-E."
+          },
+          {
+            "id": 24,
+            "type": "mcq",
+            "prompt": "Which TWO predictions about the future of work are the students doubtful about?",
+            "options": [
+              "A. Work will be more rewarding.",
+              "B. Unemployment will fall.",
+              "C. People will want to delay retiring.",
+              "D. Working hours will be shorter.",
+              "E. People will change jobs more frequently."
+            ],
+            "answers": [
+              "B",
+              "D"
+            ],
+            "notes": "Choose TWO letters, A-E."
+          }
+        ]
+      },
+      {
+        "part": 4,
+        "title": "Part 4",
+        "questions": [
+          {
+            "id": 31,
+            "type": "fill_blank",
+            "prompt": "would aim to set up legal and 31 .................................... ways of improving safety.",
+            "options": [],
+            "answers": [
+              "technical"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          },
+          {
+            "id": 32,
+            "type": "fill_blank",
+            "prompt": "Satellites are now quite 32 .................................... and therefore more widespread (e.g. there are constellations made up of 33 .................................... of satellites).",
+            "options": [],
+            "answers": [
+              "cheap"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          },
+          {
+            "id": 33,
+            "type": "fill_blank",
+            "prompt": "Satellites are now quite 32 .................................... and therefore more widespread (e.g. there are constellations made up of 33 .................................... of satellites).",
+            "options": [],
+            "answers": [
+              "thousands"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          },
+          {
+            "id": 34,
+            "type": "fill_blank",
+            "prompt": "At present, satellites are not required to transmit information to help with their 34 .................................... .",
+            "options": [],
+            "answers": [
+              "identification"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          },
+          {
+            "id": 35,
+            "type": "fill_blank",
+            "prompt": "There are few systems for 35 .................................... satellites.",
+            "options": [],
+            "answers": [
+              "tracking"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          },
+          {
+            "id": 36,
+            "type": "fill_blank",
+            "prompt": "Operators may be unwilling to share details of satellites used for 36 .................................... or commercial reasons.",
+            "options": [],
+            "answers": [
+              "military"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          },
+          {
+            "id": 37,
+            "type": "fill_blank",
+            "prompt": "It may be hard to collect details of the object's 37 .................................... at a given time.",
+            "options": [],
+            "answers": [
+              "location"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          },
+          {
+            "id": 38,
+            "type": "fill_blank",
+            "prompt": "Scientists can only make a 38 .................................... about where the satellite will go.",
+            "options": [],
+            "answers": [
+              "prediction"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          },
+          {
+            "id": 39,
+            "type": "fill_blank",
+            "prompt": "The information should be combined in one 39 .................................... .",
+            "options": [],
+            "answers": [
+              "database"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          },
+          {
+            "id": 40,
+            "type": "fill_blank",
+            "prompt": "A coordinated system must be designed to create 40 .................................... in its users.",
+            "options": [],
+            "answers": [
+              "trust"
+            ],
+            "notes": "Write ONE WORD ONLY for each answer."
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "passages": [
+      {
+        "passage_num": 1,
+        "title": "",
+        "passage_text": "",
+        "questions": [
+          {
+            "id": 9,
+            "type": "matching",
+            "prompt": "The environmental advantage of cement alternatives may not be as great as initially assumed.",
+            "options": [
+              "A. Chris Cheeseman",
+              "B. Markus Mannström",
+              "C. Anna Surgenor",
+              "D. Felix Preston and Johanna Lehne"
+            ],
+            "answers": [
+              "C"
+            ],
+            "notes": "Write the correct letter, A, B, C or D, in boxes 9-13 on your answer sheet."
+          },
+          {
+            "id": 10,
+            "type": "matching",
+            "prompt": "It would be hard to create a construction alternative to concrete that offers so many comparable benefits.",
+            "options": [
+              "A. Chris Cheeseman",
+              "B. Markus Mannström",
+              "C. Anna Surgenor",
+              "D. Felix Preston and Johanna Lehne"
+            ],
+            "answers": [
+              "A"
+            ],
+            "notes": "Write the correct letter, A, B, C or D, in boxes 9-13 on your answer sheet."
+          },
+          {
+            "id": 11,
+            "type": "matching",
+            "prompt": "Worries about the environment have led to increased interest in wood as a construction material.",
+            "options": [
+              "A. Chris Cheeseman",
+              "B. Markus Mannström",
+              "C. Anna Surgenor",
+              "D. Felix Preston and Johanna Lehne"
+            ],
+            "answers": [
+              "B"
+            ],
+            "notes": "Write the correct letter, A, B, C or D, in boxes 9-13 on your answer sheet."
+          },
+          {
+            "id": 12,
+            "type": "matching",
+            "prompt": "Expense has been a factor in the negative response to the development of new cements.",
+            "options": [
+              "A. Chris Cheeseman",
+              "B. Markus Mannström",
+              "C. Anna Surgenor",
+              "D. Felix Preston and Johanna Lehne"
+            ],
+            "answers": [
+              "D"
+            ],
+            "notes": "Write the correct letter, A, B, C or D, in boxes 9-13 on your answer sheet."
+          },
+          {
+            "id": 13,
+            "type": "matching",
+            "prompt": "The environmental damage caused by concrete is due to it being produced in large quantities.",
+            "options": [
+              "A. Chris Cheeseman",
+              "B. Markus Mannström",
+              "C. Anna Surgenor",
+              "D. Felix Preston and Johanna Lehne"
+            ],
+            "answers": [
+              "A"
+            ],
+            "notes": "Write the correct letter, A, B, C or D, in boxes 9-13 on your answer sheet."
+          }
+        ]
+      },
+      {
+        "passage_num": 2,
+        "title": null,
+        "passage_text": null,
+        "questions": [
+          {
+            "id": 21,
+            "type": "mcq",
+            "prompt": "What point does the writer make about the steam car in Paragraph B?",
+            "options": [
+              "A. Its success was short-lived.",
+              "B. Not enough cars were made.",
+              "C. Car companies found them hard to sell.",
+              "D. People found them hard to drive."
+            ],
+            "answers": [
+              "A"
+            ],
+            "notes": "Choose the correct letter, A, B, C or D."
+          },
+          {
+            "id": 22,
+            "type": "mcq",
+            "prompt": "When building their first steam car, the Doble brothers",
+            "options": [
+              "A. constructed all the parts themselves.",
+              "B. made written notes at each stage of the construction.",
+              "C. needed several attempts to achieve a competitive model.",
+              "D. sought the advice of experienced people in the car industry."
+            ],
+            "answers": [
+              "C"
+            ],
+            "notes": "Choose the correct letter, A, B, C or D."
+          },
+          {
+            "id": 23,
+            "type": "mcq",
+            "prompt": "In order to produce the Model C, the Doble brothers",
+            "options": [
+              "A. moved production to a different city.",
+              "B. raised financial capital.",
+              "C. employed an additional worker.",
+              "D. abandoned their earlier designs."
+            ],
+            "answers": [
+              "B"
+            ],
+            "notes": "Choose the correct letter, A, B, C or D."
+          }
+        ]
+      },
+      {
+        "passage_num": 3,
+        "title": null,
+        "passage_text": null,
+        "questions": [
+          {
+            "id": 27,
+            "type": "mcq",
+            "prompt": "The writer describes the Romeo and Juliet lesson in order to demonstrate",
+            "options": [
+              "A. how few students are interested in literature.",
+              "B. how a teacher handles a range of learning needs.",
+              "C. how unsuitable Shakespeare is for most teenagers.",
+              "D. how weaker students can disrupt their classmates' learning."
+            ],
+            "answers": [
+              "B"
+            ],
+            "notes": "Choose the correct letter, A, B, C or D."
+          },
+          {
+            "id": 28,
+            "type": "mcq",
+            "prompt": "What does the writer say about streaming in the third paragraph?",
+            "options": [
+              "A. It has a very broad appeal.",
+              "B. It favours cleverer students.",
+              "C. It is relatively simple to implement.",
+              "D. It works better in some schools than others."
+            ],
+            "answers": [
+              "A"
+            ],
+            "notes": "Choose the correct letter, A, B, C or D."
+          },
+          {
+            "id": 29,
+            "type": "mcq",
+            "prompt": "What idea is suggested by the reference to Mount Qomolangma in the fifth paragraph?",
+            "options": [
+              "A. students following unsuitable paths",
+              "B. students attempting interesting tasks",
+              "C. students not achieving their full potential",
+              "D. students not being aware of their limitations"
+            ],
+            "answers": [
+              "C"
+            ],
+            "notes": "Choose the correct letter, A, B, C or D."
+          },
+          {
+            "id": 30,
+            "type": "mcq",
+            "prompt": "What does the word 'scaffolding' in the sixth paragraph refer to?",
+            "options": [
+              "A. the factors which prevent a student from learning effectively",
+              "B. the environment where most of a student's learning takes place",
+              "C. the assistance given to a student in their initial stages of learning",
+              "D. the setting of appropriate learning targets for a student's aptitude"
+            ],
+            "answers": [
+              "C"
+            ],
+            "notes": "Choose the correct letter, A, B, C or D."
+          },
+          {
+            "id": 36,
+            "type": "tfng",
+            "prompt": "The Vygotsky model of education supports the concept of a mixed-ability class.",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ],
+            "answers": [
+              "NO"
+            ],
+            "notes": "Do the following statements agree with the views of the writer in Reading Passage 3? Write YES, NO, or NOT GIVEN"
+          },
+          {
+            "id": 37,
+            "type": "tfng",
+            "prompt": "Some teachers are uncertain about allowing students to take on MKO roles in the classroom.",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ],
+            "answers": [
+              "NOT GIVEN"
+            ],
+            "notes": "Do the following statements agree with the views of the writer in Reading Passage 3? Write YES, NO, or NOT GIVEN"
+          },
+          {
+            "id": 38,
+            "type": "tfng",
+            "prompt": "It can be rewarding to teach knowledge which you have only recently acquired.",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ],
+            "answers": [
+              "YES"
+            ],
+            "notes": "Do the following statements agree with the views of the writer in Reading Passage 3? Write YES, NO, or NOT GIVEN"
+          },
+          {
+            "id": 39,
+            "type": "tfng",
+            "prompt": "The priority should be to ensure that the highest-achieving students attain their goals.",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ],
+            "answers": [
+              "NO"
+            ],
+            "notes": "Do the following statements agree with the views of the writer in Reading Passage 3? Write YES, NO, or NOT GIVEN"
+          },
+          {
+            "id": 40,
+            "type": "tfng",
+            "prompt": "Taking part in collaborative outdoor activities with teachers and classmates can improve student outcomes in the classroom.",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ],
+            "answers": [
+              "NOT GIVEN"
+            ],
+            "notes": "Do the following statements agree with the views of the writer in Reading Passage 3? Write YES, NO, or NOT GIVEN"
+          }
+        ]
+      }
+    ]
+  }
+}

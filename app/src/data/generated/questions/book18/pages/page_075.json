@@ -1,0 +1,101 @@
+{
+  "section": "reading_passage_3",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 31,
+      "type": "summary_completion",
+      "prompt": "According to Professor John Hattie of the Melbourne Education Research Institute, there is very little indication that streaming leads to 31 ...............................",
+      "options": [
+        "A. wrong classes",
+        "B. lower expectations",
+        "C. average learners",
+        "D. bottom sets",
+        "E. brightest pupils",
+        "F. disadvantaged backgrounds",
+        "G. weaker students",
+        "H. higher achievements",
+        "I. positive impressions"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-I, in boxes 31-35 on your answer sheet."
+    },
+    {
+      "id": 32,
+      "type": "summary_completion",
+      "prompt": "He points out that, in schools which use streaming, the most significant impact is on those students placed in the 32 ............................... , especially where a large proportion of them have 33 ...............................",
+      "options": [
+        "A. wrong classes",
+        "B. lower expectations",
+        "C. average learners",
+        "D. bottom sets",
+        "E. brightest pupils",
+        "F. disadvantaged backgrounds",
+        "G. weaker students",
+        "H. higher achievements",
+        "I. positive impressions"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-I, in boxes 31-35 on your answer sheet."
+    },
+    {
+      "id": 33,
+      "type": "summary_completion",
+      "prompt": "He points out that, in schools which use streaming, the most significant impact is on those students placed in the 32 ............................... , especially where a large proportion of them have 33 ............................... .",
+      "options": [
+        "A. wrong classes",
+        "B. lower expectations",
+        "C. average learners",
+        "D. bottom sets",
+        "E. brightest pupils",
+        "F. disadvantaged backgrounds",
+        "G. weaker students",
+        "H. higher achievements",
+        "I. positive impressions"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-I, in boxes 31-35 on your answer sheet."
+    },
+    {
+      "id": 34,
+      "type": "summary_completion",
+      "prompt": "Meanwhile, for the 34 ............................... , there appears to be only minimal advantage.",
+      "options": [
+        "A. wrong classes",
+        "B. lower expectations",
+        "C. average learners",
+        "D. bottom sets",
+        "E. brightest pupils",
+        "F. disadvantaged backgrounds",
+        "G. weaker students",
+        "H. higher achievements",
+        "I. positive impressions"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-I, in boxes 31-35 on your answer sheet."
+    },
+    {
+      "id": 35,
+      "type": "summary_completion",
+      "prompt": "A further issue is that teachers tend to have 35 ............................... of students in streamed groups.",
+      "options": [
+        "A. wrong classes",
+        "B. lower expectations",
+        "C. average learners",
+        "D. bottom sets",
+        "E. brightest pupils",
+        "F. disadvantaged backgrounds",
+        "G. weaker students",
+        "H. higher achievements",
+        "I. positive impressions"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-I, in boxes 31-35 on your answer sheet."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 75
+}

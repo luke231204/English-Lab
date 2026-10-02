@@ -1,0 +1,71 @@
+{
+  "section": "reading_passage_3",
+  "test_number": 3,
+  "questions": [
+    {
+      "id": 36,
+      "type": "tfng",
+      "prompt": "The Vygotsky model of education supports the concept of a mixed-ability class.",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "Do the following statements agree with the views of the writer in Reading Passage 3? Write YES, NO, or NOT GIVEN"
+    },
+    {
+      "id": 37,
+      "type": "tfng",
+      "prompt": "Some teachers are uncertain about allowing students to take on MKO roles in the classroom.",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "Do the following statements agree with the views of the writer in Reading Passage 3? Write YES, NO, or NOT GIVEN"
+    },
+    {
+      "id": 38,
+      "type": "tfng",
+      "prompt": "It can be rewarding to teach knowledge which you have only recently acquired.",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "Do the following statements agree with the views of the writer in Reading Passage 3? Write YES, NO, or NOT GIVEN"
+    },
+    {
+      "id": 39,
+      "type": "tfng",
+      "prompt": "The priority should be to ensure that the highest-achieving students attain their goals.",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "Do the following statements agree with the views of the writer in Reading Passage 3? Write YES, NO, or NOT GIVEN"
+    },
+    {
+      "id": 40,
+      "type": "tfng",
+      "prompt": "Taking part in collaborative outdoor activities with teachers and classmates can improve student outcomes in the classroom.",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "answers": [],
+      "notes": "Do the following statements agree with the views of the writer in Reading Passage 3? Write YES, NO, or NOT GIVEN"
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": "",
+  "passage_text_excerpt": "",
+  "has_answer_key": false,
+  "_page_num": 76
+}

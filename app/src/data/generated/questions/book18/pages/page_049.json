@@ -1,0 +1,56 @@
+{
+  "section": "reading_passage_2",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 24,
+      "type": "summary_completion",
+      "prompt": "AI currently has a limited role in the way [24] are allocated in the health service.",
+      "options": [
+        "A. medical practitioners",
+        "B. specialised tasks",
+        "C. available resources",
+        "D. reduced illness",
+        "E. professional authority",
+        "F. technology experts"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-F, in boxes 24-26 on your answer sheet."
+    },
+    {
+      "id": 25,
+      "type": "summary_completion",
+      "prompt": "However, such a change would result, for example, in certain [25] not having their current level of",
+      "options": [
+        "A. medical practitioners",
+        "B. specialised tasks",
+        "C. available resources",
+        "D. reduced illness",
+        "E. professional authority",
+        "F. technology experts"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-F, in boxes 24-26 on your answer sheet."
+    },
+    {
+      "id": 26,
+      "type": "summary_completion",
+      "prompt": "[26] . It is therefore important that AI goals are appropriate so that discriminatory practices could be avoided.",
+      "options": [
+        "A. medical practitioners",
+        "B. specialised tasks",
+        "C. available resources",
+        "D. reduced illness",
+        "E. professional authority",
+        "F. technology experts"
+      ],
+      "answers": [],
+      "notes": "Write the correct letter, A-F, in boxes 24-26 on your answer sheet."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": "Using AI in the UK health system",
+  "passage_text_excerpt": "",
+  "has_answer_key": false,
+  "_page_num": 49
+}

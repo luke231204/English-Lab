@@ -1,0 +1,71 @@
+{
+  "section": "listening_part_3",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 27,
+      "type": "matching",
+      "prompt": "Iceland",
+      "options": [
+        "A. This country suffered the most severe loss of life.",
+        "B. The impact on agriculture was predictable.",
+        "C. There was a significant increase in deaths of young people.",
+        "D. Animals suffered from a sickness.",
+        "E. This country saw the highest rise in food prices in the world.",
+        "F. It caused a particularly harsh winter."
+      ],
+      "answers": [],
+      "notes": "Choose FOUR answers from the box and write the correct letter, A-F, next to Questions 27-30."
+    },
+    {
+      "id": 28,
+      "type": "matching",
+      "prompt": "Egypt",
+      "options": [
+        "A. This country suffered the most severe loss of life.",
+        "B. The impact on agriculture was predictable.",
+        "C. There was a significant increase in deaths of young people.",
+        "D. Animals suffered from a sickness.",
+        "E. This country saw the highest rise in food prices in the world.",
+        "F. It caused a particularly harsh winter."
+      ],
+      "answers": [],
+      "notes": "Choose FOUR answers from the box and write the correct letter, A-F, next to Questions 27-30."
+    },
+    {
+      "id": 29,
+      "type": "matching",
+      "prompt": "UK",
+      "options": [
+        "A. This country suffered the most severe loss of life.",
+        "B. The impact on agriculture was predictable.",
+        "C. There was a significant increase in deaths of young people.",
+        "D. Animals suffered from a sickness.",
+        "E. This country saw the highest rise in food prices in the world.",
+        "F. It caused a particularly harsh winter."
+      ],
+      "answers": [],
+      "notes": "Choose FOUR answers from the box and write the correct letter, A-F, next to Questions 27-30."
+    },
+    {
+      "id": 30,
+      "type": "matching",
+      "prompt": "USA",
+      "options": [
+        "A. This country suffered the most severe loss of life.",
+        "B. The impact on agriculture was predictable.",
+        "C. There was a significant increase in deaths of young people.",
+        "D. Animals suffered from a sickness.",
+        "E. This country saw the highest rise in food prices in the world.",
+        "F. It caused a particularly harsh winter."
+      ],
+      "answers": [],
+      "notes": "Choose FOUR answers from the box and write the correct letter, A-F, next to Questions 27-30."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 39
+}

@@ -1,0 +1,83 @@
+{
+  "section": "listening_part_3",
+  "test_number": 1,
+  "questions": [
+    {
+      "id": 21,
+      "type": "mcq",
+      "prompt": "What problem did Chantal have at the start of the talk?",
+      "options": [
+        "A. Her view of the speaker was blocked.",
+        "B. She was unable to find an empty seat.",
+        "C. The students next to her were talking."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "prompt": "What were Hugo and Chantal surprised to hear about the job market?",
+      "options": [
+        "A. It has become more competitive than it used to be.",
+        "B. There is more variety in it than they had realised.",
+        "C. Some areas of it are more exciting than others."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "prompt": "Hugo and Chantal agree that the speaker's message was",
+      "options": [
+        "A. unfair to them at times.",
+        "B. hard for them to follow.",
+        "C. critical of the industry."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "prompt": "What do Hugo and Chantal criticise about their school careers advice?",
+      "options": [
+        "A. when they received the advice",
+        "B. how much advice was given",
+        "C. who gave the advice"
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "prompt": "When discussing their future, Hugo and Chantal disagree on",
+      "options": [
+        "A. which is the best career in fashion.",
+        "B. when to choose a career in fashion.",
+        "C. why they would like a career in fashion."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "prompt": "How does Hugo feel about being an unpaid assistant?",
+      "options": [
+        "A. He is realistic about the practice.",
+        "B. He feels the practice is dishonest.",
+        "C. He thinks others want to change the practice."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B or C."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 15
+}

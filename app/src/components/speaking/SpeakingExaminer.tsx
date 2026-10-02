@@ -14,7 +14,9 @@ import {
   CheckCircle2,
   Bot,
   PhoneCall,
-  PhoneOff
+  PhoneOff,
+  Zap,
+  Moon
 } from 'lucide-react';
 
 type ConversationMode = 'serious' | 'chitchat';
@@ -28,6 +30,7 @@ interface Message {
 export const SpeakingExaminer: React.FC = () => {
   const [mode, setMode] = useState<ConversationMode>('serious');
   const [messages, setMessages] = useState<Message[]>([]);
+  const messagesRef = useRef<Message[]>([]);
   const [input, setInput] = useState('');
   const [isRecording, setIsRecording] = useState(false);
   const [speechSynthesisActive, setSpeechSynthesisActive] = useState(true);
@@ -42,12 +45,11 @@ export const SpeakingExaminer: React.FC = () => {
   const animFrameRef = useRef<number | null>(null);
   const [audioLevel, setAudioLevel] = useState(0);
 
-  // STT Engine selection: 'browser' (Brave/Chrome Native Google Speech) | 'whisper' (Local small.en)
-  const [sttEngine, setSttEngine] = useState<'browser' | 'whisper'>('browser');
-  const speechRecognitionRef = useRef<any>(null);
+  // STT Provider: 'groq' (Whisper Turbo ~150ms) | 'gemini' (Google AI Studio) | 'moonshine' (Fast Local ONNX) | 'local' (Local Whisper base.en)
+  const [sttProvider, setSttProvider] = useState<'groq' | 'gemini' | 'moonshine' | 'local'>('groq');
 
-  // TTS Engine selection: 'edge' | 'kokoro' | 'browser'
-  const [ttsEngine, setTtsEngine] = useState<'edge' | 'kokoro' | 'browser'>('edge');
+  // TTS Engine selection: 'edge' | 'kokoro' exclusively
+  const [ttsEngine, setTtsEngine] = useState<'edge' | 'kokoro'>('edge');
   const [selectedVoice, setSelectedVoice] = useState<string>('en-GB-RyanNeural');
   const [isAudioPlaying, setIsAudioPlaying] = useState<boolean>(false);
   const audioPlayerRef = useRef<HTMLAudioElement | null>(null);
@@ -127,27 +129,30 @@ export const SpeakingExaminer: React.FC = () => {
 
   // Switch modes and set initial system greeting
   useEffect(() => {
+    let initialGreeting: Message[];
     if (mode === 'serious') {
       // In serious mode, if current model is a lightweight 3B model, snap to Qwen or Llama 8B
       if (!seriousModels.some(m => selectedModel.includes(m.split(':')[0]))) {
         setSelectedModel(availableModels.find(m => m.includes('qwen') || m.includes('llama3.1')) || 'qwen2.5:7b');
       }
-      setMessages([
+      initialGreeting = [
         {
           role: 'assistant',
           content: "Good morning/afternoon. My name is your Cambridge IELTS Examiner. Could you please tell me your full name, and where you are from? To begin Part 1, what do you usually like to do in your free time?",
           timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
         }
-      ]);
+      ];
     } else {
-      setMessages([
+      initialGreeting = [
         {
           role: 'assistant',
           content: "Hey there! 👋 I'm your English conversation buddy. We can talk about whatever is on your mind today—movies, technology, gaming, or just your daily life. What have you been up to?",
           timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
         }
-      ]);
+      ];
     }
+    messagesRef.current = initialGreeting;
+    setMessages(initialGreeting);
     setEvaluation(null);
   }, [mode]);
 
@@ -162,7 +167,9 @@ export const SpeakingExaminer: React.FC = () => {
       timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
     };
 
-    const newHistory = [...messages, userMsg];
+    // Use messagesRef to guarantee latest history and prevent stale closure overwrite
+    const newHistory = [...messagesRef.current, userMsg];
+    messagesRef.current = newHistory;
     setMessages(newHistory);
     setInput('');
     setIsLoading(true);
@@ -174,12 +181,14 @@ Guidelines:
 1. Ask one clear question at a time. Keep responses concise and conversational (1-3 sentences).
 2. Maintain a professional, polite, yet formal British examiner tone.
 3. If the candidate gives a short answer, probe naturally: "Why do you think that is?" or "Could you elaborate on that?"
-4. Transition between Part 1 (familiar topics), Part 2 (cue card topic), and Part 3 (abstract discussion) as appropriate.`
+4. Transition between Part 1 (familiar topics), Part 2 (cue card topic), and Part 3 (abstract discussion) as appropriate.
+5. Pay close attention to what the candidate said in previous turns and respond directly to their specific answers.`
       : `You are a friendly, fluent native English conversational partner. 
 Guidelines:
 1. Talk casually like an authentic friend (warm, lively, natural phrasing, 1-3 sentences per turn).
-2. Answer the user's thoughts and keep the dialogue going by sharing your own perspectives or asking thoughtful follow-ups.
-3. If the user makes an awkward phrasing or grammatical slip, subtly offer a native alternative naturally (e.g. "By the way, natives often say '...'"). Keep it conversational and supportive!`;
+2. Remember and refer back to what we just discussed! Answer the user's thoughts and keep the dialogue flowing naturally.
+3. Never ask what we were talking about if the user just mentioned it—continue building on the existing topic.
+4. If the user makes an awkward phrasing or grammatical slip, subtly offer a native alternative naturally (e.g. "By the way, natives often say '...'"). Keep it conversational and supportive!`;
 
     try {
       if (ollamaStatus === 'connected') {
@@ -204,7 +213,9 @@ Guidelines:
             content: reply,
             timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
           };
-          setMessages(prev => [...prev, botMsg]);
+          const updatedHistory = [...messagesRef.current, botMsg];
+          messagesRef.current = updatedHistory;
+          setMessages(updatedHistory);
           speakText(reply);
         } else {
           throw new Error('Ollama returned non-200');
@@ -215,20 +226,26 @@ Guidelines:
           const fallbackReply = mode === 'serious'
             ? "Thank you for that response. How important do you feel digital technology has become in daily education?"
             : "That's super interesting! Have you always felt that way, or is this something you recently got into?";
-          setMessages(prev => [...prev, {
+          const fallbackMsg: Message = {
             role: 'assistant',
             content: fallbackReply,
             timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
-          }]);
+          };
+          const updatedHistory = [...messagesRef.current, fallbackMsg];
+          messagesRef.current = updatedHistory;
+          setMessages(updatedHistory);
           speakText(fallbackReply);
         }, 800);
       }
     } catch {
-      setMessages(prev => [...prev, {
+      const errorMsg: Message = {
         role: 'assistant',
         content: "⚠️ Could not connect to local Ollama. Please make sure Ollama is running in the background.",
         timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
-      }]);
+      };
+      const updatedHistory = [...messagesRef.current, errorMsg];
+      messagesRef.current = updatedHistory;
+      setMessages(updatedHistory);
     } finally {
       setIsLoading(false);
     }
@@ -263,18 +280,6 @@ Guidelines:
       }
     };
 
-    if (ttsEngine === 'browser') {
-      if (!('speechSynthesis' in window)) return;
-      const utterance = new SpeechSynthesisUtterance(cleanText);
-      const voices = window.speechSynthesis.getVoices();
-      const naturalVoice = voices.find(v => v.lang.startsWith('en') && (v.name.includes('Natural') || v.name.includes('Google') || v.name.includes('UK')));
-      if (naturalVoice) utterance.voice = naturalVoice;
-      utterance.rate = mode === 'serious' ? 0.95 : 1.0;
-      utterance.onend = onAudioFinished;
-      window.speechSynthesis.speak(utterance);
-      return;
-    }
-
     try {
       setIsAudioPlaying(true);
       const endpoint = ttsEngine === 'kokoro' ? '/api/tts/kokoro' : '/api/tts/edge';
@@ -284,99 +289,35 @@ Guidelines:
       audioPlayerRef.current = audio;
       
       audio.onended = onAudioFinished;
-      audio.onerror = () => {
+      audio.onerror = (e) => {
+        console.error('[HD Neural TTS Error]:', e);
         setIsAudioPlaying(false);
-        // Fallback to browser synthesis if backend error occurs
-        if ('speechSynthesis' in window) {
-          const utterance = new SpeechSynthesisUtterance(cleanText);
-          utterance.onend = onAudioFinished;
-          window.speechSynthesis.speak(utterance);
-        }
+        onAudioFinished();
       };
 
-      await audio.play();
+      try {
+        await audio.play();
+      } catch (playErr: any) {
+        console.warn('[Audio Play Promise Rejected]:', playErr);
+        onAudioFinished();
+      }
     } catch {
       setIsAudioPlaying(false);
+      onAudioFinished();
     }
   };
 
-  // Start recording session with either Brave/Chrome SpeechRecognition or Local Whisper VAD
+  const mediaStreamRef = useRef<MediaStream | null>(null);
+
+  // Start recording session with Local Whisper medium.en with Voice Activity Detection (VAD)
   const startRecordingSession = async () => {
-    // 1. If Browser Speech Engine is selected and available (Brave, Chrome, Edge)
-    const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
-    if (sttEngine === 'browser' && SpeechRecognition) {
-      try {
-        if (speechRecognitionRef.current) {
-          try { speechRecognitionRef.current.abort(); } catch {}
-          speechRecognitionRef.current = null;
-        }
-
-        const recognition = new SpeechRecognition();
-        speechRecognitionRef.current = recognition;
-        recognition.continuous = true;
-        recognition.interimResults = true;
-        recognition.lang = 'en-US';
-
-        let accumulatedTranscript = '';
-
-        recognition.onstart = () => {
-          setIsRecording(true);
-        };
-
-        recognition.onresult = (event: any) => {
-          let interim = '';
-          for (let i = event.resultIndex; i < event.results.length; ++i) {
-            if (event.results[i].isFinal) {
-              accumulatedTranscript += event.results[i][0].transcript + ' ';
-            } else {
-              interim += event.results[i][0].transcript;
-            }
-          }
-
-          const currentText = (accumulatedTranscript + interim).trim();
-          if (currentText) {
-            setInput(currentText);
-            // In Live Call mode, when user pauses speaking after making a sentence, auto-submit!
-            if (isCallModeRef.current) {
-              if (silenceTimerRef.current) clearTimeout(silenceTimerRef.current);
-              silenceTimerRef.current = setTimeout(() => {
-                const finalToSend = currentText;
-                if (finalToSend && isCallModeRef.current) {
-                  stopRecordingSession();
-                  submitUserMessage(finalToSend);
-                }
-              }, 1200);
-            }
-          }
-        };
-
-        recognition.onerror = (event: any) => {
-          console.warn('[WebSpeech Error]:', event.error);
-          if (event.error === 'not-allowed') {
-            alert('Please allow microphone permissions in your browser.');
-            setIsCallMode(false);
-            setIsRecording(false);
-          } else if (event.error === 'network' || event.error === 'no-speech') {
-            // Re-open if call mode is still active
-            if (isCallModeRef.current && !isAudioPlaying) {
-              setTimeout(startRecordingSession, 300);
-            }
-          }
-        };
-
-        recognition.onend = () => {
-          setIsRecording(false);
-        };
-
-        recognition.start();
-        return;
-      } catch (err) {
-        console.warn('Failed to start browser recognition, falling back to Whisper:', err);
-      }
-    }
-
-    // 2. Whisper small.en recording session with Voice Activity Detection (VAD)
     try {
+      // Clean up any old stream before opening new one
+      if (mediaStreamRef.current) {
+        mediaStreamRef.current.getTracks().forEach(t => t.stop());
+        mediaStreamRef.current = null;
+      }
+
       const stream = await navigator.mediaDevices.getUserMedia({
         audio: {
           echoCancellation: true,
@@ -384,10 +325,14 @@ Guidelines:
           autoGainControl: true,
         }
       });
+      mediaStreamRef.current = stream;
       audioChunksRef.current = [];
       hasSpokenRef.current = false;
 
-      const mediaRecorder = new MediaRecorder(stream);
+      // Select supported audio mime type (webm/ogg/wav)
+      const mimeTypes = ['audio/webm;codecs=opus', 'audio/webm', 'audio/ogg;codecs=opus', 'audio/ogg', 'audio/mp4'];
+      const supportedMime = mimeTypes.find(type => MediaRecorder.isTypeSupported(type)) || '';
+      const mediaRecorder = supportedMime ? new MediaRecorder(stream, { mimeType: supportedMime }) : new MediaRecorder(stream);
       mediaRecorderRef.current = mediaRecorder;
 
       // Set up AudioContext for voice activity & silence detection
@@ -401,6 +346,8 @@ Guidelines:
 
       const buffer = new Uint8Array(analyser.frequencyBinCount);
 
+      let voiceFramesCount = 0;
+
       // Check audio levels for voice activity
       const checkAudioLevel = () => {
         if (!analyserRef.current) return;
@@ -413,21 +360,24 @@ Guidelines:
         const average = sum / buffer.length;
         setAudioLevel(Math.min(100, Math.round(average * 3.5)));
 
-        // Sensitive threshold for human speech
-        if (average > 3.5) {
-          hasSpokenRef.current = true;
+        // Voice activity threshold: must be above 7.0 energy to avoid background breath/fan noise
+        if (average > 7.0) {
+          voiceFramesCount += 1;
+          // Must have spoken for at least ~25 frames (approx 500ms) of real speech
+          if (voiceFramesCount > 25) {
+            hasSpokenRef.current = true;
+          }
           if (silenceTimerRef.current) {
             clearTimeout(silenceTimerRef.current);
             silenceTimerRef.current = null;
           }
-        } else if (hasSpokenRef.current && !silenceTimerRef.current) {
-          // 1.1 seconds of silence after speaking -> auto-send!
+        } else if (hasSpokenRef.current && isCallModeRef.current && !silenceTimerRef.current) {
+          // In Live Call mode: 2.2 seconds of silence after genuine speech -> auto-send!
           silenceTimerRef.current = setTimeout(() => {
             if (mediaRecorderRef.current && mediaRecorderRef.current.state === 'recording') {
               mediaRecorderRef.current.stop();
-              setIsRecording(false);
             }
-          }, 1100);
+          }, 2200);
         }
 
         animFrameRef.current = requestAnimationFrame(checkAudioLevel);
@@ -436,12 +386,13 @@ Guidelines:
       animFrameRef.current = requestAnimationFrame(checkAudioLevel);
 
       mediaRecorder.ondataavailable = (event) => {
-        if (event.data.size > 0) {
+        if (event.data && event.data.size > 0) {
           audioChunksRef.current.push(event.data);
         }
       };
 
       mediaRecorder.onstop = async () => {
+        setIsRecording(false);
         setAudioLevel(0);
         if (animFrameRef.current) cancelAnimationFrame(animFrameRef.current);
         if (silenceTimerRef.current) clearTimeout(silenceTimerRef.current);
@@ -451,30 +402,55 @@ Guidelines:
         }
 
         // Stop microphone tracks
-        stream.getTracks().forEach((track) => track.stop());
+        if (mediaStreamRef.current) {
+          mediaStreamRef.current.getTracks().forEach((track) => track.stop());
+          mediaStreamRef.current = null;
+        }
 
         const recordedMime = mediaRecorder.mimeType || 'audio/webm';
         const audioBlob = new Blob(audioChunksRef.current, { type: recordedMime });
-        if (audioBlob.size === 0) return;
+        if (audioBlob.size === 0) {
+          if (isCallModeRef.current) {
+            setTimeout(startRecordingSession, 300);
+          }
+          return;
+        }
 
         setIsTranscribing(true);
         try {
-          const res = await fetch('/api/stt', {
+          const res = await fetch(`/api/stt?provider=${sttProvider}`, {
             method: 'POST',
             headers: { 'Content-Type': recordedMime },
             body: audioBlob,
           });
           if (res.ok) {
             const data = await res.json();
-            if (data.text && data.text.trim()) {
-              submitUserMessage(data.text);
+            let rawText = (data.text || '').trim();
+
+            // Filter out Whisper/Gemini hallucination artifacts like "<noise>", "-->", timestamps, etc.
+            rawText = rawText.replace(/<\s*noise\s*>/gi, '')
+                             .replace(/\d{2}:\d{2},\d{3}\s*-->\s*\d{2}:\d{2},\d{3}/g, '')
+                             .replace(/\[(?:music|applause|laughter|noise|silence)\]/gi, '')
+                             .trim();
+
+            if (rawText && rawText.length > 1) {
+              setInput(rawText);
+              submitUserMessage(rawText);
             } else if (isCallModeRef.current) {
-              // If empty whisper transcript in call mode, re-open mic
+              // If empty transcript or pure noise, quietly re-open mic without interrupting the call
               setTimeout(startRecordingSession, 300);
+            }
+          } else {
+            console.warn('[STT Server returned non-200]');
+            if (isCallModeRef.current) {
+              setTimeout(startRecordingSession, 400);
             }
           }
         } catch (err) {
           console.error('STT transcription error:', err);
+          if (isCallModeRef.current) {
+            setTimeout(startRecordingSession, 400);
+          }
         } finally {
           setIsTranscribing(false);
         }
@@ -486,46 +462,50 @@ Guidelines:
       console.error('Microphone permission error:', err);
       alert('Please allow microphone permissions to speak.');
       setIsCallMode(false);
+      setIsRecording(false);
     }
   };
 
   const stopRecordingSession = () => {
-    if (speechRecognitionRef.current) {
-      try { speechRecognitionRef.current.stop(); } catch {}
-      speechRecognitionRef.current = null;
-    }
     if (mediaRecorderRef.current && mediaRecorderRef.current.state !== 'inactive') {
-      mediaRecorderRef.current.stop();
+      try { mediaRecorderRef.current.stop(); } catch {}
+    }
+    if (mediaStreamRef.current) {
+      mediaStreamRef.current.getTracks().forEach(t => t.stop());
+      mediaStreamRef.current = null;
     }
     if (silenceTimerRef.current) {
       clearTimeout(silenceTimerRef.current);
       silenceTimerRef.current = null;
     }
     setIsRecording(false);
+    setAudioLevel(0);
   };
 
   const toggleRecording = () => {
     if (isRecording) {
       stopRecordingSession();
-      // If user stopped manual recording in browser engine, submit if text was typed
-      if (input.trim()) {
-        submitUserMessage(input);
-      }
     } else {
+      setInput('');
       startRecordingSession();
     }
   };
 
   const toggleCallMode = () => {
     if (isCallMode) {
+      isCallModeRef.current = false;
       setIsCallMode(false);
       stopRecordingSession();
       if (audioPlayerRef.current) {
         audioPlayerRef.current.pause();
       }
     } else {
+      stopRecordingSession();
+      isCallModeRef.current = true;
       setIsCallMode(true);
-      startRecordingSession();
+      setTimeout(() => {
+        startRecordingSession();
+      }, 100);
     }
   };
 
@@ -697,7 +677,7 @@ Provide an official IELTS Speaking Band Assessment with:
             <span>{ollamaStatus === 'connected' ? 'Ollama Local' : 'Local Standby'}</span>
           </div>
 
-          {/* TTS Engine Selector (Edge vs Kokoro) */}
+          {/* TTS Engine Selector (Edge HD vs Kokoro AI) */}
           <div className="flex bg-slate-100 p-0.5 rounded-xl border border-slate-200 text-xs">
             <button
               onClick={() => {
@@ -707,9 +687,9 @@ Provide an official IELTS Speaking Band Assessment with:
               className={`px-2.5 py-1 rounded-lg font-medium transition-all ${
                 ttsEngine === 'edge' ? 'bg-white text-indigo-700 font-semibold shadow-xs' : 'text-slate-500 hover:text-slate-800'
               }`}
-              title="Studio HD Neural Voices (Microsoft Azure)"
+              title="Studio HD Neural Voices (Natural IELTS Examiner tone)"
             >
-              Edge-TTS HD
+              Edge HD
             </button>
             <button
               onClick={() => {
@@ -719,7 +699,7 @@ Provide an official IELTS Speaking Band Assessment with:
               className={`px-2.5 py-1 rounded-lg font-medium transition-all ${
                 ttsEngine === 'kokoro' ? 'bg-white text-indigo-700 font-semibold shadow-xs' : 'text-slate-500 hover:text-slate-800'
               }`}
-              title="100% Local Neural Voice Engine"
+              title="100% Local Neural Voice Engine (Kokoro)"
             >
               Kokoro AI
             </button>
@@ -742,25 +722,55 @@ Provide an official IELTS Speaking Band Assessment with:
             </select>
           </div>
 
-          {/* STT Engine Selector (Browser Google Speech vs Local Whisper small.en) */}
+          {/* STT Engine Provider Switcher (Groq Whisper Turbo vs Gemini vs Local) */}
           <div className="flex bg-slate-100 p-0.5 rounded-xl border border-slate-200 text-xs">
             <button
-              onClick={() => setSttEngine('browser')}
-              className={`px-2.5 py-1 rounded-lg font-medium transition-all ${
-                sttEngine === 'browser' ? 'bg-white text-emerald-700 font-semibold shadow-xs' : 'text-slate-500 hover:text-slate-800'
+              onClick={() => setSttProvider('groq')}
+              className={`flex items-center gap-1 px-2.5 py-1 rounded-lg font-medium transition-all ${
+                sttProvider === 'groq'
+                  ? 'bg-white text-indigo-700 font-semibold shadow-xs'
+                  : 'text-slate-500 hover:text-slate-800'
               }`}
-              title="Brave/Chrome Native Google Neural STT (Zero lag, handles accents accurately)"
+              title="Groq Whisper-Large-v3-Turbo: Sub-second (~150ms) instantaneous transcription"
             >
-              Browser STT ⚡
+              <Zap className="w-3 h-3 text-amber-500 fill-amber-500" />
+              <span>Groq Turbo</span>
             </button>
             <button
-              onClick={() => setSttEngine('whisper')}
-              className={`px-2.5 py-1 rounded-lg font-medium transition-all ${
-                sttEngine === 'whisper' ? 'bg-white text-indigo-700 font-semibold shadow-xs' : 'text-slate-500 hover:text-slate-800'
+              onClick={() => setSttProvider('gemini')}
+              className={`flex items-center gap-1 px-2.5 py-1 rounded-lg font-medium transition-all ${
+                sttProvider === 'gemini'
+                  ? 'bg-white text-indigo-700 font-semibold shadow-xs'
+                  : 'text-slate-500 hover:text-slate-800'
               }`}
-              title="100% Local OpenAI Whisper small.en Model"
+              title="Google AI Studio Gemini 3.5 Transcribe"
             >
-              Whisper small.en
+              <Sparkles className="w-3 h-3 text-indigo-500" />
+              <span>Gemini AI</span>
+            </button>
+            <button
+              onClick={() => setSttProvider('moonshine')}
+              className={`flex items-center gap-1 px-2 py-1 rounded-lg font-medium transition-all ${
+                sttProvider === 'moonshine'
+                  ? 'bg-white text-indigo-700 font-semibold shadow-xs'
+                  : 'text-slate-500 hover:text-slate-800'
+              }`}
+              title="Moonshine: Ultra-fast local AI with zero silence-hallucinations"
+            >
+              <Moon className="w-3 h-3 text-indigo-500 fill-indigo-500/20" />
+              <span>Moonshine</span>
+            </button>
+            <button
+              onClick={() => setSttProvider('local')}
+              className={`flex items-center gap-1 px-2 py-1 rounded-lg font-medium transition-all ${
+                sttProvider === 'local'
+                  ? 'bg-white text-emerald-700 font-semibold shadow-xs'
+                  : 'text-slate-500 hover:text-slate-800'
+              }`}
+              title="Local Whisper Offline Engine (Zero Cloud)"
+            >
+              <Cpu className="w-3 h-3 text-emerald-500" />
+              <span>Whisper</span>
             </button>
           </div>
 
@@ -911,16 +921,12 @@ Provide an official IELTS Speaking Band Assessment with:
                     ? isAudioPlaying
                       ? '🔊 AI is answering... Listen, then reply when finished.'
                       : isRecording
-                      ? sttEngine === 'browser'
-                        ? '🟢 In Live Call... Speak freely! (Streaming real-time words)'
-                        : '🟢 In Live Call... Speak freely! (Whisper small.en transcribes on pause)'
-                      : '⚡ Transcribing your voice...'
+                      ? `🟢 In Live Call... Speak freely! (${sttProvider === 'groq' ? 'Groq Turbo' : sttProvider === 'gemini' ? 'Gemini AI' : sttProvider === 'moonshine' ? 'Moonshine' : 'Local Whisper'} transcribes on pause)`
+                      : `⚡ Transcribing with ${sttProvider === 'groq' ? 'Groq Turbo' : sttProvider === 'gemini' ? 'Gemini AI' : sttProvider === 'moonshine' ? 'Moonshine' : 'Local Whisper'}...`
                     : isRecording
-                    ? sttEngine === 'browser'
-                      ? '🔴 Listening in real-time... Speak now'
-                      : '🔴 Listening with Whisper... Speak now (auto-sends when you pause)'
+                    ? `🔴 Listening... Speak now (${sttProvider === 'groq' ? 'Groq Turbo' : sttProvider === 'gemini' ? 'Gemini AI' : sttProvider === 'moonshine' ? 'Moonshine' : 'Local Whisper'})`
                     : isTranscribing
-                    ? '⚡ Transcribing with local Whisper small.en...'
+                    ? `⚡ Transcribing with ${sttProvider === 'groq' ? 'Groq Turbo' : sttProvider === 'gemini' ? 'Gemini AI' : sttProvider === 'moonshine' ? 'Moonshine' : 'Local Whisper'}...`
                     : 'Type a message or click Live Call to talk hands-free...'
                 }
                 disabled={isLoading || isTranscribing}

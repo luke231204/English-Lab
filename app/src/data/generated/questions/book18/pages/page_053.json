@@ -1,0 +1,67 @@
+{
+  "section": "reading_passage_3",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 34,
+      "type": "summary_completion",
+      "prompt": "A collection of Leonardo da Vinci's paperwork reveals his design of a new city beside the Ticino River. This was to provide better 34 ....................................... for trade and a less polluted environment.",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 35,
+      "type": "summary_completion",
+      "prompt": "Although Leonardo da Vinci's city shared many of the ideals of his time, some of his innovations were considered unconventional in their design. They included features that can be seen in some tower blocks today, such as 35 ....................................... on the exterior of a building.",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 36,
+      "type": "summary_completion",
+      "prompt": "Leonardo da Vinci wasn't only an architect. His expertise in 36 ....................................... was evident in his plans for artificial canals within his ideal city.",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 37,
+      "type": "summary_completion",
+      "prompt": "He also believed that the height of houses should relate to the width of streets in case earthquakes occurred. The design of many cities in Italy today follows this 37 ....................................... .",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 38,
+      "type": "summary_completion",
+      "prompt": "While some cities from 38 ....................................... times have aspects that can also be found in Leonardo's designs, his ideas weren't put into practice until long after his death.",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 39,
+      "type": "summary_completion",
+      "prompt": "39 ....................................... is one example of a city that was redesigned in the 19th century in the way that Leonardo had envisaged.",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    },
+    {
+      "id": 40,
+      "type": "summary_completion",
+      "prompt": "His ideas are also relevant to today's world, where building 40 ....................................... no longer seems to be the best approach.",
+      "options": [],
+      "answers": [],
+      "notes": "Choose ONE WORD ONLY from the passage for each answer."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": "Leonardo da Vinci's ideal city",
+  "passage_text_excerpt": "",
+  "has_answer_key": false,
+  "_page_num": 53
+}

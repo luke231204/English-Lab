@@ -1,0 +1,63 @@
+{
+  "section": "reading_passage_3",
+  "test_number": null,
+  "questions": [
+    {
+      "id": 37,
+      "type": "mcq",
+      "prompt": "What is Mott T Greene doing in the fifth paragraph?",
+      "options": [
+        "A. describing what motivated him to write the book",
+        "B. explaining why it is desirable to read the whole book",
+        "C. suggesting why Wegener pursued so many different careers",
+        "D. indicating what aspects of Wegener's life interested him most"
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B, C or D."
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "prompt": "What is said about Wegener in the sixth paragraph?",
+      "options": [
+        "A. He was not a particularly ambitious person.",
+        "B. He kept a record of all his scientific observations.",
+        "C. He did not adopt many of the scientific practices of the time.",
+        "D. He enjoyed discussing new discoveries with other scientists."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B, C or D."
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "prompt": "What does Greene say about some other famous scientists?",
+      "options": [
+        "A. Their published works had a greater impact than Wegener's did.",
+        "B. They had fewer doubts about their scientific ideas than Wegener did.",
+        "C. Their scientific ideas were more controversial than Wegener's.",
+        "D. They are easier subjects to write about than Wegener."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B, C or D."
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "prompt": "What is Greene's main point in the final paragraph?",
+      "options": [
+        "A. It is not enough in life to have good intentions.",
+        "B. People need to plan carefully if they want to succeed.",
+        "C. People have little control over many aspects of their lives.",
+        "D. It is important that people ensure they have the freedom to act."
+      ],
+      "answers": [],
+      "notes": "Choose the correct letter, A, B, C or D."
+    }
+  ],
+  "answer_key_entries": [],
+  "passage_title": null,
+  "passage_text_excerpt": null,
+  "has_answer_key": false,
+  "_page_num": 97
+}
