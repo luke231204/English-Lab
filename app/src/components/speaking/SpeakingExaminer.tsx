@@ -12,7 +12,9 @@ import {
   Timer, 
   AlertCircle,
   CheckCircle2,
-  Bot
+  Bot,
+  PhoneCall,
+  PhoneOff
 } from 'lucide-react';
 
 type ConversationMode = 'serious' | 'chitchat';
@@ -30,6 +32,15 @@ export const SpeakingExaminer: React.FC = () => {
   const [isRecording, setIsRecording] = useState(false);
   const [speechSynthesisActive, setSpeechSynthesisActive] = useState(true);
   
+  // Hands-Free Call Mode State
+  const [isCallMode, setIsCallMode] = useState(false);
+  const isCallModeRef = useRef(false);
+  const audioContextRef = useRef<AudioContext | null>(null);
+  const analyserRef = useRef<AnalyserNode | null>(null);
+  const silenceTimerRef = useRef<any>(null);
+  const hasSpokenRef = useRef(false);
+  const animFrameRef = useRef<number | null>(null);
+
   // TTS Engine selection: 'edge' | 'kokoro' | 'browser'
   const [ttsEngine, setTtsEngine] = useState<'edge' | 'kokoro' | 'browser'>('edge');
   const [selectedVoice, setSelectedVoice] = useState<string>('en-GB-RyanNeural');
@@ -69,6 +80,11 @@ export const SpeakingExaminer: React.FC = () => {
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
   const audioChunksRef = useRef<Blob[]>([]);
   const [isTranscribing, setIsTranscribing] = useState(false);
+
+  // Keep isCallModeRef in sync
+  useEffect(() => {
+    isCallModeRef.current = isCallMode;
+  }, [isCallMode]);
 
   // Model lists
   const seriousModels = ['qwen2.5:7b', 'llama3.1:8b', 'gemma2:9b'];
@@ -130,143 +146,14 @@ export const SpeakingExaminer: React.FC = () => {
     setEvaluation(null);
   }, [mode]);
 
-  // Universal Microphone Recording (Works in Mozilla Firefox, Chrome, Edge, Safari)
-  const toggleRecording = async () => {
-    if (isRecording) {
-      if (mediaRecorderRef.current && mediaRecorderRef.current.state !== 'inactive') {
-        mediaRecorderRef.current.stop();
-      }
-      setIsRecording(false);
-    } else {
-      try {
-        const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-        audioChunksRef.current = [];
-        const mediaRecorder = new MediaRecorder(stream);
-        mediaRecorderRef.current = mediaRecorder;
-
-        mediaRecorder.ondataavailable = (event) => {
-          if (event.data.size > 0) {
-            audioChunksRef.current.push(event.data);
-          }
-        };
-
-        mediaRecorder.onstop = async () => {
-          // Stop microphone tracks
-          stream.getTracks().forEach((track) => track.stop());
-
-          const audioBlob = new Blob(audioChunksRef.current, { type: 'audio/webm' });
-          if (audioBlob.size === 0) return;
-
-          setIsTranscribing(true);
-          try {
-            const res = await fetch('/api/stt', {
-              method: 'POST',
-              body: audioBlob,
-            });
-            if (res.ok) {
-              const data = await res.json();
-              if (data.text) {
-                setInput((prev) => (prev ? prev + ' ' : '') + data.text);
-              }
-            }
-          } catch (err) {
-            console.error('STT transcription error:', err);
-          } finally {
-            setIsTranscribing(false);
-          }
-        };
-
-        mediaRecorder.start();
-        setIsRecording(true);
-      } catch (err) {
-        console.error('Microphone permission error:', err);
-        alert('Please allow microphone permissions in Firefox to speak with the AI.');
-      }
-    }
-  };
-
-  // High-Definition Neural Text-To-Speech speak helper
-  const speakText = async (text: string) => {
-    if (!speechSynthesisActive) return;
-
-    // Clean markdown characters
-    const cleanText = text.replace(/[*#_~`]/g, '').trim();
-    if (!cleanText) return;
-
-    // Stop any ongoing audio playback
-    if (audioPlayerRef.current) {
-      audioPlayerRef.current.pause();
-      audioPlayerRef.current = null;
-    }
-    if ('speechSynthesis' in window) {
-      window.speechSynthesis.cancel();
-    }
-
-    if (ttsEngine === 'browser') {
-      if (!('speechSynthesis' in window)) return;
-      const utterance = new SpeechSynthesisUtterance(cleanText);
-      const voices = window.speechSynthesis.getVoices();
-      const naturalVoice = voices.find(v => v.lang.startsWith('en') && (v.name.includes('Natural') || v.name.includes('Google') || v.name.includes('UK')));
-      if (naturalVoice) utterance.voice = naturalVoice;
-      utterance.rate = mode === 'serious' ? 0.95 : 1.0;
-      window.speechSynthesis.speak(utterance);
-      return;
-    }
-
-    try {
-      setIsAudioPlaying(true);
-      const endpoint = ttsEngine === 'kokoro' ? '/api/tts/kokoro' : '/api/tts/edge';
-      const audioUrl = `${endpoint}?text=${encodeURIComponent(cleanText)}&voice=${encodeURIComponent(selectedVoice)}`;
-      
-      const audio = new Audio(audioUrl);
-      audioPlayerRef.current = audio;
-      
-      audio.onended = () => {
-        setIsAudioPlaying(false);
-      };
-      
-      audio.onerror = () => {
-        setIsAudioPlaying(false);
-        // Fallback to browser synthesis if backend error occurs
-        if ('speechSynthesis' in window) {
-          const utterance = new SpeechSynthesisUtterance(cleanText);
-          window.speechSynthesis.speak(utterance);
-        }
-      };
-
-      await audio.play();
-    } catch {
-      setIsAudioPlaying(false);
-    }
-  };
-
-  // Cue card prep timer countdown
-  useEffect(() => {
-    let interval: any = null;
-    if (isCueCardRunning && cueCardTimer !== null && cueCardTimer > 0) {
-      interval = setInterval(() => {
-        setCueCardTimer(t => (t !== null && t > 0 ? t - 1 : 0));
-      }, 1000);
-    } else if (cueCardTimer === 0 && isCueCardRunning) {
-      setIsCueCardRunning(false);
-      speakText("Your one minute preparation time is now up. Please begin speaking for one to two minutes.");
-    }
-    return () => clearInterval(interval);
-  }, [isCueCardRunning, cueCardTimer]);
-
-  const startCueCardTimer = () => {
-    setCueCardTimer(60);
-    setIsCueCardRunning(true);
-  };
-
-  // Send message
-  const handleSendMessage = async (e?: React.FormEvent) => {
-    if (e) e.preventDefault();
-    if (!input.trim() || isLoading) return;
+  // Submit user message and trigger local LLM
+  const submitUserMessage = async (userText: string) => {
+    const trimmed = userText.trim();
+    if (!trimmed || isLoading) return;
 
     const userMsg: Message = {
       role: 'user',
-      content: input.trim(),
+      content: trimmed,
       timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
     };
 
@@ -279,13 +166,13 @@ export const SpeakingExaminer: React.FC = () => {
       ? `You are an official Cambridge IELTS Speaking Examiner. 
 Conduct a realistic IELTS Speaking interview (Parts 1, 2, and 3).
 Guidelines:
-1. Ask one clear question at a time. Do not overwhelm the candidate with multiple questions.
+1. Ask one clear question at a time. Keep responses concise and conversational (1-3 sentences).
 2. Maintain a professional, polite, yet formal British examiner tone.
 3. If the candidate gives a short answer, probe naturally: "Why do you think that is?" or "Could you elaborate on that?"
 4. Transition between Part 1 (familiar topics), Part 2 (cue card topic), and Part 3 (abstract discussion) as appropriate.`
       : `You are a friendly, fluent native English conversational partner. 
 Guidelines:
-1. Talk casually like an authentic friend (warm, lively, natural phrasing).
+1. Talk casually like an authentic friend (warm, lively, natural phrasing, 1-3 sentences per turn).
 2. Answer the user's thoughts and keep the dialogue going by sharing your own perspectives or asking thoughtful follow-ups.
 3. If the user makes an awkward phrasing or grammatical slip, subtly offer a native alternative naturally (e.g. "By the way, natives often say '...'"). Keep it conversational and supportive!`;
 
@@ -321,8 +208,8 @@ Guidelines:
         // Fallback simulation when Ollama is offline
         setTimeout(() => {
           const fallbackReply = mode === 'serious'
-            ? "Thank you for that response. Now, moving on to another aspect: How important do you feel digital technology has become in daily education?"
-            : "That's super interesting! I totally agree with you on that. Have you always felt that way, or is this something you recently got into?";
+            ? "Thank you for that response. How important do you feel digital technology has become in daily education?"
+            : "That's super interesting! Have you always felt that way, or is this something you recently got into?";
           setMessages(prev => [...prev, {
             role: 'assistant',
             content: fallbackReply,
@@ -340,6 +227,230 @@ Guidelines:
     } finally {
       setIsLoading(false);
     }
+  };
+
+  // High-Definition Neural Text-To-Speech speak helper
+  const speakText = async (text: string) => {
+    if (!speechSynthesisActive) return;
+
+    // Clean markdown characters
+    const cleanText = text.replace(/[*#_~`]/g, '').trim();
+    if (!cleanText) return;
+
+    // Stop any ongoing audio playback
+    if (audioPlayerRef.current) {
+      audioPlayerRef.current.pause();
+      audioPlayerRef.current = null;
+    }
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+    }
+
+    const onAudioFinished = () => {
+      setIsAudioPlaying(false);
+      // If hands-free call mode is active, automatically listen again!
+      if (isCallModeRef.current) {
+        setTimeout(() => {
+          if (isCallModeRef.current && !isRecording) {
+            startRecordingSession();
+          }
+        }, 400);
+      }
+    };
+
+    if (ttsEngine === 'browser') {
+      if (!('speechSynthesis' in window)) return;
+      const utterance = new SpeechSynthesisUtterance(cleanText);
+      const voices = window.speechSynthesis.getVoices();
+      const naturalVoice = voices.find(v => v.lang.startsWith('en') && (v.name.includes('Natural') || v.name.includes('Google') || v.name.includes('UK')));
+      if (naturalVoice) utterance.voice = naturalVoice;
+      utterance.rate = mode === 'serious' ? 0.95 : 1.0;
+      utterance.onend = onAudioFinished;
+      window.speechSynthesis.speak(utterance);
+      return;
+    }
+
+    try {
+      setIsAudioPlaying(true);
+      const endpoint = ttsEngine === 'kokoro' ? '/api/tts/kokoro' : '/api/tts/edge';
+      const audioUrl = `${endpoint}?text=${encodeURIComponent(cleanText)}&voice=${encodeURIComponent(selectedVoice)}`;
+      
+      const audio = new Audio(audioUrl);
+      audioPlayerRef.current = audio;
+      
+      audio.onended = onAudioFinished;
+      audio.onerror = () => {
+        setIsAudioPlaying(false);
+        // Fallback to browser synthesis if backend error occurs
+        if ('speechSynthesis' in window) {
+          const utterance = new SpeechSynthesisUtterance(cleanText);
+          utterance.onend = onAudioFinished;
+          window.speechSynthesis.speak(utterance);
+        }
+      };
+
+      await audio.play();
+    } catch {
+      setIsAudioPlaying(false);
+    }
+  };
+
+  // Start recording with Voice Activity Detection (VAD)
+  const startRecordingSession = async () => {
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      audioChunksRef.current = [];
+      hasSpokenRef.current = false;
+
+      const mediaRecorder = new MediaRecorder(stream);
+      mediaRecorderRef.current = mediaRecorder;
+
+      // Set up AudioContext for voice activity & silence detection
+      const audioCtx = new (window.AudioContext || (window as any).webkitAudioContext)();
+      audioContextRef.current = audioCtx;
+      const source = audioCtx.createMediaStreamSource(stream);
+      const analyser = audioCtx.createAnalyser();
+      analyser.fftSize = 512;
+      source.connect(analyser);
+      analyserRef.current = analyser;
+
+      const buffer = new Uint8Array(analyser.frequencyBinCount);
+
+      // Check audio levels for voice activity
+      const checkAudioLevel = () => {
+        if (!analyserRef.current) return;
+        analyserRef.current.getByteFrequencyData(buffer);
+
+        let sum = 0;
+        for (let i = 0; i < buffer.length; i++) {
+          sum += buffer[i];
+        }
+        const average = sum / buffer.length;
+
+        // Threshold for human voice
+        if (average > 14) {
+          hasSpokenRef.current = true;
+          if (silenceTimerRef.current) {
+            clearTimeout(silenceTimerRef.current);
+            silenceTimerRef.current = null;
+          }
+        } else if (hasSpokenRef.current && !silenceTimerRef.current) {
+          // 1.2 seconds of silence after speaking -> auto-send!
+          silenceTimerRef.current = setTimeout(() => {
+            if (mediaRecorderRef.current && mediaRecorderRef.current.state === 'recording') {
+              mediaRecorderRef.current.stop();
+              setIsRecording(false);
+            }
+          }, 1200);
+        }
+
+        animFrameRef.current = requestAnimationFrame(checkAudioLevel);
+      };
+
+      animFrameRef.current = requestAnimationFrame(checkAudioLevel);
+
+      mediaRecorder.ondataavailable = (event) => {
+        if (event.data.size > 0) {
+          audioChunksRef.current.push(event.data);
+        }
+      };
+
+      mediaRecorder.onstop = async () => {
+        if (animFrameRef.current) cancelAnimationFrame(animFrameRef.current);
+        if (silenceTimerRef.current) clearTimeout(silenceTimerRef.current);
+        if (audioContextRef.current) {
+          audioContextRef.current.close().catch(() => {});
+          audioContextRef.current = null;
+        }
+
+        // Stop microphone tracks
+        stream.getTracks().forEach((track) => track.stop());
+
+        const audioBlob = new Blob(audioChunksRef.current, { type: 'audio/webm' });
+        if (audioBlob.size === 0) return;
+
+        setIsTranscribing(true);
+        try {
+          const res = await fetch('/api/stt', {
+            method: 'POST',
+            body: audioBlob,
+          });
+          if (res.ok) {
+            const data = await res.json();
+            if (data.text && data.text.trim()) {
+              submitUserMessage(data.text);
+            } else if (isCallModeRef.current) {
+              // If empty whisper transcript in call mode, re-open mic
+              setTimeout(startRecordingSession, 300);
+            }
+          }
+        } catch (err) {
+          console.error('STT transcription error:', err);
+        } finally {
+          setIsTranscribing(false);
+        }
+      };
+
+      mediaRecorder.start();
+      setIsRecording(true);
+    } catch (err) {
+      console.error('Microphone permission error:', err);
+      alert('Please allow microphone permissions to speak.');
+      setIsCallMode(false);
+    }
+  };
+
+  const stopRecordingSession = () => {
+    if (mediaRecorderRef.current && mediaRecorderRef.current.state !== 'inactive') {
+      mediaRecorderRef.current.stop();
+    }
+    setIsRecording(false);
+  };
+
+  const toggleRecording = () => {
+    if (isRecording) {
+      stopRecordingSession();
+    } else {
+      startRecordingSession();
+    }
+  };
+
+  const toggleCallMode = () => {
+    if (isCallMode) {
+      setIsCallMode(false);
+      stopRecordingSession();
+      if (audioPlayerRef.current) {
+        audioPlayerRef.current.pause();
+      }
+    } else {
+      setIsCallMode(true);
+      startRecordingSession();
+    }
+  };
+
+  // Cue card prep timer countdown
+  useEffect(() => {
+    let interval: any = null;
+    if (isCueCardRunning && cueCardTimer !== null && cueCardTimer > 0) {
+      interval = setInterval(() => {
+        setCueCardTimer(t => (t !== null && t > 0 ? t - 1 : 0));
+      }, 1000);
+    } else if (cueCardTimer === 0 && isCueCardRunning) {
+      setIsCueCardRunning(false);
+      speakText("Your one minute preparation time is now up. Please begin speaking for one to two minutes.");
+    }
+    return () => clearInterval(interval);
+  }, [isCueCardRunning, cueCardTimer]);
+
+  const startCueCardTimer = () => {
+    setCueCardTimer(60);
+    setIsCueCardRunning(true);
+  };
+
+  // Send message from form
+  const handleSendMessage = (e?: React.FormEvent) => {
+    if (e) e.preventDefault();
+    submitUserMessage(input);
   };
 
   // Evaluate candidate's responses for Band Score
@@ -530,6 +641,20 @@ Provide an official IELTS Speaking Band Assessment with:
             </select>
           </div>
 
+          {/* Hands-Free Live Call Button */}
+          <button
+            onClick={toggleCallMode}
+            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold transition-all shadow-xs ${
+              isCallMode
+                ? 'bg-emerald-600 hover:bg-emerald-700 text-white animate-pulse shadow-emerald-500/20'
+                : 'bg-white hover:bg-slate-50 border border-slate-200 text-slate-700 hover:text-emerald-700'
+            }`}
+            title={isCallMode ? 'End Live Hands-Free Call' : 'Start Live Hands-Free Call (No clicking required)'}
+          >
+            {isCallMode ? <PhoneOff className="w-3.5 h-3.5" /> : <PhoneCall className="w-3.5 h-3.5 text-emerald-600" />}
+            <span>{isCallMode ? 'In Call (Hands-Free)' : 'Live Call Mode'}</span>
+          </button>
+
           {/* Voice Output Toggle */}
           <button
             onClick={() => setSpeechSynthesisActive(!speechSynthesisActive)}
@@ -606,24 +731,38 @@ Provide an official IELTS Speaking Band Assessment with:
           {/* Input & Controls Dock */}
           <div className="p-4 bg-white border-t border-slate-200/80">
             <form onSubmit={handleSendMessage} className="max-w-4xl mx-auto flex items-center gap-2">
-              {/* Mic / Speech Input Button */}
+              {/* Live Call Toggle Button */}
+              <button
+                type="button"
+                onClick={toggleCallMode}
+                className={`p-3 rounded-xl border transition-all flex items-center gap-1.5 ${
+                  isCallMode
+                    ? 'bg-emerald-600 border-emerald-700 text-white animate-pulse shadow-md shadow-emerald-500/25'
+                    : 'bg-emerald-50 hover:bg-emerald-100 border-emerald-200 text-emerald-700'
+                }`}
+                title={isCallMode ? 'End Live Hands-Free Call' : 'Start Live Hands-Free Call (Talk-to-Talk)'}
+              >
+                {isCallMode ? <PhoneOff className="w-5 h-5" /> : <PhoneCall className="w-5 h-5" />}
+              </button>
+
+              {/* Mic / Single-turn Speech Input Button */}
               <button
                 type="button"
                 onClick={toggleRecording}
-                disabled={isTranscribing}
+                disabled={isTranscribing || isCallMode}
                 className={`p-3 rounded-xl border transition-all ${
-                  isRecording
+                  isRecording && !isCallMode
                     ? 'bg-red-500 border-red-600 text-white animate-pulse shadow-md shadow-red-500/20'
                     : isTranscribing
                     ? 'bg-amber-100 border-amber-300 text-amber-700 animate-pulse'
-                    : 'bg-slate-100 hover:bg-slate-200 border-slate-200 text-slate-600'
+                    : 'bg-slate-100 hover:bg-slate-200 border-slate-200 text-slate-600 disabled:opacity-40'
                 }`}
                 title={
-                  isRecording
-                    ? 'Recording your voice... Click to finish speaking'
-                    : isTranscribing
-                    ? 'Transcribing audio via local Whisper...'
-                    : 'Click to speak (Works in Mozilla Firefox, Chrome, Edge)'
+                  isCallMode
+                    ? 'In Live Call Mode (Microphone is automatically managed)'
+                    : isRecording
+                    ? 'Recording... (Will auto-send when you pause)'
+                    : 'Click to speak'
                 }
               >
                 {isRecording ? <MicOff className="w-5 h-5" /> : <Mic className="w-5 h-5" />}
@@ -635,11 +774,17 @@ Provide an official IELTS Speaking Band Assessment with:
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 placeholder={
-                  isRecording
-                    ? '🔴 Recording... Speak into your microphone, then click Stop.'
+                  isCallMode
+                    ? isAudioPlaying
+                      ? '🔊 AI is answering... Listen, then reply when finished.'
+                      : isRecording
+                      ? '🟢 In Live Call... Speak freely! (Auto-sends when you pause)'
+                      : '⚡ Transcribing your voice with Whisper...'
+                    : isRecording
+                    ? '🔴 Listening... Speak now (auto-sends when you pause, or click to stop)'
                     : isTranscribing
                     ? '⚡ Transcribing your voice with local Whisper...'
-                    : 'Type your response or click the microphone to speak...'
+                    : 'Type a message or click Live Call to talk hands-free...'
                 }
                 disabled={isLoading || isTranscribing}
                 className="flex-1 bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 transition-all"
